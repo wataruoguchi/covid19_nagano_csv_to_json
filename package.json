@@ -1,0 +1,14 @@
+{
+  "name": "nagano_covid19_data",
+  "version": "1.0.0",
+  "description": "Fetch the CSV file then convert it to JSON file.",
+  "main": "index.js",
+  "author": "Wataru Oguchi <wataru.oguchi.0to1@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "download": "^7.1.0",
+    "encoding-japanese": "^1.0.30",
+    "iconv-lite": "^0.5.1"
+  }
+}
