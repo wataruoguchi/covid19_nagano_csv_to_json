@@ -1,5 +1,5 @@
 {
-  "name": "nagano_covid19_data",
+  "name": "nagano-covid19-data",
   "version": "1.0.0",
   "description": "Fetch the CSV file then convert it to JSON file.",
   "main": "index.js",
@@ -7,8 +7,8 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "csv-parser": "^2.3.2",
     "download": "^7.1.0",
-    "encoding-japanese": "^1.0.30",
-    "iconv-lite": "^0.5.1"
+    "encoding-japanese": "^1.0.30"
   }
 }
