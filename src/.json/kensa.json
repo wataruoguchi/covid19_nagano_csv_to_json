@@ -1,0 +1,308 @@
+[
+  {
+    "date": "2/3～2/14",
+    "num_total": 0,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "",
+    "positive": 0,
+    "negative": 0
+  },
+  {
+    "date": "2月15日",
+    "num_total": 4,
+    "num_sub1": 0,
+    "num_sub2": 3,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 4
+  },
+  {
+    "date": "2月16日",
+    "num_total": 1,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 1
+  },
+  {
+    "date": "2月17日",
+    "num_total": 1,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 1
+  },
+  {
+    "date": "2月18日",
+    "num_total": 4,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 4
+  },
+  {
+    "date": "2月19日",
+    "num_total": 1,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 1
+  },
+  {
+    "date": "2月20日",
+    "num_total": 6,
+    "num_sub1": 0,
+    "num_sub2": 1,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 6
+  },
+  {
+    "date": "2月21日",
+    "num_total": 5,
+    "num_sub1": 0,
+    "num_sub2": 1,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 5
+  },
+  {
+    "date": "2月22日",
+    "num_total": 3,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 3
+  },
+  {
+    "date": "2月23日",
+    "num_total": 8,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 8
+  },
+  {
+    "date": "2月24日",
+    "num_total": 2,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 2
+  },
+  {
+    "date": "2月25日",
+    "num_total": 5,
+    "num_sub1": 0,
+    "num_sub2": 1,
+    "misc": "うち1件陽性",
+    "positive": 1,
+    "negative": 4
+  },
+  {
+    "date": "2月26日",
+    "num_total": 11,
+    "num_sub1": 0,
+    "num_sub2": 2,
+    "misc": "うち1件陽性",
+    "positive": 1,
+    "negative": 10
+  },
+  {
+    "date": "2月27日",
+    "num_total": 12,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 12
+  },
+  {
+    "date": "2月28日",
+    "num_total": 20,
+    "num_sub1": 0,
+    "num_sub2": 7,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 20
+  },
+  {
+    "date": "2月29日",
+    "num_total": 11,
+    "num_sub1": 0,
+    "num_sub2": 1,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 11
+  },
+  {
+    "date": "3月1日",
+    "num_total": 4,
+    "num_sub1": 0,
+    "num_sub2": 1,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 4
+  },
+  {
+    "date": "3月2日",
+    "num_total": 8,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 8
+  },
+  {
+    "date": "3月3日",
+    "num_total": 20,
+    "num_sub1": 0,
+    "num_sub2": 8,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 20
+  },
+  {
+    "date": "3月4日",
+    "num_total": 12,
+    "num_sub1": 4,
+    "num_sub2": 2,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 12
+  },
+  {
+    "date": "3月5日",
+    "num_total": 12,
+    "num_sub1": 4,
+    "num_sub2": 1,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 12
+  },
+  {
+    "date": "3月6日",
+    "num_total": 25,
+    "num_sub1": 7,
+    "num_sub2": 7,
+    "misc": "うち1件陽性",
+    "positive": 1,
+    "negative": 24
+  },
+  {
+    "date": "3月7日",
+    "num_total": 23,
+    "num_sub1": 0,
+    "num_sub2": 4,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 23
+  },
+  {
+    "date": "3月8日",
+    "num_total": 3,
+    "num_sub1": 0,
+    "num_sub2": 1,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 3
+  },
+  {
+    "date": "3月9日",
+    "num_total": 11,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 11
+  },
+  {
+    "date": "3月10日",
+    "num_total": 19,
+    "num_sub1": 2,
+    "num_sub2": 2,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 19
+  },
+  {
+    "date": "3月11日",
+    "num_total": 14,
+    "num_sub1": 4,
+    "num_sub2": 4,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 14
+  },
+  {
+    "date": "3月12日",
+    "num_total": 7,
+    "num_sub1": 2,
+    "num_sub2": 2,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 7
+  },
+  {
+    "date": "3月13日",
+    "num_total": 10,
+    "num_sub1": 3,
+    "num_sub2": 2,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 10
+  },
+  {
+    "date": "3月14日",
+    "num_total": 13,
+    "num_sub1": 0,
+    "num_sub2": 1,
+    "misc": "うち1件陽性",
+    "positive": 1,
+    "negative": 12
+  },
+  {
+    "date": "3月15日",
+    "num_total": 5,
+    "num_sub1": 0,
+    "num_sub2": 1,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 5
+  },
+  {
+    "date": "3月16日",
+    "num_total": 4,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 4
+  },
+  {
+    "date": "3月17日",
+    "num_total": 11,
+    "num_sub1": 4,
+    "num_sub2": 4,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 11
+  },
+  {
+    "date": "3月18日",
+    "num_total": 11,
+    "num_sub1": 4,
+    "num_sub2": 3,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 11
+  }
+]
