@@ -8,7 +8,7 @@ The script that downloads open data "CSV" files and convert them into reusable J
 
 ## How to run
 
-`$ node index.js`
+Github Actions で実行します。
 
 ## Specification
 
