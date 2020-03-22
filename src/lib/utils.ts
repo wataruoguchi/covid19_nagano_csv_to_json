@@ -78,9 +78,16 @@ function dateToLabel(date: Date, format: string): string | number {
   }
 }
 
-function setLabelFromDateStr(dateStr: string, defaultVal: string = "") {
+function setLabelFromDateStr(
+  dateStr: string,
+  defaultVal: string = "",
+  dateModifier?: Function
+) {
   const isShortJapaneseDate = japaneseShortDateToDate(dateStr) ? true : false;
   const date: Date = japaneseShortDateToDate(dateStr) || new Date();
+  if (dateModifier) {
+    dateModifier(date);
+  }
   return (format: string) => {
     return isShortJapaneseDate ? dateToLabel(date, format) : defaultVal;
   };

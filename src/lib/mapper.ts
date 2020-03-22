@@ -16,6 +16,9 @@ type summary = {
 };
 
 async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
+  function addDate1(date: Date) {
+    date.setDate(date.getDate() + 1);
+  }
   const [soudanJson] = resAll
     .filter(res => /soudan/.test(res.path))
     .map(res => res.json);
@@ -26,7 +29,8 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
     contacts: {
       date: setLabelFromDateStr(
         soudanJson[soudanJson.length - 1].date,
-        ""
+        "",
+        addDate1
       )("reportDate"),
       data: soudanJson.map(row => {
         const dateToLabel = setLabelFromDateStr(row.date, "");
@@ -47,7 +51,8 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
     inspections: {
       date: setLabelFromDateStr(
         kensaJson[kensaJson.length - 1].date,
-        ""
+        "",
+        addDate1
       )("reportDate"),
       data: kensaJson.map(row => {
         const dateToLabel = setLabelFromDateStr(row.date, "");
@@ -69,7 +74,8 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
     inspections_summary: {
       date: setLabelFromDateStr(
         kensaJson[kensaJson.length - 1].date,
-        ""
+        "",
+        addDate1
       )("reportDate"),
       data: {
         県内: kensaJson.map(row => {
