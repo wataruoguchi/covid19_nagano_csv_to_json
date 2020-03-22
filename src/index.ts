@@ -5,6 +5,7 @@ import { item, dirs } from "./lib/types";
 import { openLocalFiles } from "./lib/openLocalFiles";
 import { downloadFiles } from "./lib/downloadFiles";
 import { converter } from "./lib/converter";
+import { mapper } from "./lib/mapper";
 import { formatToMMDD, MMDDToDate } from "./lib/utils";
 import { CONST_KENSA, CONST_SOUDAN } from "./lib/const";
 
@@ -37,20 +38,26 @@ const dates: Date[] =
     ? [MMDDToDate(commander.date)]
     : [today, tomorrow];
 
-console.log("Started");
+console.log("STARTED");
 mkDirs();
 
 loadFilesToBeEncoded(dates, { src: RAW_CSV_DIR })
-  .then((items: item[]) => {
-    items.forEach(item =>
-      converter(item, { tmp: ENCODED_CSV_DIR, dist: JSON_DIR })
+  .then(async (items: item[]) => {
+    const resAll = await Promise.all(
+      items.map(async item => {
+        const dataJson = await converter(item, {
+          tmp: ENCODED_CSV_DIR,
+          dist: JSON_DIR
+        });
+        return { json: dataJson, path: item.path };
+      })
+    );
+    await mapper(resAll, { dist: JSON_DIR });
+    console.log(
+      `DONE for dates: ${dates.map(date => formatToMMDD(date)).join(", ")}!`
     );
   })
   .catch(err => console.error(err));
-
-console.log(
-  `DONE for dates: ${dates.map(date => formatToMMDD(date)).join(", ")} !`
-);
 
 function loadFilesToBeEncoded(dates: Date[], dirs: dirs): Promise<item[]> {
   if (dates.length === 0) return new Promise(reject => reject());
