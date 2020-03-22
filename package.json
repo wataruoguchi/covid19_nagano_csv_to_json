@@ -1,7 +1,13 @@
 {
   "name": "covid19_nagano_csv_to_json",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fetch CSV files from Nagano Pref.'s website, then convert them into JSON files.",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wataruoguchi/covid19_nagano_csv_to_json.git"
+  },
+  "bugs": "https://github.com/wataruoguchi/covid19_nagano_csv_to_json/issues",
+  "homepage": "https://github.com/wataruoguchi/covid19_nagano_csv_to_json",
   "main": "dist/index.js",
   "bin": {
     "covid19_nagano": "dist/index.js"
@@ -12,7 +18,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "type-check": "tsc -p tsconfig.json --noEmit"
   },
-  "keywords": [],
+  "keywords": [
+    "opendata",
+    "covid19",
+    "covid-19",
+    "csv",
+    "json",
+    "converter",
+    "covid19-data",
+    "coronavirus",
+    "coronavirus-info",
+    "nodejs",
+    "typescript"
+  ],
   "author": "Wataru Oguchi <wataru.oguchi.0to1@gmail.com> (https://twitter.com/watarutwt/)",
   "license": "MIT",
   "devDependencies": {
