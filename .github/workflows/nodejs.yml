@@ -5,33 +5,34 @@ name: Node.js CI
 
 on:
   schedule:
-    - cron: '0 9 * * 1-5'
+    - cron: "0 9 * * 1-5"
 
 jobs:
   build-run-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Build & Run
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12.x
-      run: |
-        npm install -g yarn
-        yarn
-        yarn build
-        yarn start
-        date > last_update
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
 
-    - name: Commit files
-      run: |
-        git config --local user.email "wataru.oguchi.0to1@gmail.com"
-        git config --local user.name "Wataru Bot"
-        git add last_updated src/.encoded src/.json
-        git commit -v -m "[Bot] GitHub Actions - auto run"
+      - name: Build & Run
+        run: |
+          npm install -g yarn
+          yarn
+          yarn build
+          yarn start
+          date > last_update
 
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit files
+        run: |
+          git config --local user.email "wataru.oguchi.0to1@gmail.com"
+          git config --local user.name "Wataru Bot"
+          git add last_updated src/.encoded src/.json
+          git commit -v -m "[Bot] GitHub Actions - auto run"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
