@@ -32,12 +32,12 @@ const OFFLINE_MODE = commander.offline || false;
 // One of them should fail (gracefully) unless they forget removing it.
 const today = new Date();
 const tomorrow = new Date(new Date().setDate(new Date().getDate() + 1));
-console.log("date", commander.date);
 const dates: Date[] =
   commander.date && /\d{4}/.test(commander.date)
     ? [MMDDToDate(commander.date)]
     : [today, tomorrow];
 
+console.log("Started");
 mkDirs();
 
 loadFilesToBeEncoded(dates, { src: RAW_CSV_DIR })
