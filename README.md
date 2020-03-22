@@ -1,14 +1,16 @@
-# Nagano COVID-19 Data
+# COVID-19 Nagano CSV to JSON
 
 ## What's this
 
-長野県が公開している CSV ファイルをダウンロードし、再利用可能な JSON へ変換するスクリプトです。Automation のために作りました。
+長野県が公開している CSV ファイルをダウンロードし、再利用可能な JSON へ変換するスクリプトです。
 
-The script that downloads open data "CSV" files and convert them into reusable JSON files. It's meant to be executed in automation steps.
+The script that downloads open data "CSV" files and convert them into reusable JSON files.
 
 ## How to run
 
-Github Actions で実行します。
+```
+$ yarn start
+```
 
 ## Specification
 
