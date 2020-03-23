@@ -23,7 +23,7 @@ jobs:
           yarn
           yarn build
           yarn start
-          date > last_update
+          date > last_updated
 
       - name: Commit files
         run: |
