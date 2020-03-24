@@ -8,8 +8,31 @@ The script that downloads open data "CSV" files and convert them into reusable J
 
 ## How to run
 
+このスクリプトは GitHub Actions で毎時実行され、長野県の公表しているデータの取得を試みます。
+It's running every hour by GitHub Actions, to try fetching new CSV files then update files under `src/.encoded` and `src/.json` automatically.
+
+### Locally...
+
+ローカル環境で実行する場合。
+
 ```
 $ yarn start
+```
+
+日付を指定してファイルダウンロードすることもできます。毎回古いのはサーバから非公開にされてしまうので、そんなに役に立つことはないと思います。
+You can set a specific date to download CSV files.
+
+```
+$ yarn start -d <MMDD>
+```
+
+Example: `$ yarn start -d 0323`
+
+ダウンロード済みのファイルに対して実行することもできます。開発用。
+Once you've downloaded CSV files by the script, you could run offline mode. It's meant to be for developing.
+
+```
+$ yarn start --offline -d <MMDD>
 ```
 
 ## Specification
