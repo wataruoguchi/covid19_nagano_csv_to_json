@@ -31,12 +31,13 @@ const OFFLINE_MODE = commander.offline || false;
 
 // We don't know what date will be in the file name at what time. So let's queue multiple different dates.
 // One of them should fail (gracefully) unless they forget removing it.
+const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
 const today = new Date();
 const tomorrow = new Date(new Date().setDate(new Date().getDate() + 1));
 const dates: Date[] =
   commander.date && /\d{4}/.test(commander.date)
     ? [MMDDToDate(commander.date)]
-    : [today, tomorrow];
+    : [yesterday, today, tomorrow];
 
 console.log("STARTED");
 mkDirs();
