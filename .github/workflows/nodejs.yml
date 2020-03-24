@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   schedule:
-    - cron: "0 * * * 1-5"
+    - cron: "*/15 * * * 1-5"
 
 jobs:
   build-run-deploy:
@@ -23,12 +23,13 @@ jobs:
           yarn
           yarn build
           yarn start
-          date > last_updated
 
       - name: Commit files
         run: |
           git config --local user.email "wataru.oguchi.0to1@gmail.com"
           git config --local user.name "Wataru Bot"
+          git status > last_updated
+          date >> last_updated
           git add last_updated src/.encoded src/.json
           git commit -v -m "[Bot] GitHub Actions - auto run"
 
