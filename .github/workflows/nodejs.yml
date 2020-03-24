@@ -31,11 +31,9 @@ jobs:
         run: |
           git config --local user.email "wataru.oguchi.0to1@gmail.com"
           git config --local user.name "Wataru Bot"
-          unset HAS_NEW_FILES
-          git status | grep modified && git add src/.encoded src/.json && git commit -v -m "[Bot] GitHub Actions - auto run" && HAS_NEW_FILES='true'
+          git status | grep modified && git add src/.encoded src/.json && git commit -v -m "[Bot] GitHub Actions - auto run" || true
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{ steps.vars.outputs.HAS_NEW_FILES }}
