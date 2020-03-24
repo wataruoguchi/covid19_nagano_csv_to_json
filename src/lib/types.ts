@@ -29,3 +29,8 @@ export type dirs = {
   tmp?: string;
   dist?: string;
 };
+
+export type convertOptions = {
+  csv: object;
+  postProcess: Function;
+};

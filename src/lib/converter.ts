@@ -1,12 +1,10 @@
 const fs = require("fs");
 const encoding = require("encoding-japanese");
 const csv = require("csv-parser");
-import { item, kensa, soudan, dirs } from "./types";
+import { item, kensa, soudan, dirs, convertOptions } from "./types";
 import { getFileNameFromPath, buildJsonPath } from "./utils";
-import { convertOpts } from "./convertOpts";
-import { CONST_KENSA, CONST_SOUDAN } from "./const";
 
-function converter(item: item, dirs: dirs): Promise<any> {
+function converter(item: item, opts: convertOptions, dirs: dirs): Promise<any> {
   // 1. Encode the original CSV file from SHIFT-JIS to UNICODE, avoiding mojibake.
   // 2. Remove useless lines from top and bottom
   // 3. Convert CSV to JSON
@@ -16,10 +14,6 @@ function converter(item: item, dirs: dirs): Promise<any> {
     fs.writeFileSync(filePath, encoded);
 
     try {
-      const opts = convertOpts()[
-        // TODO Improve here when they have more files.
-        /kensa/.test(item.path) ? CONST_KENSA : CONST_SOUDAN
-      ];
       const results: (soudan & kensa)[] = [];
       fs.createReadStream(filePath)
         .pipe(csv(opts.csv))

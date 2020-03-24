@@ -5,6 +5,7 @@ import { item, dirs } from "./lib/types";
 import { openLocalFiles } from "./lib/openLocalFiles";
 import { downloadFiles } from "./lib/downloadFiles";
 import { converter } from "./lib/converter";
+import { convertOpts } from "./lib/convertOpts";
 import { mapper } from "./lib/mapper";
 import { formatToMMDD, MMDDToDate } from "./lib/utils";
 import { CONST_KENSA, CONST_SOUDAN } from "./lib/const";
@@ -46,7 +47,11 @@ loadFilesToBeEncoded(dates, { src: RAW_CSV_DIR })
   .then(async (items: item[]) => {
     const resAll = await Promise.all(
       items.map(async item => {
-        const dataJson = await converter(item, {
+        const opts = convertOpts()[
+          // TODO Improve here when they have more files.
+          /kensa/.test(item.path) ? CONST_KENSA : CONST_SOUDAN
+        ];
+        const dataJson = await converter(item, opts, {
           tmp: ENCODED_CSV_DIR,
           dist: JSON_DIR
         });
