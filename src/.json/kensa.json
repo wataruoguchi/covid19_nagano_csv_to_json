@@ -304,5 +304,41 @@
     "misc": "すべて陰性",
     "positive": 0,
     "negative": 11
+  },
+  {
+    "date": "3月19日",
+    "num_total": 7,
+    "num_sub1": 2,
+    "num_sub2": 1,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 7
+  },
+  {
+    "date": "3月20日",
+    "num_total": 18,
+    "num_sub1": 0,
+    "num_sub2": 5,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 18
+  },
+  {
+    "date": "3月21日",
+    "num_total": 1,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 1
+  },
+  {
+    "date": "3月22日",
+    "num_total": 4,
+    "num_sub1": 0,
+    "num_sub2": 2,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 4
   }
 ]

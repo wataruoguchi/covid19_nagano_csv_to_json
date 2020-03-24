@@ -5,6 +5,14 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   last_updated
+	modified:   src/.json/data.json
+	modified:   src/.json/kensa.json
+	modified:   src/.json/soudan.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	src/.encoded/kensa0323.csv
+	src/.encoded/soudan0323.csv
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Tue Mar 24 02:51:59 UTC 2020
+Tue Mar 24 03:02:23 UTC 2020
