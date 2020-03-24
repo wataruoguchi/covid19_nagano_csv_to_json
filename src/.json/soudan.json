@@ -518,5 +518,15 @@
     "num_treatment": 0,
     "num_action": 3,
     "num_others": 83
+  },
+  {
+    "date": "3月23日",
+    "num_total": 297,
+    "num_has_symptom": 162,
+    "num_safety": 0,
+    "num_prevention": 0,
+    "num_treatment": 1,
+    "num_action": 18,
+    "num_others": 190
   }
 ]

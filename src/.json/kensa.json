@@ -1,14 +1,5 @@
 [
   {
-    "date": "2/3～2/14",
-    "num_total": 0,
-    "num_sub1": 0,
-    "num_sub2": 0,
-    "misc": "",
-    "positive": 0,
-    "negative": 0
-  },
-  {
     "date": "2月15日",
     "num_total": 4,
     "num_sub1": 0,
@@ -340,5 +331,14 @@
     "misc": "すべて陰性",
     "positive": 0,
     "negative": 4
+  },
+  {
+    "date": "3月23日",
+    "num_total": 3,
+    "num_sub1": 1,
+    "num_sub2": 1,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 3
   }
 ]
