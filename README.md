@@ -49,3 +49,8 @@ $ yarn start
 | num_treatment   | 新型コロナウイルス感染症の治療について |       |
 | num_action      | 発症時の対応について                   |       |
 | num_others      | その他                                 |       |
+
+## Where would it be used
+
+- [長野県 非公式 新型コロナウイルス感染症対策サイト / Nagano COVID-19 Task Force unofficeial website](https://stop-covid19-nagano.netlify.com/)
+- [https://github.com/hisayan/covid19](https://github.com/hisayan/covid19)
