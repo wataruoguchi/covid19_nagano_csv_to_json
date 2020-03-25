@@ -1,15 +1,5 @@
 [
   {
-    "date": "1月1日～1月31日",
-    "num_total": 433,
-    "num_has_symptom": 84,
-    "num_safety": 2,
-    "num_prevention": 32,
-    "num_treatment": 0,
-    "num_action": 63,
-    "num_others": 252
-  },
-  {
     "date": "2月1日",
     "num_total": 35,
     "num_has_symptom": 15,
@@ -528,5 +518,15 @@
     "num_treatment": 1,
     "num_action": 18,
     "num_others": 190
+  },
+  {
+    "date": "3月24日",
+    "num_total": 279,
+    "num_has_symptom": 144,
+    "num_safety": 1,
+    "num_prevention": 4,
+    "num_treatment": 1,
+    "num_action": 16,
+    "num_others": 184
   }
 ]
