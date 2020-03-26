@@ -349,5 +349,14 @@
     "misc": "うち1件陽性",
     "positive": 1,
     "negative": 16
+  },
+  {
+    "date": "3月25日",
+    "num_total": 15,
+    "num_sub1": 6,
+    "num_sub2": 5,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 15
   }
 ]
