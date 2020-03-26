@@ -19,11 +19,12 @@ function converter(item: item, opts: convertOptions, dirs: dirs): Promise<any> {
         .pipe(csv(opts.csv))
         .on("data", (data: soudan & kensa) => results.push(data))
         .on("end", () => {
+          const newResults = opts.postProcess(results);
           fs.writeFileSync(
             buildJsonPath(item.path, dirs.dist || ""),
-            JSON.stringify(opts.postProcess(results), null, 2)
+            JSON.stringify(newResults, null, 2)
           );
-          resolve(results);
+          resolve(newResults);
         });
     } catch (err) {
       reject(err);

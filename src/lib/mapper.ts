@@ -43,7 +43,7 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
           date: dateToLabel("yyyy-mm-dd"),
           w: dateToLabel("w"),
           short_date: dateToLabel("short_date"),
-          小計: Number(row.num_total),
+          小計: row.num_total,
           nagano_date_label: row.date
         };
       })
@@ -58,11 +58,11 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
         const dateToLabel = setLabelFromDateStr(row.date, "");
         return {
           判明日: dateToLabel("判明日"),
-          検査検体数: Number(row.num_total),
+          検査検体数: row.num_total,
           疑い例検査: 0,
           接触者調査: 0,
           陰性確認: 0,
-          "（小計①）": Number(row.num_total),
+          "（小計①）": row.num_total,
           チャーター便: 0,
           クルーズ船: 0,
           陰性確認2: 0,
@@ -86,6 +86,23 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
           return setLabelFromDateStr(row.date, row.date)("short_date");
         })
       }
+    },
+    patients_summary: {
+      date: setLabelFromDateStr(
+        kensaJson[kensaJson.length - 1].date,
+        "",
+        addDate1
+      )("reportDate"),
+      data: kensaJson.map(row => {
+        const dateToLabel = setLabelFromDateStr(row.date, "");
+        return {
+          日付: dateToLabel("日付"),
+          小計: row.positive,
+          positive: row.positive,
+          negative: row.negative,
+          total: row.num_total
+        };
+      })
     }
   };
 
