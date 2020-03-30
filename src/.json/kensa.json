@@ -376,5 +376,23 @@
     "misc": "うち１件陽性",
     "positive": 0,
     "negative": 17
+  },
+  {
+    "date": "3月28日",
+    "num_total": 40,
+    "num_sub1": 0,
+    "num_sub2": 7,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 40
+  },
+  {
+    "date": "3月29日",
+    "num_total": 22,
+    "num_sub1": 0,
+    "num_sub2": 3,
+    "misc": "うち２件陽性",
+    "positive": 0,
+    "negative": 22
   }
 ]
