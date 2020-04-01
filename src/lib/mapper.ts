@@ -103,6 +103,25 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
           total: row.num_total
         };
       })
+    },
+    lastUpdate: setLabelFromDateStr(
+      kensaJson[kensaJson.length - 1].date,
+      "",
+      addDate1
+    )("reportDate"),
+    main_summary: {
+      attr: "検査実施人数",
+      value: kensaJson.reduce((acc: number, row) => {
+        return acc + (Number(row.num_total) || 0);
+      }, 0),
+      children: [
+        {
+          attr: "陽性患者数",
+          value: kensaJson.reduce((acc: number, row) => {
+            return acc + (Number(row.positive) || 0);
+          }, 0)
+        }
+      ]
     }
   };
 
