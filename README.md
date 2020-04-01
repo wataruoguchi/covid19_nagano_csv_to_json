@@ -75,5 +75,5 @@ $ yarn start --offline -d <MMDD>
 
 ## Where would it be used
 
-- [長野県 非公式 新型コロナウイルス感染症対策サイト / Nagano COVID-19 Task Force unofficeial website](https://stop-covid19-nagano.netlify.com/)
-- [https://github.com/hisayan/covid19](https://github.com/hisayan/covid19)
+- [長野県 非公式 新型コロナウイルス感染症対策サイト / Nagano COVID-19 Task Force unofficeial website](https://stop-covid19-nagano.netlify.app/)
+- [https://github.com/Stop-COVID19-Nagano/covid19](https://github.com/Stop-COVID19-Nagano/covid19)
