@@ -37,14 +37,15 @@ $ yarn start --offline -d <MMDD>
 
 ## Specification
 
-1. [長野県の Web ページ](https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/bukan-haien-doko.html)に公開されている "オープンデータ" 対象の２種類の CSV をダウンロードします。ダウンロードしたファイルは csv フォルダに保存されます。
+1. [長野県の Web ページ](https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/bukan-haien-doko.html)に公開されている "オープンデータ" 対象の 3 種類の CSV をダウンロードします。ダウンロードしたファイルは csv フォルダに保存されます。
 
    1. _kensaXXXX.csv_ : 新型コロナウイルス感染症に係る検査件数について
    1. _soudanXXXX.csv_ : 新型コロナウイルス感染症に関する相談状況について
+   1. _hasseijoukyouXXXX.csv_ : 長野県内の新型コロナウイルス感染症患者の発生状況
 
 1. CSV ファイルが SHIFT_JIS でエンコードされているため、UNICODE に変換します。変換されたファイルは [encoded フォルダ](https://github.com/wataruoguchi/covid19_nagano_csv_to_json/tree/master/src/.encoded)に保存されます。
-1. CSV ファイルに再利用しにくい行がいくつかあるので削除し、JSON に変換します。現時点でそれぞれのファイルの最初の 5 行と最後の 2 行を削除しています。JSON ファイルは [json フォルダ](https://github.com/wataruoguchi/covid19_nagano_csv_to_json/tree/master/src/.json)に保存されます。
-1. 二つのファイルより、`data.json` が生成され、同様に json フォルダに保存されます。
+1. CSV ファイルに再利用しにくい行がいくつかあるので削除し、JSON に変換します。JSON ファイルは [json フォルダ](https://github.com/wataruoguchi/covid19_nagano_csv_to_json/tree/master/src/.json)に保存されます。
+1. 3 つのファイルより、`data.json` が生成され、同様に json フォルダに保存されます。
 
 ## About the JSON file
 
