@@ -1,5 +1,5 @@
 const fs = require("fs");
-import { dirs, kensa, soudan } from "./types";
+import { dirs, kensa, soudan, hasseijoukyou } from "./types";
 import { buildJsonPath, setLabelFromDateStr } from "./utils";
 /**
  * This is an optional script. It creates a JSON file that's following format of the following file:
@@ -11,9 +11,18 @@ import { buildJsonPath, setLabelFromDateStr } from "./utils";
  */
 
 type summary = {
-  json: (kensa & soudan)[];
+  json: (kensa & soudan & hasseijoukyou)[];
   path: string;
 };
+
+function calcByStatus(json: hasseijoukyou[], status: string): number {
+  return json.reduce((acc, row: hasseijoukyou) => {
+    if (row.status === status) {
+      acc++;
+    }
+    return acc;
+  }, 0);
+}
 
 async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
   function addDate1(date: Date) {
@@ -25,6 +34,10 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
   const [kensaJson] = resAll
     .filter(res => /kensa/.test(res.path))
     .map(res => res.json);
+  const [hasseijoukyouJson] = resAll
+    .filter(res => /hasseijoukyou/.test(res.path))
+    .map(res => res.json);
+
   const mappedJson = {
     contacts: {
       date: setLabelFromDateStr(
@@ -87,6 +100,25 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
         })
       }
     },
+    patients: {
+      date: setLabelFromDateStr(
+        kensaJson[kensaJson.length - 1].date,
+        "",
+        addDate1
+      )("reportDate"),
+      data: hasseijoukyouJson.map((row: hasseijoukyou) => {
+        const dateToLabel = setLabelFromDateStr(row.date, "");
+        return {
+          リリース日: dateToLabel("日付"),
+          曜日: dateToLabel("w"),
+          居住地: row.area,
+          年代: row.age_group,
+          性別: row.gender,
+          退院: row.status === "退院" ? "〇" : null,
+          date: dateToLabel("yyyy-mm-dd")
+        };
+      })
+    },
     patients_summary: {
       date: setLabelFromDateStr(
         kensaJson[kensaJson.length - 1].date,
@@ -117,9 +149,21 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
       children: [
         {
           attr: "陽性患者数",
-          value: kensaJson.reduce((acc: number, row) => {
-            return acc + (Number(row.positive) || 0);
-          }, 0)
+          value: hasseijoukyouJson.length,
+          children: [
+            {
+              attr: "入院中",
+              value: calcByStatus(hasseijoukyouJson, "入院中")
+            },
+            {
+              attr: "退院",
+              value: calcByStatus(hasseijoukyouJson, "退院")
+            },
+            {
+              attr: "死亡",
+              value: calcByStatus(hasseijoukyouJson, "死亡")
+            }
+          ]
         }
       ]
     }
