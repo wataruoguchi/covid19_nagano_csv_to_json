@@ -328,5 +328,15 @@
     "num_treatment": 0,
     "num_action": 52,
     "num_others": 552
+  },
+  {
+    "date": "4月2日",
+    "num_total": 918,
+    "num_has_symptom": 593,
+    "num_safety": 0,
+    "num_prevention": 4,
+    "num_treatment": 1,
+    "num_action": 24,
+    "num_others": 535
   }
 ]
