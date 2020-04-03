@@ -24,6 +24,20 @@ export type soudan = {
   num_others: number | string;
 };
 
+export type hasseijoukyou = {
+  no: number | string;
+  date: string;
+  age_group: string;
+  gender: string;
+  area: string;
+  status: string;
+  status2: string;
+  misc: string;
+  group?: number;
+};
+
+export type nullType = any;
+
 export type dirs = {
   src?: string;
   tmp?: string;
@@ -34,3 +48,5 @@ export type convertOptions = {
   csv: object;
   postProcess: Function;
 };
+
+export type fileType = "kensa" | "soudan" | "hasseijoukyou" | "null";

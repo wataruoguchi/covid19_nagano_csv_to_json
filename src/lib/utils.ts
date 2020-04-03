@@ -120,6 +120,15 @@ const convertProps = {
           : obj[key];
     });
     return newObj;
+  },
+  stringScrub<O extends object>(obj: O) {
+    const newObj: FIXME = {};
+    keys(obj).forEach(key => {
+      const col = obj[key];
+      newObj[key] =
+        typeof col === "string" ? col.trim().replace(/\n/, " ") : col;
+    });
+    return newObj;
   }
 };
 

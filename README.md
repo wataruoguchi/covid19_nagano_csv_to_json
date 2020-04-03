@@ -73,6 +73,22 @@ $ yarn start --offline -d <MMDD>
 | num_action      | 発症時の対応について                   |       |
 | num_others      | その他                                 |       |
 
+### 3. hasseijoukyou.json
+
+| Property  | Corresponding CSV Column | Desc. |
+| --------- | ------------------------ | ----- |
+| no        | NO.                      |       |
+| date      | 確定日                   |       |
+| age_group | 年代                     |       |
+| gender    | 性別                     |       |
+| area      | 居住地                   |       |
+| status    | 患者の状況               |       |
+| status2   | 濃厚接触者の状況         |       |
+| misc      | 備考                     |       |
+| group     | -                        | \*1   |
+
+_\*1_: 長野県内の新型コロナウイルス感染症患者の発生状況: 1, 長野県内の新型コロナウイルス感染症無症状病原体保有者の発生状況: 2
+
 ## Where would it be used
 
 - [長野県 非公式 新型コロナウイルス感染症対策サイト / Nagano COVID-19 Task Force unofficeial website](https://stop-covid19-nagano.netlify.app/)

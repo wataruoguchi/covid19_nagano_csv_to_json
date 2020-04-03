@@ -1,14 +1,19 @@
 const fs = require("fs");
 const path = require("path");
 const commander = require("commander");
-import { item, dirs } from "./lib/types";
+import { item, dirs, fileType } from "./lib/types";
 import { openLocalFiles } from "./lib/openLocalFiles";
 import { downloadFiles } from "./lib/downloadFiles";
 import { converter } from "./lib/converter";
 import { convertOpts } from "./lib/convertOpts";
 import { mapper } from "./lib/mapper";
 import { formatToMMDD, MMDDToDate } from "./lib/utils";
-import { CONST_KENSA, CONST_SOUDAN } from "./lib/const";
+import {
+  CONST_KENSA,
+  CONST_SOUDAN,
+  CONST_HASSEI,
+  CONST_NULL
+} from "./lib/const";
 
 commander
   .description(
@@ -47,10 +52,8 @@ loadFilesToBeEncoded(dates, { src: RAW_CSV_DIR })
   .then(async (items: item[]) => {
     const resAll = await Promise.all(
       items.map(async item => {
-        const opts = convertOpts()[
-          // TODO Improve here when they have more files.
-          /kensa/.test(item.path) ? CONST_KENSA : CONST_SOUDAN
-        ];
+        const fileType = getFileTypeByFilePath(item.path);
+        const opts = convertOpts(fileType);
         const dataJson = await converter(item, opts, {
           tmp: ENCODED_CSV_DIR,
           dist: JSON_DIR
@@ -84,11 +87,11 @@ function loadFilesToBeEncoded(dates: Date[], dirs: dirs): Promise<item[]> {
     };
   }
 
-  const fileNames = [CONST_KENSA, CONST_SOUDAN];
+  const fileTypes: fileType[] = [CONST_KENSA, CONST_SOUDAN, CONST_HASSEI];
 
   return OFFLINE_MODE
-    ? openLocalFiles(fileNames.map(buildLocalFilePath))
-    : downloadFiles(fileNames.map(buildRemoteFilePath(dates)).flat(), dirs.src);
+    ? openLocalFiles(fileTypes.map(buildLocalFilePath))
+    : downloadFiles(fileTypes.map(buildRemoteFilePath(dates)).flat(), dirs.src);
 }
 
 function mkDirs(): void {
@@ -98,4 +101,24 @@ function mkDirs(): void {
       fs.mkdirSync(dirName);
     } catch (e) {}
   });
+}
+
+function getFileTypeByFilePath(filePath: string): fileType {
+  const fileTypes: string[] = [
+    CONST_KENSA,
+    CONST_SOUDAN,
+    CONST_HASSEI,
+    CONST_NULL
+  ];
+  const fileTypeMap = new Map();
+  for (const fileTypeIdx in fileTypes) {
+    // TODO TS beginner - Can it be better?
+    fileTypeMap.set(fileTypes[fileTypeIdx], fileTypes[fileTypeIdx]);
+  }
+
+  const re = new RegExp(`(${fileTypes.join("|")})`);
+  const regRes = re.exec(filePath);
+  const fileType = regRes && regRes.length > 0 ? regRes[0] : CONST_NULL;
+
+  return fileTypeMap.get(fileType) ? fileTypeMap.get(fileType) : CONST_NULL;
 }
