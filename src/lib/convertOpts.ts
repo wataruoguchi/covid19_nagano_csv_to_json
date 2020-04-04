@@ -20,8 +20,12 @@ function convertOpts(fileType: fileType): convertOptions {
       results.pop(); // Dropping the empty line.
       results.pop(); // Dropping the sum line.
       // Creating new columns from misc.
-      return results.map(row => {
-        const newRow = convertProps.stringToNum(row);
+      return results.map((row) => {
+        // Convert wide number to normal number
+        const misc = row.misc.replace(/[０-９]/g, (str: string) =>
+          String.fromCharCode(str.charCodeAt(0) - 65248)
+        );
+        const newRow = convertProps.stringToNum({ ...row, ...{ misc } });
         // NOTE: misc will be one of these: "", "すべて陰性", "うち1件陽性"
         newRow.positive = Number(newRow.misc.match(/\d+/) || "0");
         newRow.negative =
@@ -49,7 +53,7 @@ function convertOpts(fileType: fileType): convertOptions {
     postProcess(results: soudan[]) {
       results.pop(); // Dropping the empty line.
       results.pop(); // Dropping the sum line.
-      return results.map(row => {
+      return results.map((row) => {
         return convertProps.stringToNum(row);
       });
     }
@@ -71,7 +75,7 @@ function convertOpts(fileType: fileType): convertOptions {
     postProcess(results: hasseijoukyou[]) {
       let groupNo = 1;
       return results
-        .filter(row => row.no !== "" && !Number.isNaN(Number(row.no)))
+        .filter((row) => row.no !== "" && !Number.isNaN(Number(row.no)))
         .map((row, idx, rows) => {
           const newRow = convertProps.stringToNum(
             convertProps.stringScrub(row)
