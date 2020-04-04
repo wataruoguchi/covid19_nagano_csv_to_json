@@ -4,7 +4,7 @@ function numToStr2digs(number: number): string {
 
 function formatToMMDD(date: Date): string {
   return [date.getMonth() + 1, date.getDate()]
-    .map(num => numToStr2digs(num))
+    .map((num) => numToStr2digs(num))
     .join("");
 }
 
@@ -62,10 +62,13 @@ function dateToLabel(date: Date, format: string): string | number {
         .map(pad)
         .join("-");
     case "日付":
-      return new Date(
+      const _date = new Date(
         date.getFullYear(),
         date.getMonth(),
         date.getDate()
+      );
+      return new Date(
+        _date.getTime() - _date.getTimezoneOffset() * 60000
       ).toISOString();
     case "short_date":
       return [date.getMonth() + 1, date.getDate()].map(pad).join("/");
@@ -111,7 +114,7 @@ const convertProps = {
     //     setProperty(obj, key, Number(obj[key]));
     // });
     const newObj: FIXME = {};
-    keys(obj).forEach(key => {
+    keys(obj).forEach((key) => {
       newObj[key] =
         typeof obj[key] === "string" &&
         /^\d+$/.test(`${obj[key]}`) &&
@@ -123,7 +126,7 @@ const convertProps = {
   },
   stringScrub<O extends object>(obj: O) {
     const newObj: FIXME = {};
-    keys(obj).forEach(key => {
+    keys(obj).forEach((key) => {
       const col = obj[key];
       newObj[key] =
         typeof col === "string" ? col.trim().replace(/\n/, " ") : col;
