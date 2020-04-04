@@ -80,9 +80,13 @@ function convertOpts(fileType: fileType): convertOptions {
           const newRow = convertProps.stringToNum(
             convertProps.stringScrub(row)
           );
-          if (idx && rows[idx - 1] && rows[idx - 1].no > rows[idx].no) {
-            // If previous row's number ("No.") is bigger than the current row's number ("No."), increase "groupNo".
-            groupNo++;
+          if (idx && rows[idx - 1]) {
+            const currentNum = Number(rows[idx].no);
+            const prevNum = Number(rows[idx - 1].no);
+            if (prevNum > currentNum) {
+              // If previous row's number ("No.") is bigger than the current row's number ("No."), increase "groupNo".
+              groupNo++;
+            }
           }
           newRow["group"] = groupNo;
           return newRow;
