@@ -37,13 +37,16 @@ const OFFLINE_MODE = commander.offline || false;
 
 // We don't know what date will be in the file name at what time. So let's queue multiple different dates.
 // One of them should fail (gracefully) unless they forget removing it.
+const dayBeforeYesterday = new Date(
+  new Date().setDate(new Date().getDate() - 2)
+);
 const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
 const today = new Date();
 const tomorrow = new Date(new Date().setDate(new Date().getDate() + 1));
 const dates: Date[] =
   commander.date && /\d{4}/.test(commander.date)
     ? [MMDDToDate(commander.date)]
-    : [yesterday, today, tomorrow];
+    : [dayBeforeYesterday, yesterday, today, tomorrow];
 
 console.log("STARTED");
 mkDirs();
@@ -51,7 +54,7 @@ mkDirs();
 loadFilesToBeEncoded(dates, { src: RAW_CSV_DIR })
   .then(async (items: item[]) => {
     const resAll = await Promise.all(
-      items.map(async item => {
+      items.map(async (item) => {
         const fileType = getFileTypeByFilePath(item.path);
         const opts = convertOpts(fileType);
         const dataJson = await converter(item, opts, {
@@ -63,14 +66,14 @@ loadFilesToBeEncoded(dates, { src: RAW_CSV_DIR })
     );
     await mapper(resAll, { dist: JSON_DIR });
     console.log(
-      `DONE for dates: ${dates.map(date => formatToMMDD(date)).join(", ")}!`
+      `DONE for dates: ${dates.map((date) => formatToMMDD(date)).join(", ")}!`
     );
   })
-  .catch(err => console.error(err));
+  .catch((err) => console.error(err));
 
 function loadFilesToBeEncoded(dates: Date[], dirs: dirs): Promise<item[]> {
-  if (dates.length === 0) return new Promise(reject => reject());
-  if (!dirs.src) return new Promise(reject => reject());
+  if (dates.length === 0) return new Promise((reject) => reject());
+  if (!dirs.src) return new Promise((reject) => reject());
 
   function buildLocalFilePath(name: string): string {
     // It's for development purpose.
@@ -95,7 +98,7 @@ function loadFilesToBeEncoded(dates: Date[], dirs: dirs): Promise<item[]> {
 }
 
 function mkDirs(): void {
-  [RAW_CSV_DIR, ENCODED_CSV_DIR, JSON_DIR].forEach(dirName => {
+  [RAW_CSV_DIR, ENCODED_CSV_DIR, JSON_DIR].forEach((dirName) => {
     // Create directories we'd use.
     try {
       fs.mkdirSync(dirName);
