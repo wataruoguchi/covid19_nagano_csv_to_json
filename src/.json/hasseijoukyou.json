@@ -107,7 +107,7 @@
     "status": "入院中",
     "status2": "調査中",
     "misc": "",
-    "group": 2
+    "group": 1
   },
   {
     "no": 1,
@@ -118,6 +118,6 @@
     "status": "退院",
     "status2": "なし",
     "misc": "",
-    "group": 3
+    "group": 2
   }
 ]
