@@ -88,6 +88,28 @@
     "group": 1
   },
   {
+    "no": 9,
+    "date": "4月3日",
+    "age_group": "20代",
+    "gender": "男性",
+    "area": "大町保健所管内",
+    "status": "入院中",
+    "status2": "４名特定 健康観察中",
+    "misc": "",
+    "group": 1
+  },
+  {
+    "no": 10,
+    "date": "4月4日",
+    "age_group": "30代",
+    "gender": "男性",
+    "area": "諏訪保健所管内",
+    "status": "入院中",
+    "status2": "調査中",
+    "misc": "",
+    "group": 2
+  },
+  {
     "no": 1,
     "date": "2月26日",
     "age_group": "50代",
@@ -96,6 +118,6 @@
     "status": "退院",
     "status2": "なし",
     "misc": "",
-    "group": 2
+    "group": 3
   }
 ]

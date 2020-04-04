@@ -430,5 +430,23 @@
     "misc": "すべて陰性",
     "positive": 0,
     "negative": 31
+  },
+  {
+    "date": "4月3日",
+    "num_total": 34,
+    "num_sub1": 0,
+    "num_sub2": 7,
+    "misc": "うち1件陽性",
+    "positive": 1,
+    "negative": 33
+  },
+  {
+    "date": "4月4日",
+    "num_total": 40,
+    "num_sub1": 7,
+    "num_sub2": 6,
+    "misc": "うち1件陽性",
+    "positive": 1,
+    "negative": 39
   }
 ]
