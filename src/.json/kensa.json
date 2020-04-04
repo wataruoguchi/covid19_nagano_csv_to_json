@@ -373,9 +373,9 @@
     "num_total": 17,
     "num_sub1": 3,
     "num_sub2": 5,
-    "misc": "うち１件陽性",
-    "positive": 0,
-    "negative": 17
+    "misc": "うち1件陽性",
+    "positive": 1,
+    "negative": 16
   },
   {
     "date": "3月28日",
@@ -391,9 +391,9 @@
     "num_total": 22,
     "num_sub1": 0,
     "num_sub2": 3,
-    "misc": "うち２件陽性",
-    "positive": 0,
-    "negative": 22
+    "misc": "うち2件陽性",
+    "positive": 2,
+    "negative": 20
   },
   {
     "date": "3月30日",
@@ -418,9 +418,9 @@
     "num_total": 52,
     "num_sub1": 17,
     "num_sub2": 15,
-    "misc": "うち１件陽性",
-    "positive": 0,
-    "negative": 52
+    "misc": "うち1件陽性",
+    "positive": 1,
+    "negative": 51
   },
   {
     "date": "4月2日",
