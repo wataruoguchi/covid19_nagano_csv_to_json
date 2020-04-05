@@ -50,3 +50,8 @@ export type convertOptions = {
 };
 
 export type fileType = "kensa" | "soudan" | "hasseijoukyou" | "null";
+
+export type summaryType = {
+  日付: string;
+  小計: number;
+};

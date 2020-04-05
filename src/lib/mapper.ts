@@ -1,5 +1,5 @@
 const fs = require("fs");
-import { dirs, kensa, soudan, hasseijoukyou } from "./types";
+import { dirs, kensa, soudan, hasseijoukyou, summaryType } from "./types";
 import { buildJsonPath, setLabelFromDateStr } from "./utils";
 /**
  * This is an optional script. It creates a JSON file that's following format of the following file:
@@ -29,14 +29,14 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
     date.setDate(date.getDate() + 1);
   }
   const [soudanJson] = resAll
-    .filter(res => /soudan/.test(res.path))
-    .map(res => res.json);
+    .filter((res) => /soudan/.test(res.path))
+    .map((res) => res.json);
   const [kensaJson] = resAll
-    .filter(res => /kensa/.test(res.path))
-    .map(res => res.json);
+    .filter((res) => /kensa/.test(res.path))
+    .map((res) => res.json);
   const [hasseijoukyouJson] = resAll
-    .filter(res => /hasseijoukyou/.test(res.path))
-    .map(res => res.json);
+    .filter((res) => /hasseijoukyou/.test(res.path))
+    .map((res) => res.json);
 
   const mappedJson = {
     contacts: {
@@ -45,7 +45,7 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
         "",
         addDate1
       )("reportDate"),
-      data: soudanJson.map(row => {
+      data: soudanJson.map((row) => {
         const dateToLabel = setLabelFromDateStr(row.date, "");
         return {
           日付: dateToLabel("日付"),
@@ -67,7 +67,7 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
         "",
         addDate1
       )("reportDate"),
-      data: kensaJson.map(row => {
+      data: kensaJson.map((row) => {
         const dateToLabel = setLabelFromDateStr(row.date, "");
         return {
           判明日: dateToLabel("判明日"),
@@ -91,11 +91,11 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
         addDate1
       )("reportDate"),
       data: {
-        県内: kensaJson.map(row => {
+        県内: kensaJson.map((row) => {
           return Number(row.num_total);
         }),
         その他: kensaJson.map(() => 0),
-        labels: kensaJson.map(row => {
+        labels: kensaJson.map((row) => {
           return setLabelFromDateStr(row.date, row.date)("short_date");
         })
       }
@@ -125,7 +125,7 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
         "",
         addDate1
       )("reportDate"),
-      data: kensaJson.map(row => {
+      data: kensaJson.map((row) => {
         const dateToLabel = setLabelFromDateStr(row.date, "");
         return {
           日付: dateToLabel("日付"),
@@ -135,6 +135,38 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
           total: row.num_total
         };
       })
+    },
+    discharges_summary: {
+      date: setLabelFromDateStr(
+        kensaJson[kensaJson.length - 1].date,
+        "",
+        addDate1
+      )("reportDate"),
+      data: (function (): summaryType[] {
+        const hasseiMap = new Map();
+        hasseijoukyouJson
+          .filter((row: hasseijoukyou) => row.status === "退院")
+          .forEach((row: hasseijoukyou) => {
+            const val = hasseiMap.get(row.date);
+            if (val) {
+              hasseiMap.set(row.date, val + 1);
+            } else {
+              hasseiMap.set(row.date, 1);
+            }
+          });
+        const hasseiArray: summaryType[] = [];
+        hasseiMap.forEach((val, key) => {
+          hasseiArray.push({
+            日付: <string>setLabelFromDateStr(key, "")("日付"),
+            小計: val
+          });
+        });
+        return hasseiArray.sort((a, b) => {
+          if (a.日付 > b.日付) return 1;
+          if (a.日付 < b.日付) return -1;
+          return 0;
+        });
+      })()
     },
     lastUpdate: setLabelFromDateStr(
       kensaJson[kensaJson.length - 1].date,
