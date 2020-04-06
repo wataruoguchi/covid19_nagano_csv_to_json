@@ -338,5 +338,35 @@
     "num_treatment": 1,
     "num_action": 24,
     "num_others": 535
+  },
+  {
+    "date": "4月3日",
+    "num_total": 899,
+    "num_has_symptom": 481,
+    "num_safety": 0,
+    "num_prevention": 19,
+    "num_treatment": 3,
+    "num_action": 55,
+    "num_others": 501
+  },
+  {
+    "date": "4月4日",
+    "num_total": 620,
+    "num_has_symptom": 369,
+    "num_safety": 1,
+    "num_prevention": 2,
+    "num_treatment": 0,
+    "num_action": 29,
+    "num_others": 384
+  },
+  {
+    "date": "4月5日",
+    "num_total": 721,
+    "num_has_symptom": 484,
+    "num_safety": 0,
+    "num_prevention": 14,
+    "num_treatment": 1,
+    "num_action": 27,
+    "num_others": 422
   }
 ]
