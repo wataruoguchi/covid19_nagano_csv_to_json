@@ -28,7 +28,13 @@ jobs:
         run: |
           git config --local user.email "wataru.oguchi.0to1@gmail.com"
           git config --local user.name "Wataru Bot"
-          git status | grep modified && git add src/.encoded src/.json && git commit -v -m "[Bot] GitHub Actions - auto run" || true
+          git status | grep modified && git add src/.encoded src/.json && git commit -v -m "[Bot] GitHub Actions - auto run" \
+            && curl -X POST \
+              -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
+              -H "Accept: application/vnd.github.everest-preview+json" \
+              -H "Content-Type: application/json" \
+              https://api.github.com/repos/Stop-COVID19-Nagano/covid19/dispatches --data '{"event_type": "build_application"}' \
+            || true
 
       - name: Push changes
         uses: ad-m/github-push-action@master
