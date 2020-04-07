@@ -1,0 +1,22 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-run-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Event dispatch
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
+            -H "Accept: application/vnd.github.everest-preview+json" \
+            -H "Content-Type: application/json" \
+            https://api.github.com/repos/Stop-COVID19-Nagano/covid19/dispatches --data '{"event_type": "build_application"}' \
