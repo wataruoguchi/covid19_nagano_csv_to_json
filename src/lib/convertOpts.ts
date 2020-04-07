@@ -75,7 +75,14 @@ function convertOpts(fileType: fileType): convertOptions {
     postProcess(results: hasseijoukyou[]) {
       let groupNo = 1;
       return results
-        .filter((row) => row.no !== "" && !Number.isNaN(Number(row.no)))
+        .filter(
+          (row) =>
+            row.no !== "" &&
+            !Number.isNaN(Number(row.no)) &&
+            row.date !== "" &&
+            row.age_group !== "" &&
+            row.gender !== ""
+        )
         .map((row, idx, rows) => {
           const newRow = convertProps.stringToNum(
             convertProps.stringScrub(row)
