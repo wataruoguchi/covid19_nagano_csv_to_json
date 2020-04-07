@@ -37,7 +37,7 @@ $ yarn start --offline -d <MMDD>
 
 ## Specification
 
-1. [長野県の Web ページ](https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/bukan-haien-doko.html)に公開されている "オープンデータ" 対象の 3 種類の CSV をダウンロードします。ダウンロードしたファイルは csv フォルダに保存されます。
+1. [長野県の Web ページ](https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/corona.html)に公開されている "オープンデータ" 対象の 3 種類の CSV をダウンロードします。ダウンロードしたファイルは csv フォルダに保存されます。
 
    1. _kensaXXXX.csv_ : 新型コロナウイルス感染症に係る検査件数について
    1. _soudanXXXX.csv_ : 新型コロナウイルス感染症に関する相談状況について
