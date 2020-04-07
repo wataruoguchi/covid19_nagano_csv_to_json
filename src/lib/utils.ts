@@ -21,10 +21,16 @@ function getFileNameFromPath(str: string): string {
   return str.split("/").slice(-1)[0];
 }
 
-function buildJsonPath(path: string, dir: string) {
+function buildJsonPath(path: string, dir: string): string {
   return `${dir}/${getFileNameFromPath(path)
     .replace(/\d+/, "")
     .replace(/\.csv$/, ".json")}`;
+}
+
+function replaceWideNumStrToNumStr(orig: string): string {
+  return orig.replace(/[０-９]/g, (str: string) =>
+    String.fromCharCode(str.charCodeAt(0) - 65248)
+  );
 }
 
 /**
@@ -129,7 +135,9 @@ const convertProps = {
     keys(obj).forEach((key) => {
       const col = obj[key];
       newObj[key] =
-        typeof col === "string" ? col.trim().replace(/\n/, " ") : col;
+        typeof col === "string"
+          ? replaceWideNumStrToNumStr(col).trim().replace(/\n/, " ")
+          : col;
     });
     return newObj;
   }

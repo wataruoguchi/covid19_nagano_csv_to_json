@@ -20,20 +20,22 @@ function convertOpts(fileType: fileType): convertOptions {
       results.pop(); // Dropping the empty line.
       results.pop(); // Dropping the sum line.
       // Creating new columns from misc.
-      return results.map((row) => {
-        // Convert wide number to normal number
-        const misc = row.misc.replace(/[０-９]/g, (str: string) =>
-          String.fromCharCode(str.charCodeAt(0) - 65248)
-        );
-        const newRow = convertProps.stringToNum({ ...row, ...{ misc } });
-        // NOTE: misc will be one of these: "", "すべて陰性", "うち1件陽性"
-        newRow.positive = Number(newRow.misc.match(/\d+/) || "0");
-        newRow.negative =
-          typeof newRow.num_total === "number"
-            ? newRow.num_total - newRow.positive
-            : -1; // -1 ... something is wrong. Please make sure "misc" has expected string.
-        return newRow;
-      });
+      return results
+        .filter((row) => row.date !== "")
+        .map((row) => {
+          // Convert wide number to normal number
+          const newRow = convertProps.stringToNum(
+            convertProps.stringScrub(row)
+          );
+          console.log(newRow.misc);
+          // NOTE: misc will be one of these: "", "すべて陰性", "うち1件陽性"
+          newRow.positive = Number(newRow.misc.match(/\d+/) || "0");
+          newRow.negative =
+            typeof newRow.num_total === "number"
+              ? newRow.num_total - newRow.positive
+              : -1; // -1 ... something is wrong. Please make sure "misc" has expected string.
+          return newRow;
+        });
     }
   };
   const soudanOpts: convertOptions = {
@@ -53,9 +55,11 @@ function convertOpts(fileType: fileType): convertOptions {
     postProcess(results: soudan[]) {
       results.pop(); // Dropping the empty line.
       results.pop(); // Dropping the sum line.
-      return results.map((row) => {
-        return convertProps.stringToNum(row);
-      });
+      return results
+        .filter((row) => row.date !== "")
+        .map((row) => {
+          return convertProps.stringToNum(convertProps.stringScrub(row));
+        });
     }
   };
   const hasseijoukyouOpt: convertOptions = {
