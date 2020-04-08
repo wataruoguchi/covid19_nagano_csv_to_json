@@ -466,5 +466,14 @@
     "misc": "うち2件陽性",
     "positive": 2,
     "negative": 24
+  },
+  {
+    "date": "4月7日",
+    "num_total": 21,
+    "num_sub1": 0,
+    "num_sub2": 0,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 21
   }
 ]
