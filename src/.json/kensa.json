@@ -475,5 +475,14 @@
     "misc": "すべて陰性",
     "positive": 0,
     "negative": 21
+  },
+  {
+    "date": "4月8日",
+    "num_total": 58,
+    "num_sub1": 15,
+    "num_sub2": 10,
+    "misc": "うち5件要請",
+    "positive": 5,
+    "negative": 53
   }
 ]
