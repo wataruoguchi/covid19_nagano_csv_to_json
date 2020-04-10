@@ -484,5 +484,14 @@
     "misc": "うち5件要請",
     "positive": 5,
     "negative": 53
+  },
+  {
+    "date": "4月9日",
+    "num_total": 51,
+    "num_sub1": 21,
+    "num_sub2": 13,
+    "misc": "うち2件陽性",
+    "positive": 2,
+    "negative": 49
   }
 ]
