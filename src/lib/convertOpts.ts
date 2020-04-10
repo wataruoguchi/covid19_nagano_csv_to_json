@@ -27,7 +27,6 @@ function convertOpts(fileType: fileType): convertOptions {
           const newRow = convertProps.stringToNum(
             convertProps.stringScrub(row)
           );
-          console.log(newRow.misc);
           // NOTE: misc will be one of these: "", "すべて陰性", "うち1件陽性"
           newRow.positive = Number(newRow.misc.match(/\d+/) || "0");
           newRow.negative =

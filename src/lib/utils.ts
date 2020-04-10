@@ -92,6 +92,7 @@ function setLabelFromDateStr(
   defaultVal: string = "",
   dateModifier?: Function
 ) {
+  if (!dateStr) throw new Error("No dateStr is set");
   const isShortJapaneseDate = japaneseShortDateToDate(dateStr) ? true : false;
   const date: Date = japaneseShortDateToDate(dateStr) || new Date();
   if (dateModifier) {
