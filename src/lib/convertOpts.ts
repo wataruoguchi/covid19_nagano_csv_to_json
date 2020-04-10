@@ -17,11 +17,9 @@ function convertOpts(fileType: fileType): convertOptions {
       headers: ["date", "num_total", "num_sub1", "num_sub2", "misc"]
     },
     postProcess(results: kensa[]) {
-      results.pop(); // Dropping the empty line.
-      results.pop(); // Dropping the sum line.
       // Creating new columns from misc.
       return results
-        .filter((row) => row.date !== "")
+        .filter((row) => row.date !== "" && row.date !== "計")
         .map((row) => {
           // Convert wide number to normal number
           const newRow = convertProps.stringToNum(
@@ -48,15 +46,18 @@ function convertOpts(fileType: fileType): convertOptions {
         "num_prevention",
         "num_treatment",
         "num_action",
-        "num_others"
+        "num_others",
+        "ignorable",
+        "ignorable",
+        "ignorable",
+        "ignorable"
       ]
     },
     postProcess(results: soudan[]) {
-      results.pop(); // Dropping the empty line.
-      results.pop(); // Dropping the sum line.
       return results
-        .filter((row) => row.date !== "")
+        .filter((row) => row.date !== "" && row.date !== "計")
         .map((row) => {
+          delete row.ignorable;
           return convertProps.stringToNum(convertProps.stringScrub(row));
         });
     }

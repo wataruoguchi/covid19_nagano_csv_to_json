@@ -22,6 +22,7 @@ export type soudan = {
   num_treatment: number | string;
   num_action: number | string;
   num_others: number | string;
+  ignorable: any; // CSV cannot drop it. Maybe there's weird data in the column.
 };
 
 export type hasseijoukyou = {
