@@ -28,13 +28,6 @@ $ yarn start -d <MMDD>
 
 Example: `$ yarn start -d 0323`
 
-ダウンロード済みのファイルに対して実行することもできます。開発用。
-Once you've downloaded CSV files by the script, you could run offline mode. It's meant to be for developing.
-
-```
-$ yarn start --offline -d <MMDD>
-```
-
 ## Specification
 
 1. [長野県の Web ページ](https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/corona.html)に公開されている "オープンデータ" 対象の 3 種類の CSV をダウンロードします。ダウンロードしたファイルは csv フォルダに保存されます。
