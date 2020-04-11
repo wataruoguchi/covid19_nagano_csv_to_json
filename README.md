@@ -19,13 +19,6 @@ It's running every hour by GitHub Actions, to try fetching new CSV files then up
 $ yarn start
 ```
 
-日付を指定してファイルダウンロードすることもできます。毎回古いのはサーバから非公開にされてしまうので、そんなに役に立つことはないと思います。
-You can set a specific date to download CSV files.
-
-```
-$ yarn start -d <MMDD>
-```
-
 Example: `$ yarn start -d 0323`
 
 ## Specification
