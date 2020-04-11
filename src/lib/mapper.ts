@@ -52,9 +52,15 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
     kensaJson
   );
 
-  const [currentDataItem] = await openLocalFiles([
-    buildJsonPath("data.json", dirs.dist || "")
-  ]);
+  let currentDataItem;
+  try {
+    [currentDataItem] = await openLocalFiles([
+      buildJsonPath("data.json", dirs.dist || "")
+    ]);
+  } catch {
+    currentDataItem = "{}";
+  }
+
   const currentData = currentDataItem ? JSON.parse(currentDataItem) || {} : {};
   const mappedJson = {
     ...currentData,
