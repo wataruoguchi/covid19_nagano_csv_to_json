@@ -42,7 +42,6 @@ if (commander.help) {
       // 4. Convert files into re-encoded CSV and JSON
       const resAll = await Promise.all(
         items.map(async (item) => {
-          // TODO getFileTypeByFilePath -> determineFileTypeByFilePath
           const opts = convertOpts(item.type);
           const dataJson = await converter(item, opts, {
             tmp: ENCODED_CSV_DIR,
