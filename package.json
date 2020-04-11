@@ -42,6 +42,7 @@
     "commander": "^5.0.0",
     "csv-parser": "^2.3.2",
     "download": "^7.1.0",
-    "encoding-japanese": "^1.0.30"
+    "encoding-japanese": "^1.0.30",
+    "headless-chrome-crawler": "^1.8.0"
   }
 }

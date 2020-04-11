@@ -21,10 +21,9 @@ function getFileNameFromPath(str: string): string {
   return str.split("/").slice(-1)[0];
 }
 
-function buildJsonPath(path: string, dir: string): string {
-  return `${dir}/${getFileNameFromPath(path)
-    .replace(/\d+/, "")
-    .replace(/\.csv$/, ".json")}`;
+function buildJsonPath(name: string, dir: string): string {
+  const fileNameWithExtension = /\.json$/.test(name) ? name : `${name}.json`;
+  return `${dir}/${fileNameWithExtension}`;
 }
 
 function replaceWideNumStrToNumStr(orig: string): string {

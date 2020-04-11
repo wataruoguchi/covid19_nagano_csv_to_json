@@ -1,5 +1,13 @@
 const fs = require("fs");
-import { dirs, kensa, soudan, hasseijoukyou, summaryType } from "./types";
+import {
+  dirs,
+  kensa,
+  soudan,
+  hasseijoukyou,
+  summaryType,
+  fileType
+} from "./types";
+import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
 import { buildJsonPath, setLabelFromDateStr } from "./utils";
 import { openLocalFiles } from "./openLocalFiles";
 /**
@@ -14,6 +22,7 @@ import { openLocalFiles } from "./openLocalFiles";
 type summary = {
   json: (kensa & soudan & hasseijoukyou)[];
   path: string;
+  type: fileType;
 };
 
 function calcByStatus(json: hasseijoukyou[], status: string): number {
@@ -28,13 +37,13 @@ function calcByStatus(json: hasseijoukyou[], status: string): number {
 async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
   // Mapping multiple data into data.json
   const [soudanJson] = resAll
-    .filter((res) => /soudan/.test(res.path))
+    .filter((res) => res.type === CONST_SOUDAN)
     .map((res) => res.json);
   const [kensaJson] = resAll
-    .filter((res) => /kensa/.test(res.path))
+    .filter((res) => res.type === CONST_KENSA)
     .map((res) => res.json);
   const [hasseijoukyouJson] = resAll
-    .filter((res) => /hasseijoukyou/.test(res.path))
+    .filter((res) => res.type === CONST_HASSEI)
     .map((res) => res.json);
   const dataBasedOnSoudan = buildDataBySoudan(soudanJson);
   const dataBasedOnKensa = buildDataByKensa(kensaJson);
@@ -46,10 +55,7 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
   const [currentDataItem] = await openLocalFiles([
     buildJsonPath("data.json", dirs.dist || "")
   ]);
-  const currentData =
-    currentDataItem && currentDataItem.data
-      ? JSON.parse(currentDataItem.data) || {}
-      : {};
+  const currentData = currentDataItem ? JSON.parse(currentDataItem) || {} : {};
   const mappedJson = {
     ...currentData,
     ...dataBasedOnSoudan,

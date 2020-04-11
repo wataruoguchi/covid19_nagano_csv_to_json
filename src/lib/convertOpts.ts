@@ -2,12 +2,11 @@ import {
   kensa,
   soudan,
   hasseijoukyou,
-  nullType,
   convertOptions,
   fileType
 } from "./types";
 import { convertProps } from "./utils";
-import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI, CONST_NULL } from "./const";
+import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
 
 function convertOpts(fileType: fileType): convertOptions {
   // options for different data sets. Read Only.
@@ -104,18 +103,11 @@ function convertOpts(fileType: fileType): convertOptions {
         });
     }
   };
-  const nullOpt: convertOptions = {
-    csv: {},
-    postProcess(results: nullType[]) {
-      return results;
-    }
-  };
   const opts: { [key: string]: convertOptions } = {};
   // TODO TS beginner - Can it be better?
   opts[CONST_KENSA] = kensaOpt;
   opts[CONST_SOUDAN] = soudanOpts;
   opts[CONST_HASSEI] = hasseijoukyouOpt;
-  opts[CONST_NULL] = nullOpt;
   return opts[fileType];
 }
 
