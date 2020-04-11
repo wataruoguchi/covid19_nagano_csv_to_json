@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const commander = require("commander");
-import { item } from "./lib/types";
+import { item } from "./lib/types/types";
 import { mkDirs } from "./lib/utils";
 import { launchCrawler } from "./lib/scraper/scraper";
 import { downloadFiles } from "./lib/downloadFiles";

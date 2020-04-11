@@ -1,7 +1,7 @@
 const fs = require("fs");
 const encoding = require("encoding-japanese");
 const csv = require("csv-parser");
-import { item, dirs, convertOptions } from "./types";
+import { item, dirs, convertOptions } from "./types/types";
 import { getFileNameFromPath, buildJsonPath } from "./utils";
 import { configs } from "./configs";
 

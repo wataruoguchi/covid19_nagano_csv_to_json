@@ -1,5 +1,5 @@
 const download = require("download");
-import { item } from "./types";
+import { item } from "./types/types";
 import { determineFileTypeByFileName } from "./fileType";
 
 async function downloadFiles(urls: string[], dir: string): Promise<item[]> {

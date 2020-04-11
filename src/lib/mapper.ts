@@ -6,7 +6,7 @@ import {
   hasseijoukyou,
   summaryType,
   fileType
-} from "./types";
+} from "./types/types";
 import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
 import { buildJsonPath, setLabelFromDateStr } from "./utils";
 import { openLocalFiles } from "./openLocalFiles";

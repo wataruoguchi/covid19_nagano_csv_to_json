@@ -4,7 +4,7 @@ import {
   hasseijoukyou,
   convertOptions,
   fileType
-} from "./types";
+} from "./types/types";
 import { convertProps } from "./utils";
 import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
 

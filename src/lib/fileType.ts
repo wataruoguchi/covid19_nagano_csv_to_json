@@ -1,4 +1,4 @@
-import { fileType } from "./types";
+import { fileType } from "./types/types";
 import { getFileNameFromPath } from "./utils";
 
 import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
