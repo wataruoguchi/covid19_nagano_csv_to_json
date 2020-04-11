@@ -72,8 +72,10 @@ function dateToLabel(date: Date, format: string): string | number {
         date.getMonth(),
         date.getDate()
       );
+      // The Tokyo repo is 8 hours ahead.
+      // 28800000 is 8 hours
       return new Date(
-        _date.getTime() - _date.getTimezoneOffset() * 60000
+        _date.getTime() - _date.getTimezoneOffset() * 60000 + 28800000
       ).toISOString();
     case "short_date":
       return [date.getMonth() + 1, date.getDate()].map(pad).join("/");
