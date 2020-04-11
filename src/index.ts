@@ -25,18 +25,17 @@ if (commander.help) {
 
 (async function () {
   console.log("STARTED");
-
-  // 1. Create directories to store files.
-  mkDirs(fs, [RAW_CSV_DIR, ENCODED_CSV_DIR, JSON_DIR]);
-
-  // 2. Crawl the website and find CSV file links.
-  const filePaths = (await launchCrawler()) || [];
-  if (filePaths.length !== 3)
-    throw new Error(
-      "Hmm, we want to grab three files but only " + filePaths.length
-    );
-
   try {
+    // 1. Create directories to store files.
+    mkDirs(fs, [RAW_CSV_DIR, ENCODED_CSV_DIR, JSON_DIR]);
+
+    // 2. Crawl the website and find CSV file links.
+    const filePaths = (await launchCrawler()) || [];
+    if (filePaths.length !== 3)
+      throw new Error(
+        "Hmm, we want to grab three files but only " + filePaths.length
+      );
+
     // 3. Download CSV files
     const items: item[] = await downloadFiles(filePaths, RAW_CSV_DIR);
 

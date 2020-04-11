@@ -11,6 +11,7 @@ async function downloadFiles(urls: string[], dir: string): Promise<item[]> {
       items.push({ path: url, data, type: determineFileTypeByFileName(url) });
     } catch (err) {
       console.log(`LOG: ${url} got an error.`);
+      throw err;
     }
   });
   await Promise.all(promises);
