@@ -36,7 +36,7 @@ if (commander.help) {
       "Hmm, we want to grab three files but only " + filePaths.length
     );
 
-  // 2. Download CSV files
+  // 3. Download CSV files
   downloadFiles(filePaths, RAW_CSV_DIR)
     .then(async (items: item[]) => {
       // 4. Convert files into re-encoded CSV and JSON
