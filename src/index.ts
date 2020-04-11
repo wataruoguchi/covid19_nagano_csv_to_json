@@ -36,24 +36,26 @@ if (commander.help) {
       "Hmm, we want to grab three files but only " + filePaths.length
     );
 
-  // 3. Download CSV files
-  downloadFiles(filePaths, RAW_CSV_DIR)
-    .then(async (items: item[]) => {
-      // 4. Convert files into re-encoded CSV and JSON
-      const resAll = await Promise.all(
-        items.map(async (item) => {
-          const opts = convertOpts(item.type);
-          const dataJson = await converter(item, opts, {
-            tmp: ENCODED_CSV_DIR,
-            dist: JSON_DIR
-          });
-          return { json: dataJson, path: item.path, type: item.type };
-        })
-      );
+  try {
+    // 3. Download CSV files
+    const items: item[] = await downloadFiles(filePaths, RAW_CSV_DIR);
 
-      // 5. Create data.json
-      await mapper(resAll, { dist: JSON_DIR });
-      console.log(`DONE: ${items.map((item) => item.path).join(", ")}!`);
-    })
-    .catch((err) => console.error(err));
+    // 4. Convert files into re-encoded CSV and JSON
+    const resAll = await Promise.all(
+      items.map(async (item) => {
+        const opts = convertOpts(item.type);
+        const dataJson = await converter(item, opts, {
+          tmp: ENCODED_CSV_DIR,
+          dist: JSON_DIR
+        });
+        return { json: dataJson, path: item.path, type: item.type };
+      })
+    );
+
+    // 5. Create data.json
+    await mapper(resAll, { dist: JSON_DIR });
+    console.log(`DONE: ${items.map((item) => item.path).join(", ")}!`);
+  } catch (err) {
+    console.error(err);
+  }
 })();
