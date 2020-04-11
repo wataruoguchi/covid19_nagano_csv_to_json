@@ -1,4 +1,4 @@
-import { scraperConfigs } from "./configs";
+import { scraperConfigs } from "../configs";
 import { crawler } from "./crawler";
 
 function launchCrawler(): Promise<string[]> {

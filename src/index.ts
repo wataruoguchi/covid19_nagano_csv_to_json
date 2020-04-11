@@ -3,7 +3,7 @@ const path = require("path");
 const commander = require("commander");
 import { item } from "./lib/types";
 import { mkDirs } from "./lib/utils";
-import { launchCrawler } from "./lib/scraper";
+import { launchCrawler } from "./lib/scraper/scraper";
 import { downloadFiles } from "./lib/downloadFiles";
 import { converter } from "./lib/converter";
 import { convertOpts } from "./lib/convertOpts";
