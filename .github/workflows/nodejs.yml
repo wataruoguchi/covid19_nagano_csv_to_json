@@ -22,7 +22,7 @@ jobs:
           npm install -g yarn
           yarn
           yarn build
-          yarn start
+          SLACK_WEBHOOK_URL=${{ secrets.SLACK_WEBHOOK_URL }} yarn start
 
       - name: Commit files
         run: |
