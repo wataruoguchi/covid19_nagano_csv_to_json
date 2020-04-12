@@ -18,11 +18,13 @@ jobs:
           node-version: 12.x
 
       - name: Build & Run
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           npm install -g yarn
           yarn
           yarn build
-          SLACK_WEBHOOK_URL=${{ secrets.SLACK_WEBHOOK_URL }} yarn start
+          SLACK_WEBHOOK_URL="$SLACK_WEBHOOK_URL" yarn start
 
       - name: Commit files
         run: |
