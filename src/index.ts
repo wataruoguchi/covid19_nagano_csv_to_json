@@ -64,7 +64,9 @@ function getStackTrace() {
       message: "Downloaded the following items and complete!",
       files: items.map((item) => item.path)
     });
+    return (process.exitCode = 0);
   } catch (err) {
     await slackNotifier("error", getStackTrace());
+    return (process.exitCode = 1);
   }
 })();
