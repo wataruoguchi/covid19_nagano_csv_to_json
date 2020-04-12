@@ -8,6 +8,7 @@ import { downloadFiles } from "./lib/downloadFiles";
 import { converter } from "./lib/converter";
 import { convertOpts } from "./lib/convertOpts";
 import { mapper } from "./lib/mapper";
+import { slackNotifier } from "./lib/slack";
 
 const RAW_CSV_DIR = path.join(__dirname, ".csv");
 const ENCODED_CSV_DIR = path.join(__dirname, ".encoded");
@@ -21,6 +22,12 @@ commander
 
 if (commander.help) {
   commander.outputHelp();
+}
+
+function getStackTrace() {
+  let obj = { stack: "" };
+  Error.captureStackTrace(obj, getStackTrace);
+  return obj.stack;
 }
 
 (async function () {
@@ -53,8 +60,11 @@ if (commander.help) {
 
     // 5. Create data.json
     await mapper(resAll, { dist: JSON_DIR });
-    console.log(`DONE: ${items.map((item) => item.path).join(", ")}!`);
+    await slackNotifier("log", {
+      message: "Downloaded the following items and complete!",
+      files: items.map((item) => item.path)
+    });
   } catch (err) {
-    console.error(err);
+    await slackNotifier("error", getStackTrace());
   }
 })();
