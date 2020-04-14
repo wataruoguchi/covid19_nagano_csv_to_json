@@ -87,7 +87,7 @@ function addDate1(date: Date) {
 }
 
 function buildDataByKensa(kensaJson: kensa[]) {
-  return kensaJson
+  return kensaJson && kensaJson.length
     ? {
         inspections: {
           date: setLabelFromDateStr(
@@ -155,7 +155,7 @@ function buildDataByKensa(kensaJson: kensa[]) {
 }
 
 function buildDataBySoudan(soudanJson: soudan[]) {
-  return soudanJson
+  return soudanJson && soudanJson.length
     ? {
         contacts: {
           date: setLabelFromDateStr(
@@ -189,7 +189,10 @@ function buildDataByHasseiAndKensa(
   hasseijoukyouJson: hasseijoukyou[],
   kensaJson: kensa[]
 ) {
-  return hasseijoukyouJson && kensaJson
+  return hasseijoukyouJson &&
+    hasseijoukyouJson.length &&
+    kensaJson &&
+    kensaJson.length
     ? {
         patients: {
           date: setLabelFromDateStr(

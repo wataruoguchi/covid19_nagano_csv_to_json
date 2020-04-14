@@ -38,10 +38,12 @@ function converter(item: item, opts: convertOptions, dirs: dirs): Promise<any> {
         .on("data", (data: any) => results.push(data))
         .on("end", () => {
           const newResults = opts.postProcess(results);
-          fs.writeFileSync(
-            buildJsonPath(item.type, dirs.dist || ""),
-            JSON.stringify(newResults, null, 2)
-          );
+          if (newResults.length) {
+            fs.writeFileSync(
+              buildJsonPath(item.type, dirs.dist || ""),
+              JSON.stringify(newResults, null, 2)
+            );
+          }
           resolve(newResults);
         });
     } catch (err) {
