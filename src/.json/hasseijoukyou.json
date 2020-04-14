@@ -317,5 +317,82 @@
     "status2": "6名特定 そのほか調査中",
     "misc": "",
     "group": 1
+  },
+  {
+    "no": 30,
+    "date": "4月13日",
+    "age_group": "20代",
+    "gender": "女性",
+    "area": "伊那保健所管内",
+    "status": "入院中",
+    "status2": "調査中",
+    "misc": "",
+    "group": 1
+  },
+  {
+    "no": 31,
+    "date": "4月13日",
+    "age_group": "60代",
+    "gender": "男性",
+    "area": "伊那保健所管内",
+    "status": "入院中",
+    "status2": "調査中",
+    "misc": "",
+    "group": 1
+  },
+  {
+    "no": 32,
+    "date": "4月13日",
+    "age_group": "60代",
+    "gender": "女性",
+    "area": "伊那保健所管内",
+    "status": "入院中",
+    "status2": "調査中",
+    "misc": "",
+    "group": 1
+  },
+  {
+    "no": 33,
+    "date": "4月13日",
+    "age_group": "乳児",
+    "gender": "女性",
+    "area": "伊那保健所管内",
+    "status": "入院中",
+    "status2": "調査中",
+    "misc": "",
+    "group": 1
+  },
+  {
+    "no": 34,
+    "date": "4月13日",
+    "age_group": "30代",
+    "gender": "女性",
+    "area": "松本保健所管内",
+    "status": "入院中",
+    "status2": "調査中",
+    "misc": "",
+    "group": 1
+  },
+  {
+    "no": 35,
+    "date": "4月13日",
+    "age_group": "30代",
+    "gender": "男性",
+    "area": "長野市",
+    "status": "入院予定",
+    "status2": "調査中",
+    "misc": "",
+    "group": 1
+  },
+  {
+    "no": 36,
+    "date": "4月13日",
+    "age_group": "20代",
+    "gender": "女性",
+    "area": "長野市",
+    "status": "入院予定",
+    "status2": "31名特定 そのほか調査中",
+    "misc": "",
+    "group": 1
   }
 ]
