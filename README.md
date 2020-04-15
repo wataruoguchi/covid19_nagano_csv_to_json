@@ -19,8 +19,6 @@ It's running every hour by GitHub Actions, to try fetching new CSV files then up
 $ yarn start
 ```
 
-Example: `$ yarn start -d 0323`
-
 ## Specification
 
 1. [長野県の Web ページ](https://www.pref.nagano.lg.jp/hoken-shippei/kenko/kenko/kansensho/joho/corona.html)に公開されている "オープンデータ" 対象の 3 種類の CSV をダウンロードします。ダウンロードしたファイルは csv フォルダに保存されます。
