@@ -481,7 +481,7 @@
     "num_total": 58,
     "num_sub1": 15,
     "num_sub2": 10,
-    "misc": "うち5件要請",
+    "misc": "うち5件陽性",
     "positive": 5,
     "negative": 53
   },
@@ -541,11 +541,20 @@
   },
   {
     "date": "4月15日",
-    "num_total": 59,
-    "num_sub1": 10,
+    "num_total": 60,
+    "num_sub1": 11,
     "num_sub2": 21,
     "misc": "うち1件陽性",
     "positive": 1,
-    "negative": 58
+    "negative": 59
+  },
+  {
+    "date": "4月16日",
+    "num_total": 52,
+    "num_sub1": 10,
+    "num_sub2": 10,
+    "misc": "うち5件陽性",
+    "positive": 5,
+    "negative": 47
   }
 ]
