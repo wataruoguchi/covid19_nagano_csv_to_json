@@ -556,5 +556,32 @@
     "misc": "うち5件陽性",
     "positive": 5,
     "negative": 47
+  },
+  {
+    "date": "4月17日",
+    "num_total": 49,
+    "num_sub1": 14,
+    "num_sub2": 14,
+    "misc": "うち2件陽性",
+    "positive": 2,
+    "negative": 47
+  },
+  {
+    "date": "4月18日",
+    "num_total": 34,
+    "num_sub1": 0,
+    "num_sub2": 6,
+    "misc": "すべて陰性",
+    "positive": 0,
+    "negative": 34
+  },
+  {
+    "date": "4月19日",
+    "num_total": 47,
+    "num_sub1": 0,
+    "num_sub2": 7,
+    "misc": "うち5件陽性",
+    "positive": 5,
+    "negative": 42
   }
 ]
