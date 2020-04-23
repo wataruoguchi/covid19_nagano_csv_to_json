@@ -792,7 +792,7 @@
   {
     "date": "4月20日",
     "num_total": 1255,
-    "num_has_symptom": 861,
+    "num_has_symptom": 816,
     "num_safety": 0,
     "num_prevention": 5,
     "num_treatment": 1,
@@ -808,5 +808,15 @@
     "num_treatment": 4,
     "num_action": 27,
     "num_others": 525
+  },
+  {
+    "date": "4月22日",
+    "num_total": 974,
+    "num_has_symptom": 582,
+    "num_safety": 0,
+    "num_prevention": 10,
+    "num_treatment": 0,
+    "num_action": 39,
+    "num_others": 490
   }
 ]
