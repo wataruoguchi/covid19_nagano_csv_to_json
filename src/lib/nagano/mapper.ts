@@ -1,15 +1,9 @@
 const fs = require("fs");
-import {
-  dirs,
-  kensa,
-  soudan,
-  hasseijoukyou,
-  summaryType,
-  fileType
-} from "./types/types";
+import { kensa, soudan, hasseijoukyou } from "./types";
+import { dirs, dataJsonSummaryType, summary } from "../types";
 import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
-import { buildJsonPath, setLabelFromDateStr } from "./utils";
-import { openLocalFiles } from "./openLocalFiles";
+import { buildJsonPath, setLabelFromDateStr } from "../utils";
+import { openLocalFiles } from "../openLocalFiles";
 /**
  * This is an optional script. It creates a JSON file that's following format of the following file:
  * https://github.com/tokyo-metropolitan-gov/covid19/blob/master/data/data.json
@@ -18,12 +12,6 @@ import { openLocalFiles } from "./openLocalFiles";
  * - https://docs.google.com/spreadsheets/d/1PWwV2bn9N9C2Cfox9-KdXDryIkRPh6LEpbXVZsAfwwM/edit#gid=0
  * - https://docs.google.com/spreadsheets/d/1SzMw0_Kg4MJJmgafq0NUeYEKdxAiyvPT_wWxWl-zrNw/edit#gid=0
  */
-
-type summary = {
-  json: (kensa & soudan & hasseijoukyou)[];
-  path: string;
-  type: fileType;
-};
 
 function calcByStatus(json: hasseijoukyou[], status: string): number {
   return json.reduce((acc, row: hasseijoukyou) => {
@@ -38,13 +26,13 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
   // Mapping multiple data into data.json
   const [soudanJson] = resAll
     .filter((res) => res.type === CONST_SOUDAN)
-    .map((res) => res.json);
+    .map((res) => <soudan[]>res.json);
   const [kensaJson] = resAll
     .filter((res) => res.type === CONST_KENSA)
-    .map((res) => res.json);
+    .map((res) => <kensa[]>res.json);
   const [hasseijoukyouJson] = resAll
     .filter((res) => res.type === CONST_HASSEI)
-    .map((res) => res.json);
+    .map((res) => <hasseijoukyou[]>res.json);
   const dataBasedOnSoudan = buildDataBySoudan(soudanJson);
   const dataBasedOnKensa = buildDataByKensa(kensaJson);
   const dataBasedOnHassei = buildDataByHasseiAndKensa(
@@ -219,7 +207,7 @@ function buildDataByHasseiAndKensa(
             "",
             addDate1
           )("reportDate"),
-          data: (function (): summaryType[] {
+          data: (function (): dataJsonSummaryType[] {
             const hasseiMap = new Map();
             hasseijoukyouJson
               .filter((row: hasseijoukyou) => row.status === "退院")
@@ -231,7 +219,7 @@ function buildDataByHasseiAndKensa(
                   hasseiMap.set(row.date, 1);
                 }
               });
-            const hasseiArray: summaryType[] = [];
+            const hasseiArray: dataJsonSummaryType[] = [];
             hasseiMap.forEach((val, key) => {
               hasseiArray.push({
                 日付: <string>setLabelFromDateStr(key, "")("日付"),

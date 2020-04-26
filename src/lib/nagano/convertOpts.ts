@@ -1,16 +1,14 @@
-import {
-  kensa,
-  soudan,
-  hasseijoukyou,
-  convertOptions,
-  fileType
-} from "./types/types";
-import { convertProps } from "./utils";
+import { convertOptions } from "../types";
+import { convertProps } from "../utils";
+import { kensa, soudan, hasseijoukyou } from "./types";
 import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
 
-function convertOpts(fileType: fileType): convertOptions {
+const encoding = ["UNICODE", "SJIS"];
+
+function convertOpts(fileType: string): convertOptions {
   // options for different data sets. Read Only.
   const kensaOpt: convertOptions = {
+    encoding,
     csv: {
       skipLines: 5, // Ignoring weird lines such as "新型コロナウイルス感染症に係る検査件数について"
       headers: ["date", "num_total", "num_sub1", "num_sub2", "misc"]
@@ -35,6 +33,7 @@ function convertOpts(fileType: fileType): convertOptions {
     }
   };
   const soudanOpts: convertOptions = {
+    encoding,
     csv: {
       skipLines: 5, // Ignoring weird lines such as "新型コロナウイルス感染症に関する相談状況について"
       headers: [
@@ -62,6 +61,7 @@ function convertOpts(fileType: fileType): convertOptions {
     }
   };
   const hasseijoukyouOpt: convertOptions = {
+    encoding,
     csv: {
       skipLines: 5, // Ignoring weird lines such as "長野県内の新型コロナウイルス感染症患者の発生状況"
       headers: [

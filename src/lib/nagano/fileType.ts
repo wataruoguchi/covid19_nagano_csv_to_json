@@ -1,13 +1,8 @@
-import { fileType } from "./types/types";
-import { getFileNameFromPath } from "./utils";
+import { getFileNameFromPath } from "../utils";
 
 import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
 
-function getFileTypes(): fileType[] {
-  return [CONST_KENSA, CONST_SOUDAN, CONST_HASSEI];
-}
-
-function determineFileTypeByFileName(filePath: string): fileType {
+function determineFileTypeByFileName(filePath: string): string {
   const fileName = getFileNameFromPath(filePath);
   // I know this is ugly, but they don't name properly...
   if (/^kensa/.test(fileName)) return CONST_KENSA;
@@ -15,4 +10,4 @@ function determineFileTypeByFileName(filePath: string): fileType {
   return CONST_HASSEI;
 }
 
-export { determineFileTypeByFileName, getFileTypes };
+export { determineFileTypeByFileName };

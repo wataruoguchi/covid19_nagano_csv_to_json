@@ -1,11 +1,3 @@
-export type fileType = "kensa" | "soudan" | "hasseijoukyou" | "null";
-
-export type item = {
-  type: fileType;
-  data: string;
-  path: string;
-};
-
 export type kensa = {
   date: string;
   num_total: number | string;
@@ -38,20 +30,4 @@ export type hasseijoukyou = {
   status2: string;
   misc: string;
   group?: number;
-};
-
-export type dirs = {
-  src?: string;
-  tmp?: string;
-  dist?: string;
-};
-
-export type convertOptions = {
-  csv: object;
-  postProcess: Function;
-};
-
-export type summaryType = {
-  日付: string;
-  小計: number;
 };
