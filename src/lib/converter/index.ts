@@ -1,7 +1,7 @@
 const fs = require("fs");
 const encoding = require("encoding-japanese");
 const csv = require("csv-parser");
-import { item, dirs, convertOptions } from "./types";
+import { item, dirs, convertOptions } from "../types";
 import { getFileNameFromPath, buildJsonPath } from "./utils";
 
 function saveEncodedCSV(item: item, encoded: string, dirs: dirs) {
@@ -56,4 +56,4 @@ function converter(item: item, opts: convertOptions, dirs: dirs): Promise<any> {
   });
 }
 
-export { converter, buildJsonPath };
+export { converter };

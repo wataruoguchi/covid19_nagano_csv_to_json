@@ -44,6 +44,7 @@
     "csv-parser": "^2.3.2",
     "download": "^7.1.0",
     "encoding-japanese": "^1.0.30",
-    "headless-chrome-crawler": "^1.8.0"
+    "headless-chrome-crawler": "^1.8.0",
+    "types_opendata_spec_covid19": "^1.0.2"
   }
 }
