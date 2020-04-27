@@ -1,7 +1,7 @@
-import { scraperConfigs } from "../configs";
 import { crawler } from "./crawler";
+import { scraperConfigType } from "../types";
 
-function launchCrawler(): Promise<string[]> {
+function launchCrawler(scraperConfigs: scraperConfigType): Promise<string[]> {
   let filePaths: string[] = [];
 
   function onSuccess(res: { result: string[] }) {

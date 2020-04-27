@@ -1,16 +1,22 @@
+import { convertOptions } from "../types";
+import { convertProps } from "../converter/utils";
+import { kensa, soudan, hasseijoukyou } from "./types";
+import { patient, testCount, callCenter } from "./nagano_opendata_spec_covid19";
 import {
-  kensa,
-  soudan,
-  hasseijoukyou,
-  convertOptions,
-  fileType
-} from "./types/types";
-import { convertProps } from "./utils";
-import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
+  CONST_KENSA,
+  CONST_SOUDAN,
+  CONST_HASSEI,
+  CONST_PATIENTS,
+  CONST_TEST_COUNT,
+  CONST_CALL_CENTER
+} from "./const";
 
-function convertOpts(fileType: fileType): convertOptions {
+const encoding = ["UNICODE", "SJIS"];
+
+function convertOpts(fileType: string): convertOptions {
   // options for different data sets. Read Only.
   const kensaOpt: convertOptions = {
+    encoding,
     csv: {
       skipLines: 5, // Ignoring weird lines such as "新型コロナウイルス感染症に係る検査件数について"
       headers: ["date", "num_total", "num_sub1", "num_sub2", "misc"]
@@ -35,6 +41,7 @@ function convertOpts(fileType: fileType): convertOptions {
     }
   };
   const soudanOpts: convertOptions = {
+    encoding,
     csv: {
       skipLines: 5, // Ignoring weird lines such as "新型コロナウイルス感染症に関する相談状況について"
       headers: [
@@ -62,6 +69,7 @@ function convertOpts(fileType: fileType): convertOptions {
     }
   };
   const hasseijoukyouOpt: convertOptions = {
+    encoding,
     csv: {
       skipLines: 5, // Ignoring weird lines such as "長野県内の新型コロナウイルス感染症患者の発生状況"
       headers: [
@@ -103,11 +111,88 @@ function convertOpts(fileType: fileType): convertOptions {
         });
     }
   };
+  const patientOpt: convertOptions = {
+    encoding,
+    csv: {
+      skipLines: 2, // 陽性患者属性
+      headers: [
+        "no",
+        "regionCode",
+        "namePref",
+        "nameMunicipal",
+        "pubYMD",
+        "onsetYMD",
+        "residentialArea",
+        "ageRange",
+        "gender",
+        "occupation",
+        "status",
+        "symptom",
+        "hasTravelHistory",
+        "discharged",
+        "misc"
+      ]
+    },
+    postProcess(results: patient[]) {
+      return results.map((row) => {
+        return convertProps.stringToNum(convertProps.stringScrub(row));
+      });
+    }
+  };
+  const testCountOpt: convertOptions = {
+    encoding,
+    csv: {
+      skipLines: 2, // 検査実施状況
+      headers: [
+        "YMD",
+        "regionCode",
+        "namePref",
+        "nameMunicipal",
+        "testedNum",
+        "misc",
+        "positiveNum",
+        "negativeNum"
+      ]
+    },
+    postProcess(results: testCount[]) {
+      return results.map((row) => {
+        return convertProps.stringToNum(convertProps.stringScrub(row));
+      });
+    }
+  };
+  const callCenterOpt: convertOptions = {
+    encoding,
+    csv: {
+      skipLines: 2, // 相談状況
+      headers: [
+        "YMD",
+        "regionCode",
+        "namePref",
+        "nameMunicipal",
+        "num",
+        "misc",
+        "hasSymptomNum",
+        "safetyNum",
+        "preventionNum",
+        "treatmentNum",
+        "actionNum",
+        "otherNum"
+      ]
+    },
+    postProcess(results: callCenter[]) {
+      return results.map((row) => {
+        return convertProps.stringToNum(convertProps.stringScrub(row));
+      });
+    }
+  };
   const opts: { [key: string]: convertOptions } = {};
   // TODO TS beginner - Can it be better?
   opts[CONST_KENSA] = kensaOpt;
   opts[CONST_SOUDAN] = soudanOpts;
   opts[CONST_HASSEI] = hasseijoukyouOpt;
+  opts[CONST_PATIENTS] = patientOpt;
+  opts[CONST_TEST_COUNT] = testCountOpt;
+  opts[CONST_CALL_CENTER] = callCenterOpt;
   return opts[fileType];
 }
 

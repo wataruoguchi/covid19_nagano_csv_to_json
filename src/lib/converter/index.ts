@@ -1,11 +1,11 @@
 const fs = require("fs");
 const encoding = require("encoding-japanese");
 const csv = require("csv-parser");
-import { item, dirs, convertOptions } from "./types/types";
+import { item, dirs, convertOptions } from "../types";
 import { getFileNameFromPath, buildJsonPath } from "./utils";
-import { configs } from "./configs";
 
 function saveEncodedCSV(item: item, encoded: string, dirs: dirs) {
+  if (!item.type) return;
   // Just getting back up. The file name is same as they named.
   const rawFilePath = `${dirs.tmp}/${getFileNameFromPath(item.path)}`;
   fs.writeFileSync(rawFilePath, encoded);
@@ -29,8 +29,12 @@ function converter(item: item, opts: convertOptions, dirs: dirs): Promise<any> {
   // 2. Remove useless lines from top and bottom
   // 3. Convert CSV to JSON
   return new Promise((resolve, reject) => {
-    const encoded = encoding.convert(item.data, ...configs.encoding);
+    const encoded = encoding.convert(item.data, ...opts.encoding);
     const filePath = saveEncodedCSV(item, encoded, dirs);
+    if (!item.type || !filePath) {
+      reject();
+      return;
+    }
     try {
       const results: any[] = [];
       fs.createReadStream(filePath)
@@ -38,7 +42,7 @@ function converter(item: item, opts: convertOptions, dirs: dirs): Promise<any> {
         .on("data", (data: any) => results.push(data))
         .on("end", () => {
           const newResults = opts.postProcess(results);
-          if (newResults.length) {
+          if (item.type && newResults.length) {
             fs.writeFileSync(
               buildJsonPath(item.type, dirs.dist || ""),
               JSON.stringify(newResults, null, 2)
@@ -52,4 +56,4 @@ function converter(item: item, opts: convertOptions, dirs: dirs): Promise<any> {
   });
 }
 
-export { converter, buildJsonPath };
+export { converter };

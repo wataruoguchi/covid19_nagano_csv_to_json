@@ -1,17 +1,5 @@
-const fs = require("fs");
-import {
-  dirs,
-  kensa,
-  soudan,
-  hasseijoukyou,
-  summaryType,
-  fileType
-} from "./types/types";
-import { CONST_KENSA, CONST_SOUDAN, CONST_HASSEI } from "./const";
-import { buildJsonPath, setLabelFromDateStr } from "./utils";
-import { openLocalFiles } from "./openLocalFiles";
 /**
- * This is an optional script. It creates a JSON file that's following format of the following file:
+ * It creates a JSON file that's following format of the following file:
  * https://github.com/tokyo-metropolitan-gov/covid19/blob/master/data/data.json
  *
  * Reference:
@@ -19,11 +7,12 @@ import { openLocalFiles } from "./openLocalFiles";
  * - https://docs.google.com/spreadsheets/d/1SzMw0_Kg4MJJmgafq0NUeYEKdxAiyvPT_wWxWl-zrNw/edit#gid=0
  */
 
-type summary = {
-  json: (kensa & soudan & hasseijoukyou)[];
-  path: string;
-  type: fileType;
-};
+import { dataJsonSummaryType } from "../../types";
+import { kensa, soudan, hasseijoukyou } from "../types";
+import {
+  setLabelFromJapaneseShortDateStr,
+  addDate1
+} from "../../converter/utils";
 
 function calcByStatus(json: hasseijoukyou[], status: string): number {
   return json.reduce((acc, row: hasseijoukyou) => {
@@ -34,69 +23,17 @@ function calcByStatus(json: hasseijoukyou[], status: string): number {
   }, 0);
 }
 
-async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
-  // Mapping multiple data into data.json
-  const [soudanJson] = resAll
-    .filter((res) => res.type === CONST_SOUDAN)
-    .map((res) => res.json);
-  const [kensaJson] = resAll
-    .filter((res) => res.type === CONST_KENSA)
-    .map((res) => res.json);
-  const [hasseijoukyouJson] = resAll
-    .filter((res) => res.type === CONST_HASSEI)
-    .map((res) => res.json);
-  const dataBasedOnSoudan = buildDataBySoudan(soudanJson);
-  const dataBasedOnKensa = buildDataByKensa(kensaJson);
-  const dataBasedOnHassei = buildDataByHasseiAndKensa(
-    hasseijoukyouJson,
-    kensaJson
-  );
-
-  let currentDataItem;
-  try {
-    [currentDataItem] = await openLocalFiles([
-      buildJsonPath("data.json", dirs.dist || "")
-    ]);
-  } catch {
-    currentDataItem = "{}";
-  }
-
-  const currentData = currentDataItem ? JSON.parse(currentDataItem) || {} : {};
-  const mappedJson = {
-    ...currentData,
-    ...dataBasedOnSoudan,
-    ...dataBasedOnKensa,
-    ...dataBasedOnHassei
-  };
-
-  return new Promise((resolve, reject) => {
-    try {
-      fs.writeFileSync(
-        buildJsonPath("data.json", dirs.dist || ""),
-        JSON.stringify(mappedJson, null, 2)
-      );
-      resolve();
-    } catch (err) {
-      reject(err);
-    }
-  });
-}
-
-function addDate1(date: Date) {
-  date.setDate(date.getDate() + 1);
-}
-
-function buildDataByKensa(kensaJson: kensa[]) {
-  return kensaJson && kensaJson.length
+function buildDataByKensa(kensaRows: kensa[]): object {
+  return kensaRows && kensaRows.length
     ? {
         inspections: {
-          date: setLabelFromDateStr(
-            kensaJson[kensaJson.length - 1].date,
+          date: setLabelFromJapaneseShortDateStr(
+            kensaRows[kensaRows.length - 1].date,
             "",
             addDate1
           )("reportDate"),
-          data: kensaJson.map((row) => {
-            const dateToLabel = setLabelFromDateStr(row.date, "");
+          data: kensaRows.map((row) => {
+            const dateToLabel = setLabelFromJapaneseShortDateStr(row.date, "");
             return {
               判明日: dateToLabel("判明日"),
               検査検体数: row.num_total,
@@ -113,29 +50,32 @@ function buildDataByKensa(kensaJson: kensa[]) {
           })
         },
         inspections_summary: {
-          date: setLabelFromDateStr(
-            kensaJson[kensaJson.length - 1].date,
+          date: setLabelFromJapaneseShortDateStr(
+            kensaRows[kensaRows.length - 1].date,
             "",
             addDate1
           )("reportDate"),
           data: {
-            県内: kensaJson.map((row) => {
+            県内: kensaRows.map((row) => {
               return Number(row.num_total);
             }),
-            その他: kensaJson.map(() => 0),
-            labels: kensaJson.map((row) => {
-              return setLabelFromDateStr(row.date, row.date)("short_date");
+            その他: kensaRows.map(() => 0),
+            labels: kensaRows.map((row) => {
+              return setLabelFromJapaneseShortDateStr(
+                row.date,
+                row.date
+              )("short_date");
             })
           }
         },
         patients_summary: {
-          date: setLabelFromDateStr(
-            kensaJson[kensaJson.length - 1].date,
+          date: setLabelFromJapaneseShortDateStr(
+            kensaRows[kensaRows.length - 1].date,
             "",
             addDate1
           )("reportDate"),
-          data: kensaJson.map((row) => {
-            const dateToLabel = setLabelFromDateStr(row.date, "");
+          data: kensaRows.map((row) => {
+            const dateToLabel = setLabelFromJapaneseShortDateStr(row.date, "");
             return {
               日付: dateToLabel("日付"),
               小計: row.positive,
@@ -145,8 +85,8 @@ function buildDataByKensa(kensaJson: kensa[]) {
             };
           })
         },
-        lastUpdate: setLabelFromDateStr(
-          kensaJson[kensaJson.length - 1].date,
+        lastUpdate: setLabelFromJapaneseShortDateStr(
+          kensaRows[kensaRows.length - 1].date,
           "",
           addDate1
         )("reportDate")
@@ -154,19 +94,22 @@ function buildDataByKensa(kensaJson: kensa[]) {
     : {};
 }
 
-function buildDataBySoudan(soudanJson: soudan[]) {
-  return soudanJson && soudanJson.length
+function buildDataBySoudan(soudanRows: soudan[]): object {
+  return soudanRows && soudanRows.length
     ? {
         contacts: {
-          date: setLabelFromDateStr(
-            soudanJson[soudanJson.length - 1].date,
+          date: setLabelFromJapaneseShortDateStr(
+            soudanRows[soudanRows.length - 1].date,
             "",
             addDate1
           )("reportDate"),
-          data: soudanJson
+          data: soudanRows
             .filter((row) => row.date)
             .map((row) => {
-              const dateToLabel = setLabelFromDateStr(row.date, "");
+              const dateToLabel = setLabelFromJapaneseShortDateStr(
+                row.date,
+                ""
+              );
               return {
                 日付: dateToLabel("日付"),
                 曜日: dateToLabel("曜日"),
@@ -186,22 +129,22 @@ function buildDataBySoudan(soudanJson: soudan[]) {
 }
 
 function buildDataByHasseiAndKensa(
-  hasseijoukyouJson: hasseijoukyou[],
-  kensaJson: kensa[]
-) {
-  return hasseijoukyouJson &&
-    hasseijoukyouJson.length &&
-    kensaJson &&
-    kensaJson.length
+  hasseijoukyouRows: hasseijoukyou[],
+  kensaRows: kensa[]
+): object {
+  return hasseijoukyouRows &&
+    hasseijoukyouRows.length &&
+    kensaRows &&
+    kensaRows.length
     ? {
         patients: {
-          date: setLabelFromDateStr(
-            kensaJson[kensaJson.length - 1].date,
+          date: setLabelFromJapaneseShortDateStr(
+            kensaRows[kensaRows.length - 1].date,
             "",
             addDate1
           )("reportDate"),
-          data: hasseijoukyouJson.map((row: hasseijoukyou) => {
-            const dateToLabel = setLabelFromDateStr(row.date, "");
+          data: hasseijoukyouRows.map((row: hasseijoukyou) => {
+            const dateToLabel = setLabelFromJapaneseShortDateStr(row.date, "");
             return {
               リリース日: dateToLabel("日付"),
               曜日: dateToLabel("w"),
@@ -214,14 +157,14 @@ function buildDataByHasseiAndKensa(
           })
         },
         discharges_summary: {
-          date: setLabelFromDateStr(
-            kensaJson[kensaJson.length - 1].date,
+          date: setLabelFromJapaneseShortDateStr(
+            kensaRows[kensaRows.length - 1].date,
             "",
             addDate1
           )("reportDate"),
-          data: (function (): summaryType[] {
+          data: (function (): dataJsonSummaryType[] {
             const hasseiMap = new Map();
-            hasseijoukyouJson
+            hasseijoukyouRows
               .filter((row: hasseijoukyou) => row.status === "退院")
               .forEach((row: hasseijoukyou) => {
                 const val = hasseiMap.get(row.date);
@@ -231,10 +174,10 @@ function buildDataByHasseiAndKensa(
                   hasseiMap.set(row.date, 1);
                 }
               });
-            const hasseiArray: summaryType[] = [];
+            const hasseiArray: dataJsonSummaryType[] = [];
             hasseiMap.forEach((val, key) => {
               hasseiArray.push({
-                日付: <string>setLabelFromDateStr(key, "")("日付"),
+                日付: <string>setLabelFromJapaneseShortDateStr(key, "")("日付"),
                 小計: val
               });
             });
@@ -247,25 +190,25 @@ function buildDataByHasseiAndKensa(
         },
         main_summary: {
           attr: "検査実施人数",
-          value: kensaJson.reduce((acc: number, row) => {
+          value: kensaRows.reduce((acc: number, row) => {
             return acc + (Number(row.num_total) || 0);
           }, 0),
           children: [
             {
               attr: "陽性患者数",
-              value: hasseijoukyouJson.length,
+              value: hasseijoukyouRows.length,
               children: [
                 {
                   attr: "入院中",
-                  value: calcByStatus(hasseijoukyouJson, "入院中")
+                  value: calcByStatus(hasseijoukyouRows, "入院中")
                 },
                 {
                   attr: "退院",
-                  value: calcByStatus(hasseijoukyouJson, "退院")
+                  value: calcByStatus(hasseijoukyouRows, "退院")
                 },
                 {
                   attr: "死亡",
-                  value: calcByStatus(hasseijoukyouJson, "死亡")
+                  value: calcByStatus(hasseijoukyouRows, "死亡")
                 }
               ]
             }
@@ -275,4 +218,4 @@ function buildDataByHasseiAndKensa(
     : {};
 }
 
-export { mapper };
+export { buildDataBySoudan, buildDataByKensa, buildDataByHasseiAndKensa };
