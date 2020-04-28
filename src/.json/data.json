@@ -3345,20 +3345,26 @@
     "value": 1680,
     "children": [
       {
-        "attr": "入院中",
-        "value": 50
-      },
-      {
-        "attr": "重症",
-        "value": 0
-      },
-      {
-        "attr": "退院",
-        "value": 16
-      },
-      {
-        "attr": "死亡",
-        "value": 0
+        "attr": "陽性患者数",
+        "value": 66,
+        "children": [
+          {
+            "attr": "入院中",
+            "value": 50
+          },
+          {
+            "attr": "重症",
+            "value": 0
+          },
+          {
+            "attr": "退院",
+            "value": 16
+          },
+          {
+            "attr": "死亡",
+            "value": 0
+          }
+        ]
       }
     ]
   },
