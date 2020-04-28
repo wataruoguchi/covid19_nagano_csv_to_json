@@ -90,20 +90,26 @@ function buildDataByPatientAndTestCount(
         }, 0),
         children: [
           {
-            attr: "入院中",
-            value: hospitalizedNum
-          },
-          {
-            attr: "重症",
-            value: criticalNum
-          },
-          {
-            attr: "退院",
-            value: dischargedNum
-          },
-          {
-            attr: "死亡",
-            value: deadNum
+            attr: "陽性患者数",
+            value: patientRows.length,
+            children: [
+              {
+                attr: "入院中",
+                value: hospitalizedNum
+              },
+              {
+                attr: "重症",
+                value: criticalNum
+              },
+              {
+                attr: "退院",
+                value: dischargedNum
+              },
+              {
+                attr: "死亡",
+                value: deadNum
+              }
+            ]
           }
         ]
       }
