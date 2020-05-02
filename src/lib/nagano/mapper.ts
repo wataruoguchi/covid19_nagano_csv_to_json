@@ -2,20 +2,7 @@ const fs = require("fs");
 import { dirs, summary } from "../types";
 import { buildJsonPath } from "../converter/utils";
 import { openLocalFile } from "../openLocalFiles";
-import {
-  CONST_KENSA,
-  CONST_SOUDAN,
-  CONST_HASSEI,
-  CONST_PATIENTS,
-  CONST_TEST_COUNT,
-  CONST_CALL_CENTER
-} from "./const";
-import { kensa, soudan, hasseijoukyou } from "./types";
-import {
-  buildDataBySoudan,
-  buildDataByKensa,
-  buildDataByHasseiAndKensa
-} from "./mapperChunks/legacyChunk";
+import { CONST_PATIENTS, CONST_TEST_COUNT, CONST_CALL_CENTER } from "./const";
 import { patient, testCount, callCenter } from "./nagano_opendata_spec_covid19";
 import {
   buildDataByPatientAndTestCount,
@@ -25,23 +12,6 @@ import {
 
 async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
   // Mapping multiple data into data.json
-
-  // Legacy chunk
-  const [soudanRows] = resAll
-    .filter((res) => res.type === CONST_SOUDAN)
-    .map((res) => <soudan[]>res.json);
-  const [kensaRows] = resAll
-    .filter((res) => res.type === CONST_KENSA)
-    .map((res) => <kensa[]>res.json);
-  const [hasseijoukyouRows] = resAll
-    .filter((res) => res.type === CONST_HASSEI)
-    .map((res) => <hasseijoukyou[]>res.json);
-  const dataBasedOnSoudan = buildDataBySoudan(soudanRows);
-  const dataBasedOnKensa = buildDataByKensa(kensaRows);
-  const dataBasedOnHassei = buildDataByHasseiAndKensa(
-    hasseijoukyouRows,
-    kensaRows
-  );
 
   // New format chunk
   const [patientRows] = resAll
@@ -73,9 +43,6 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
   const currentData = currentDataItem ? JSON.parse(currentDataItem) || {} : {};
   const mappedJson = {
     ...currentData,
-    ...dataBasedOnSoudan,
-    ...dataBasedOnKensa,
-    ...dataBasedOnHassei,
     ...dataBasedOnPatientAndTestCount, // These new data should overwrite Soudan/Kensa/Hassei based data.
     ...dataBasedOnTestCount,
     ...dataBasedOnCallCenter
