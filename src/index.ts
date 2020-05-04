@@ -38,6 +38,7 @@ function getStackTrace() {
 
 (async function () {
   console.log("STARTED");
+  if (process.env.TEST) console.log("Running with TEST MODE");
   try {
     // 1. Create directories to store files.
     mkDirs(fs, [RAW_CSV_DIR, ENCODED_CSV_DIR, JSON_DIR]);

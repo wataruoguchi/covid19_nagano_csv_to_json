@@ -1,14 +1,12 @@
 const fs = require("fs");
+import { cmpData } from "./cmpData";
 import { dirs, summary } from "../types";
 import { buildJsonPath } from "../converter/utils";
 import { openLocalFile } from "../openLocalFiles";
 import { CONST_PATIENTS, CONST_TEST_COUNT, CONST_CALL_CENTER } from "./const";
 import { patient, testCount, callCenter } from "./nagano_opendata_spec_covid19";
-import {
-  buildDataByPatientAndTestCount,
-  buildDataByTestCount,
-  buildDataByCallCenter
-} from "./mapperChunks/newFormatChunk";
+import { mappedJson } from "./nagano_data_json";
+import { buildData } from "./mapperChunks/newFormatChunk";
 
 async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
   // Mapping multiple data into data.json
@@ -23,6 +21,12 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
   const [callCenterRows] = resAll
     .filter((res) => res.type === CONST_CALL_CENTER)
     .map((res) => <callCenter[]>res.json);
+
+  const {
+    buildDataByPatientAndTestCount,
+    buildDataByTestCount,
+    buildDataByCallCenter
+  } = buildData();
   const dataBasedOnPatientAndTestCount = buildDataByPatientAndTestCount(
     patientRows,
     testCountRows
@@ -40,25 +44,32 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
     currentDataItem = "{}";
   }
 
-  const currentData = currentDataItem ? JSON.parse(currentDataItem) || {} : {};
+  const currentData: mappedJson = currentDataItem
+    ? JSON.parse(currentDataItem) || {}
+    : {};
   const mappedJson = {
     ...currentData,
-    ...dataBasedOnPatientAndTestCount, // These new data should overwrite Soudan/Kensa/Hassei based data.
+    ...dataBasedOnPatientAndTestCount,
     ...dataBasedOnTestCount,
     ...dataBasedOnCallCenter
   };
-
-  return new Promise((resolve, reject) => {
-    try {
-      fs.writeFileSync(
-        buildJsonPath("data.json", dirs.dist || ""),
-        JSON.stringify(mappedJson, null, 2)
-      );
-      resolve();
-    } catch (err) {
-      reject(err);
-    }
-  });
+  if (cmpData(currentData, mappedJson)) {
+    // Same data, do nothing.
+    return Promise.resolve();
+  } else {
+    // We have some updates!
+    return new Promise((resolve, reject) => {
+      try {
+        fs.writeFileSync(
+          buildJsonPath("data.json", dirs.dist || ""),
+          JSON.stringify(mappedJson, null, 2)
+        );
+        resolve();
+      } catch (err) {
+        reject(err);
+      }
+    });
+  }
 }
 
 export { mapper };
