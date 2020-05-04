@@ -1,5 +1,5 @@
 const fs = require("fs");
-import { cmpData } from "./cmpData";
+import { finalizeData } from "./finalizeData";
 import { dirs, summary } from "../types";
 import { buildJsonPath } from "../converter/utils";
 import { openLocalFile } from "../openLocalFiles";
@@ -53,23 +53,17 @@ async function mapper(resAll: summary[], dirs: dirs): Promise<void> {
     ...dataBasedOnTestCount,
     ...dataBasedOnCallCenter
   };
-  if (cmpData(currentData, mappedJson)) {
-    // Same data, do nothing.
-    return Promise.resolve();
-  } else {
-    // We have some updates!
-    return new Promise((resolve, reject) => {
-      try {
-        fs.writeFileSync(
-          buildJsonPath("data.json", dirs.dist || ""),
-          JSON.stringify(mappedJson, null, 2)
-        );
-        resolve();
-      } catch (err) {
-        reject(err);
-      }
-    });
-  }
+  return new Promise((resolve, reject) => {
+    try {
+      fs.writeFileSync(
+        buildJsonPath("data.json", dirs.dist || ""),
+        JSON.stringify(finalizeData(currentData, mappedJson), null, 2)
+      );
+      resolve();
+    } catch (err) {
+      reject(err);
+    }
+  });
 }
 
 export { mapper };
