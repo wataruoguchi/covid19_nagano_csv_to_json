@@ -15,6 +15,7 @@
   "scripts": {
     "build": "tsc -p .",
     "start": "ts-node src/index.ts",
+    "start:test": "TEST=1 ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "type-check": "tsc -p tsconfig.json --noEmit"
   },
@@ -42,6 +43,7 @@
     "axios": "^0.19.2",
     "commander": "^5.0.0",
     "csv-parser": "^2.3.2",
+    "deep-equal": "^2.0.3",
     "download": "^7.1.0",
     "encoding-japanese": "^1.0.30",
     "headless-chrome-crawler": "^1.8.0",

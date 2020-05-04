@@ -42,41 +42,40 @@ function replaceWideNumStrToNumStr(orig: string): string {
   );
 }
 
+function setJapaneseTimeOffset(date: Date): Date {
+  // Japan is 9 hours ahead of UTC.
+  // 32400000 is 9 hours
+  return new Date(date.getTime() - date.getTimezoneOffset() * 60000 + 32400000);
+}
+
 function dateToLabel(date: Date, format: dateToLabelFormat): string | number {
+  const _date = setJapaneseTimeOffset(date);
   function pad(num: number): string {
     return numToStr2digs(num);
   }
   switch (format) {
     case "w":
-      return date.getDay();
+      return _date.getDay();
     case "曜日":
-      return "日月火水木金土".slice(date.getDay(), date.getDay() + 1);
+      return "日月火水木金土".slice(_date.getDay(), _date.getDay() + 1);
     case "reportDate":
-      // TODO: May need to revisit. There's no trustworthy data. I saw ”令和2年3月15日午前9時現在” wasn't updated.
       return (
-        [date.getFullYear(), date.getMonth() + 1, date.getDate()]
+        [_date.getFullYear(), _date.getMonth() + 1, _date.getDate()]
           .map(pad)
-          .join("/") + " 9:00"
+          .join("/") +
+        " " +
+        [_date.getHours(), pad(_date.getMinutes())].join(":")
       );
     case "yyyy-mm-dd":
-      return [date.getFullYear(), date.getMonth() + 1, date.getDate()]
+      return [_date.getFullYear(), _date.getMonth() + 1, _date.getDate()]
         .map(pad)
         .join("-");
     case "日付":
-      const _date = new Date(
-        date.getFullYear(),
-        date.getMonth(),
-        date.getDate()
-      );
-      // The Tokyo repo is 8 hours ahead.
-      // 28800000 is 8 hours
-      return new Date(
-        _date.getTime() - _date.getTimezoneOffset() * 60000 + 28800000
-      ).toISOString();
+      return _date.toISOString();
     case "short_date":
-      return [date.getMonth() + 1, date.getDate()].map(pad).join("/");
+      return [_date.getMonth() + 1, _date.getDate()].map(pad).join("/");
     case "判明日":
-      return [date.getDate(), date.getMonth() + 1, date.getFullYear()]
+      return [_date.getDate(), _date.getMonth() + 1, _date.getFullYear()]
         .map(pad)
         .join("/");
     default:
@@ -130,6 +129,10 @@ function _dateStrToDate(dateStr: string): Date | null {
   newDate.setFullYear(Number(match[1]));
   newDate.setMonth(Number(match[2]) - 1);
   newDate.setDate(Number(match[3]));
+  newDate.setHours(0);
+  newDate.setMinutes(0);
+  newDate.setSeconds(0);
+  newDate.setMilliseconds(0);
   return newDate;
 }
 
@@ -208,5 +211,6 @@ export {
   buildJsonPath,
   setLabelFromJapaneseShortDateStr,
   setLabelFromDateStr,
-  addDate1
+  addDate1,
+  dateToLabel
 };
