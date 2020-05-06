@@ -1,4 +1,4 @@
-import { getFileNameFromPath } from "../converter/utils";
+import { getFileNameFromPath } from "../utils";
 import { CONST_PATIENTS, CONST_TEST_COUNT, CONST_CALL_CENTER } from "./const";
 
 function determineFileTypeByFileName(filePath: string): string {

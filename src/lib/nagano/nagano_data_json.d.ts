@@ -78,9 +78,10 @@ export type contacts = {
   date: string;
   data: contactsRow[];
 };
+type lastUpdate = string;
 
 export type mappedJson = {
-  lastUpdate: string;
+  lastUpdate: lastUpdate;
   patients: patients;
   discharges_summary: discharges_summary;
   main_summary: mainStructure;
@@ -88,4 +89,15 @@ export type mappedJson = {
   inspections_summary: inspections_summary;
   patients_summary: patients_summary;
   contacts: contacts;
+  [index: string]: mappedJsonAttr;
 };
+
+export type mappedJsonAttr =
+  | lastUpdate
+  | patients
+  | discharges_summary
+  | mainStructure
+  | inspections
+  | inspections_summary
+  | patients_summary
+  | contacts;

@@ -1,4 +1,5 @@
 import { mappedJson } from "./nagano_data_json";
+import { keys } from "../utils";
 const deepEqual = require("deep-equal");
 
 /*finalizeData*
@@ -21,29 +22,16 @@ function finalizeData(a: mappedJson, b: mappedJson): mappedJson {
     if (cloneObj.contacts) delete cloneObj.contacts.date;
     return cloneObj;
   });
-  return {
-    contacts: deepEqual(_a.contacts, _b.contacts) ? b.contacts : a.contacts,
-    inspections: deepEqual(_a.inspections, _b.inspections)
-      ? b.inspections
-      : a.inspections,
-    inspections_summary: deepEqual(
-      _a.inspections_summary,
-      _b.inspections_summary
-    )
-      ? b.inspections_summary
-      : a.inspections_summary,
-    patients: deepEqual(_a.patients, _b.patients) ? b.patients : a.patients,
-    patients_summary: deepEqual(_a.patients_summary, _b.patients_summary)
-      ? b.patients_summary
-      : a.patients_summary,
-    discharges_summary: deepEqual(_a.discharges_summary, _b.discharges_summary)
-      ? b.discharges_summary
-      : a.discharges_summary,
-    lastUpdate: deepEqual(_a, _b) ? b.lastUpdate : a.lastUpdate,
-    main_summary: deepEqual(_a.main_summary, _b.main_summary)
-      ? b.main_summary
-      : a.main_summary
+  let finalized: mappedJson = {
+    ...a,
+    lastUpdate: deepEqual(_a, _b) ? a.lastUpdate : b.lastUpdate
   };
+  for (const key of keys(a)) {
+    if (key !== "lastUpdate") {
+      finalized[key] = deepEqual(_a[key], _b[key]) ? a[key] : b[key];
+    }
+  }
+  return finalized;
 }
 
 export { finalizeData };

@@ -14,7 +14,7 @@ import {
   testCount,
   callCenter
 } from "../nagano_opendata_spec_covid19";
-import { setLabelFromDateStr, dateToLabel } from "../../converter/utils";
+import { setLabelFromDateStr, dateToLabel } from "../../utils";
 import {
   patients,
   discharges_summary,
