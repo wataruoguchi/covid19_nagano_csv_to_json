@@ -22,7 +22,11 @@ function finalizeData(a: mappedJson, b: mappedJson): mappedJson {
     return cloneObj;
   });
   return {
+    lastUpdate: deepEqual(_a, _b) ? b.lastUpdate : a.lastUpdate,
     contacts: deepEqual(_a.contacts, _b.contacts) ? b.contacts : a.contacts,
+    discharges_summary: deepEqual(_a.discharges_summary, _b.discharges_summary)
+      ? b.discharges_summary
+      : a.discharges_summary,
     inspections: deepEqual(_a.inspections, _b.inspections)
       ? b.inspections
       : a.inspections,
@@ -32,17 +36,13 @@ function finalizeData(a: mappedJson, b: mappedJson): mappedJson {
     )
       ? b.inspections_summary
       : a.inspections_summary,
+    main_summary: deepEqual(_a.main_summary, _b.main_summary)
+      ? b.main_summary
+      : a.main_summary,
     patients: deepEqual(_a.patients, _b.patients) ? b.patients : a.patients,
     patients_summary: deepEqual(_a.patients_summary, _b.patients_summary)
       ? b.patients_summary
-      : a.patients_summary,
-    discharges_summary: deepEqual(_a.discharges_summary, _b.discharges_summary)
-      ? b.discharges_summary
-      : a.discharges_summary,
-    lastUpdate: deepEqual(_a, _b) ? b.lastUpdate : a.lastUpdate,
-    main_summary: deepEqual(_a.main_summary, _b.main_summary)
-      ? b.main_summary
-      : a.main_summary
+      : a.patients_summary
   };
 }
 
