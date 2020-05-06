@@ -24,11 +24,12 @@ function finalizeData(a: mappedJson, b: mappedJson): mappedJson {
   });
   let finalized: mappedJson = {
     ...a,
-    lastUpdate: deepEqual(_a, _b) ? b.lastUpdate : a.lastUpdate
+    lastUpdate: deepEqual(_a, _b) ? a.lastUpdate : b.lastUpdate
   };
   for (const key of keys(a)) {
-    if (key !== "lastUpdate")
-      finalized[key] = deepEqual(_a[key], _b[key]) ? b[key] : a[key];
+    if (key !== "lastUpdate") {
+      finalized[key] = deepEqual(_a[key], _b[key]) ? a[key] : b[key];
+    }
   }
   return finalized;
 }
