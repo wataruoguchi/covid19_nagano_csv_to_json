@@ -1,7 +1,7 @@
 const fs = require("fs");
 import { finalizeData } from "./finalizeData";
 import { dirs, summary } from "../types";
-import { buildJsonPath } from "../converter/utils";
+import { buildJsonPath } from "../utils";
 import { openLocalFile } from "../openLocalFiles";
 import { CONST_PATIENTS, CONST_TEST_COUNT, CONST_CALL_CENTER } from "./const";
 import { patient, testCount, callCenter } from "./nagano_opendata_spec_covid19";

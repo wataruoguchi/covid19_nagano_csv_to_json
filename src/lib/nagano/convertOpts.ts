@@ -1,5 +1,5 @@
 import { convertOptions } from "../types";
-import { convertProps } from "../converter/utils";
+import { convertProps } from "../utils";
 import { patient, testCount, callCenter } from "./nagano_opendata_spec_covid19";
 import { CONST_PATIENTS, CONST_TEST_COUNT, CONST_CALL_CENTER } from "./const";
 
