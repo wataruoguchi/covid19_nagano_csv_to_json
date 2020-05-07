@@ -11,7 +11,7 @@ const deepEqual = require("deep-equal");
  */
 function finalizeData(a: mappedJson, b: mappedJson): mappedJson {
   // compare two data (except dates.)
-  const [_a, _b] = [a, b].map((obj: mappedJson) => {
+  const [_a, _b] = [a, b].map((obj: mappedJson): any => {
     const cloneObj = JSON.parse(JSON.stringify(obj));
     delete cloneObj.lastUpdate;
     if (cloneObj.patients) delete cloneObj.patients.date;
@@ -20,7 +20,14 @@ function finalizeData(a: mappedJson, b: mappedJson): mappedJson {
     if (cloneObj.inspections_summary) delete cloneObj.inspections_summary.date;
     if (cloneObj.patients_summary) delete cloneObj.patients_summary.date;
     if (cloneObj.contacts) delete cloneObj.contacts.date;
-    return cloneObj;
+    return {
+      patients: cloneObj.patients,
+      discharges_summary: cloneObj.discharges_summary,
+      inspections: cloneObj.inspections,
+      inspections_summary: cloneObj.inspections_summary,
+      patients_summary: cloneObj.patients_summary,
+      contacts: cloneObj.contacts
+    };
   });
   let finalized: mappedJson = {
     ...a,
