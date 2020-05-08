@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2020/05/07 14:03",
+  "lastUpdate": "2020/05/07 22:36",
   "contacts": {
     "date": "2020/05/07 14:03",
     "data": [
@@ -2412,15 +2412,15 @@
   },
   "main_summary": {
     "attr": "検査実施人数",
-    "value": 1965,
+    "value": 2027,
     "children": [
       {
         "attr": "陽性患者数",
-        "value": 72,
+        "value": 73,
         "children": [
           {
             "attr": "入院中",
-            "value": 51
+            "value": 40
           },
           {
             "attr": "重症",
@@ -2428,7 +2428,7 @@
           },
           {
             "attr": "退院",
-            "value": 21
+            "value": 33
           },
           {
             "attr": "死亡",
