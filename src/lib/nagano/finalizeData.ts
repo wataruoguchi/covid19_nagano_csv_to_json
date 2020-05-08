@@ -26,7 +26,8 @@ function finalizeData(a: mappedJson, b: mappedJson): mappedJson {
       inspections: cloneObj.inspections,
       inspections_summary: cloneObj.inspections_summary,
       patients_summary: cloneObj.patients_summary,
-      contacts: cloneObj.contacts
+      contacts: cloneObj.contacts,
+      main_summary: cloneObj.main_summary
     };
   });
   let finalized: mappedJson = {
