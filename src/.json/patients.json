@@ -506,7 +506,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": "帰省先：伊那保健所管内"
   },
   {
@@ -693,7 +693,7 @@
     "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
