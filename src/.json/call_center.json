@@ -1402,5 +1402,18 @@
     "preventionNum": 0,
     "treatmentNum": 1,
     "actionNum": 93
+  },
+  {
+    "YMD": "2020/5/18",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 412,
+    "misc": 290,
+    "hasSymptomNum": 0,
+    "safetyNum": 1,
+    "preventionNum": 0,
+    "treatmentNum": 12,
+    "actionNum": 178
   }
 ]
