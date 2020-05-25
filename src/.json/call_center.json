@@ -1447,12 +1447,51 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 20,
+    "num": 220,
     "misc": 173,
     "hasSymptomNum": 0,
     "safetyNum": 2,
     "preventionNum": 0,
     "treatmentNum": 5,
     "actionNum": 108
+  },
+  {
+    "YMD": "2020/5/22",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 243,
+    "misc": 167,
+    "hasSymptomNum": 0,
+    "safetyNum": 1,
+    "preventionNum": 0,
+    "treatmentNum": 7,
+    "actionNum": 98
+  },
+  {
+    "YMD": "2020/5/23",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 192,
+    "misc": 135,
+    "hasSymptomNum": 0,
+    "safetyNum": 1,
+    "preventionNum": 0,
+    "treatmentNum": 0,
+    "actionNum": 86
+  },
+  {
+    "YMD": "2020/5/24",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 165,
+    "misc": 128,
+    "hasSymptomNum": 0,
+    "safetyNum": 0,
+    "preventionNum": 0,
+    "treatmentNum": 1,
+    "actionNum": 103
   }
 ]
