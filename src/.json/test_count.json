@@ -1221,12 +1221,22 @@
   },
   {
     "YMD": "2020/6/16",
-    "regionCode": 200001,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "testedNum": 19,
     "misc": "",
     "positiveNum": 0,
     "negativeNum": 19
+  },
+  {
+    "YMD": "2020/6/17",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 18,
+    "misc": "",
+    "positiveNum": 0,
+    "negativeNum": 18
   }
 ]
