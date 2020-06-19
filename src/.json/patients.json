@@ -1290,5 +1290,22 @@
     "hasTravelHistory": 0,
     "discharged": 1,
     "misc": ""
+  },
+  {
+    "no": 77,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "長野市",
+    "pubYMD": "2020/6/19",
+    "onsetYMD": "",
+    "residentialArea": "長野市",
+    "ageRange": "30代",
+    "gender": "女性",
+    "occupation": "-",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
   }
 ]
