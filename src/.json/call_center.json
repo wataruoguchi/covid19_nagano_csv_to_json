@@ -1674,7 +1674,7 @@
     "safetyNum": 0,
     "preventionNum": 0,
     "treatmentNum": 0,
-    "actionNum": 63
+    "actionNum": 64
   },
   {
     "YMD": "2020/6/8",
@@ -1902,12 +1902,51 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 219,
+    "num": 221,
     "misc": 180,
     "hasSymptomNum": 0,
     "safetyNum": 1,
     "preventionNum": 0,
     "treatmentNum": 3,
     "actionNum": 98
+  },
+  {
+    "YMD": "2020/6/26",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 222,
+    "misc": 160,
+    "hasSymptomNum": 0,
+    "safetyNum": 0,
+    "preventionNum": 0,
+    "treatmentNum": 8,
+    "actionNum": 74
+  },
+  {
+    "YMD": "2020/6/27",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 131,
+    "misc": 105,
+    "hasSymptomNum": 0,
+    "safetyNum": 1,
+    "preventionNum": 0,
+    "treatmentNum": 0,
+    "actionNum": 42
+  },
+  {
+    "YMD": "2020/6/28",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 138,
+    "misc": 112,
+    "hasSymptomNum": 0,
+    "safetyNum": 0,
+    "preventionNum": 0,
+    "treatmentNum": 0,
+    "actionNum": 68
   }
 ]
