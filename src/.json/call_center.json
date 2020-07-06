@@ -1588,9 +1588,9 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 215,
+    "num": 214,
     "misc": 147,
-    "hasSymptomNum": 68
+    "hasSymptomNum": 67
   },
   {
     "YMD": "2020/7/2",
@@ -1600,5 +1600,32 @@
     "num": 189,
     "misc": 128,
     "hasSymptomNum": 61
+  },
+  {
+    "YMD": "2020/7/3",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 201,
+    "misc": 133,
+    "hasSymptomNum": 68
+  },
+  {
+    "YMD": "2020/7/4",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 123,
+    "misc": 88,
+    "hasSymptomNum": 35
+  },
+  {
+    "YMD": "2020/7/5",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 117,
+    "misc": 83,
+    "hasSymptomNum": 34
   }
 ]
