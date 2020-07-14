@@ -6,8 +6,8 @@
     "nameMunicipal": "",
     "testedNum": 4,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 4
   },
   {
     "YMD": "2020/2/15",
@@ -16,8 +16,8 @@
     "nameMunicipal": "",
     "testedNum": 1,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 1
   },
   {
     "YMD": "2020/2/16",
@@ -26,8 +26,8 @@
     "nameMunicipal": "",
     "testedNum": 1,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 1
   },
   {
     "YMD": "2020/2/17",
@@ -36,8 +36,8 @@
     "nameMunicipal": "",
     "testedNum": 3,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 3
   },
   {
     "YMD": "2020/2/18",
@@ -46,8 +46,8 @@
     "nameMunicipal": "",
     "testedNum": 2,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 2
   },
   {
     "YMD": "2020/2/19",
@@ -56,8 +56,8 @@
     "nameMunicipal": "",
     "testedNum": 6,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 6
   },
   {
     "YMD": "2020/2/20",
@@ -66,8 +66,8 @@
     "nameMunicipal": "",
     "testedNum": 5,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 5
   },
   {
     "YMD": "2020/2/21",
@@ -76,8 +76,8 @@
     "nameMunicipal": "",
     "testedNum": 5,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 5
   },
   {
     "YMD": "2020/2/22",
@@ -86,8 +86,8 @@
     "nameMunicipal": "",
     "testedNum": 6,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 6
   },
   {
     "YMD": "2020/2/23",
@@ -96,8 +96,8 @@
     "nameMunicipal": "",
     "testedNum": 4,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 4
   },
   {
     "YMD": "2020/2/24",
@@ -106,8 +106,8 @@
     "nameMunicipal": "",
     "testedNum": 3,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 2
   },
   {
     "YMD": "2020/2/25",
@@ -116,8 +116,8 @@
     "nameMunicipal": "",
     "testedNum": 13,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 12
   },
   {
     "YMD": "2020/2/26",
@@ -126,8 +126,8 @@
     "nameMunicipal": "",
     "testedNum": 16,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 16
   },
   {
     "YMD": "2020/2/27",
@@ -136,8 +136,8 @@
     "nameMunicipal": "",
     "testedNum": 17,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 17
   },
   {
     "YMD": "2020/2/28",
@@ -146,8 +146,8 @@
     "nameMunicipal": "",
     "testedNum": 9,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 9
   },
   {
     "YMD": "2020/2/29",
@@ -156,8 +156,8 @@
     "nameMunicipal": "",
     "testedNum": 4,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 4
   },
   {
     "YMD": "2020/3/1",
@@ -166,8 +166,8 @@
     "nameMunicipal": "",
     "testedNum": 7,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 7
   },
   {
     "YMD": "2020/3/2",
@@ -176,8 +176,8 @@
     "nameMunicipal": "",
     "testedNum": 22,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 22
   },
   {
     "YMD": "2020/3/3",
@@ -186,8 +186,8 @@
     "nameMunicipal": "",
     "testedNum": 10,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 10
   },
   {
     "YMD": "2020/3/4",
@@ -196,8 +196,8 @@
     "nameMunicipal": "",
     "testedNum": 14,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 14
   },
   {
     "YMD": "2020/3/5",
@@ -206,8 +206,8 @@
     "nameMunicipal": "",
     "testedNum": 26,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 25
   },
   {
     "YMD": "2020/3/6",
@@ -216,8 +216,8 @@
     "nameMunicipal": "",
     "testedNum": 21,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 21
   },
   {
     "YMD": "2020/3/7",
@@ -226,8 +226,8 @@
     "nameMunicipal": "",
     "testedNum": 5,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 5
   },
   {
     "YMD": "2020/3/8",
@@ -236,8 +236,8 @@
     "nameMunicipal": "",
     "testedNum": 6,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 6
   },
   {
     "YMD": "2020/3/9",
@@ -246,8 +246,8 @@
     "nameMunicipal": "",
     "testedNum": 23,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 23
   },
   {
     "YMD": "2020/3/10",
@@ -256,8 +256,8 @@
     "nameMunicipal": "",
     "testedNum": 12,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 12
   },
   {
     "YMD": "2020/3/11",
@@ -266,8 +266,8 @@
     "nameMunicipal": "",
     "testedNum": 7,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 7
   },
   {
     "YMD": "2020/3/12",
@@ -276,8 +276,8 @@
     "nameMunicipal": "",
     "testedNum": 8,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 7
   },
   {
     "YMD": "2020/3/13",
@@ -286,8 +286,8 @@
     "nameMunicipal": "",
     "testedNum": 15,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 15
   },
   {
     "YMD": "2020/3/14",
@@ -296,8 +296,8 @@
     "nameMunicipal": "",
     "testedNum": 6,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 6
   },
   {
     "YMD": "2020/3/15",
@@ -306,8 +306,8 @@
     "nameMunicipal": "",
     "testedNum": 4,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 4
   },
   {
     "YMD": "2020/3/16",
@@ -316,8 +316,8 @@
     "nameMunicipal": "",
     "testedNum": 12,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 12
   },
   {
     "YMD": "2020/3/17",
@@ -326,8 +326,8 @@
     "nameMunicipal": "",
     "testedNum": 8,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 8
   },
   {
     "YMD": "2020/3/18",
@@ -336,8 +336,8 @@
     "nameMunicipal": "",
     "testedNum": 11,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 11
   },
   {
     "YMD": "2020/3/19",
@@ -346,8 +346,8 @@
     "nameMunicipal": "",
     "testedNum": 16,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 16
   },
   {
     "YMD": "2020/3/20",
@@ -356,8 +356,8 @@
     "nameMunicipal": "",
     "testedNum": 1,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 1
   },
   {
     "YMD": "2020/3/21",
@@ -366,8 +366,8 @@
     "nameMunicipal": "",
     "testedNum": 4,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 4
   },
   {
     "YMD": "2020/3/22",
@@ -376,8 +376,8 @@
     "nameMunicipal": "",
     "testedNum": 2,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 2
   },
   {
     "YMD": "2020/3/23",
@@ -386,8 +386,8 @@
     "nameMunicipal": "",
     "testedNum": 18,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 17
   },
   {
     "YMD": "2020/3/24",
@@ -396,8 +396,8 @@
     "nameMunicipal": "",
     "testedNum": 14,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 14
   },
   {
     "YMD": "2020/3/25",
@@ -406,8 +406,8 @@
     "nameMunicipal": "",
     "testedNum": 23,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 23
   },
   {
     "YMD": "2020/3/26",
@@ -416,8 +416,8 @@
     "nameMunicipal": "",
     "testedNum": 22,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 21
   },
   {
     "YMD": "2020/3/27",
@@ -426,8 +426,8 @@
     "nameMunicipal": "",
     "testedNum": 43,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 42
   },
   {
     "YMD": "2020/3/28",
@@ -436,8 +436,8 @@
     "nameMunicipal": "",
     "testedNum": 21,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 20
   },
   {
     "YMD": "2020/3/29",
@@ -446,8 +446,8 @@
     "nameMunicipal": "",
     "testedNum": 24,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 24
   },
   {
     "YMD": "2020/3/30",
@@ -456,8 +456,8 @@
     "nameMunicipal": "",
     "testedNum": 54,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 54
   },
   {
     "YMD": "2020/3/31",
@@ -466,8 +466,8 @@
     "nameMunicipal": "",
     "testedNum": 43,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 42
   },
   {
     "YMD": "2020/4/1",
@@ -476,8 +476,8 @@
     "nameMunicipal": "",
     "testedNum": 30,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 30
   },
   {
     "YMD": "2020/4/2",
@@ -486,8 +486,8 @@
     "nameMunicipal": "",
     "testedNum": 43,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 2,
+    "negativeNum": 41
   },
   {
     "YMD": "2020/4/3",
@@ -496,8 +496,8 @@
     "nameMunicipal": "",
     "testedNum": 47,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 47
   },
   {
     "YMD": "2020/4/4",
@@ -506,8 +506,8 @@
     "nameMunicipal": "",
     "testedNum": 22,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 21
   },
   {
     "YMD": "2020/4/5",
@@ -516,8 +516,8 @@
     "nameMunicipal": "",
     "testedNum": 26,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 2,
+    "negativeNum": 24
   },
   {
     "YMD": "2020/4/6",
@@ -526,8 +526,8 @@
     "nameMunicipal": "",
     "testedNum": 64,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 2,
+    "negativeNum": 62
   },
   {
     "YMD": "2020/4/7",
@@ -536,8 +536,8 @@
     "nameMunicipal": "",
     "testedNum": 59,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 4,
+    "negativeNum": 55
   },
   {
     "YMD": "2020/4/8",
@@ -546,8 +546,8 @@
     "nameMunicipal": "",
     "testedNum": 58,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 57
   },
   {
     "YMD": "2020/4/9",
@@ -556,8 +556,8 @@
     "nameMunicipal": "",
     "testedNum": 68,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 7,
+    "negativeNum": 61
   },
   {
     "YMD": "2020/4/10",
@@ -566,8 +566,8 @@
     "nameMunicipal": "",
     "testedNum": 47,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 46
   },
   {
     "YMD": "2020/4/11",
@@ -576,8 +576,8 @@
     "nameMunicipal": "",
     "testedNum": 48,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 5,
+    "negativeNum": 43
   },
   {
     "YMD": "2020/4/12",
@@ -586,8 +586,8 @@
     "nameMunicipal": "",
     "testedNum": 31,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 2,
+    "negativeNum": 29
   },
   {
     "YMD": "2020/4/13",
@@ -596,8 +596,8 @@
     "nameMunicipal": "",
     "testedNum": 67,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 2,
+    "negativeNum": 65
   },
   {
     "YMD": "2020/4/14",
@@ -606,8 +606,8 @@
     "nameMunicipal": "",
     "testedNum": 58,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 5,
+    "negativeNum": 53
   },
   {
     "YMD": "2020/4/15",
@@ -616,8 +616,8 @@
     "nameMunicipal": "",
     "testedNum": 55,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 2,
+    "negativeNum": 53
   },
   {
     "YMD": "2020/4/16",
@@ -626,8 +626,8 @@
     "nameMunicipal": "",
     "testedNum": 53,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 52
   },
   {
     "YMD": "2020/4/17",
@@ -636,8 +636,8 @@
     "nameMunicipal": "",
     "testedNum": 47,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 2,
+    "negativeNum": 45
   },
   {
     "YMD": "2020/4/18",
@@ -646,8 +646,8 @@
     "nameMunicipal": "",
     "testedNum": 41,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 4,
+    "negativeNum": 37
   },
   {
     "YMD": "2020/4/19",
@@ -656,8 +656,8 @@
     "nameMunicipal": "",
     "testedNum": 14,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 13
   },
   {
     "YMD": "2020/4/20",
@@ -666,8 +666,8 @@
     "nameMunicipal": "",
     "testedNum": 68,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 67
   },
   {
     "YMD": "2020/4/21",
@@ -676,8 +676,8 @@
     "nameMunicipal": "",
     "testedNum": 44,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 7,
+    "negativeNum": 37
   },
   {
     "YMD": "2020/4/22",
@@ -686,8 +686,8 @@
     "nameMunicipal": "",
     "testedNum": 38,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 37
   },
   {
     "YMD": "2020/4/23",
@@ -696,8 +696,8 @@
     "nameMunicipal": "",
     "testedNum": 64,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 3,
+    "negativeNum": 61
   },
   {
     "YMD": "2020/4/24",
@@ -706,8 +706,8 @@
     "nameMunicipal": "",
     "testedNum": 61,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 60
   },
   {
     "YMD": "2020/4/25",
@@ -716,8 +716,8 @@
     "nameMunicipal": "",
     "testedNum": 29,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 29
   },
   {
     "YMD": "2020/4/26",
@@ -726,8 +726,8 @@
     "nameMunicipal": "",
     "testedNum": 10,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 10
   },
   {
     "YMD": "2020/4/27",
@@ -736,8 +736,8 @@
     "nameMunicipal": "",
     "testedNum": 78,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 78
   },
   {
     "YMD": "2020/4/28",
@@ -746,8 +746,8 @@
     "nameMunicipal": "",
     "testedNum": 58,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 58
   },
   {
     "YMD": "2020/4/29",
@@ -756,8 +756,8 @@
     "nameMunicipal": "",
     "testedNum": 8,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 8
   },
   {
     "YMD": "2020/4/30",
@@ -766,8 +766,8 @@
     "nameMunicipal": "",
     "testedNum": 41,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 41
   },
   {
     "YMD": "2020/5/1",
@@ -776,8 +776,8 @@
     "nameMunicipal": "",
     "testedNum": 42,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 4,
+    "negativeNum": 38
   },
   {
     "YMD": "2020/5/2",
@@ -786,8 +786,8 @@
     "nameMunicipal": "",
     "testedNum": 25,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 25
   },
   {
     "YMD": "2020/5/3",
@@ -796,8 +796,8 @@
     "nameMunicipal": "",
     "testedNum": 67,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 2,
+    "negativeNum": 65
   },
   {
     "YMD": "2020/5/4",
@@ -806,8 +806,8 @@
     "nameMunicipal": "",
     "testedNum": 28,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 28
   },
   {
     "YMD": "2020/5/5",
@@ -816,8 +816,8 @@
     "nameMunicipal": "",
     "testedNum": 32,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 31
   },
   {
     "YMD": "2020/5/6",
@@ -826,8 +826,8 @@
     "nameMunicipal": "",
     "testedNum": 31,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 30
   },
   {
     "YMD": "2020/5/7",
@@ -836,8 +836,8 @@
     "nameMunicipal": "",
     "testedNum": 66,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 66
   },
   {
     "YMD": "2020/5/8",
@@ -846,8 +846,8 @@
     "nameMunicipal": "",
     "testedNum": 66,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 65
   },
   {
     "YMD": "2020/5/9",
@@ -856,8 +856,8 @@
     "nameMunicipal": "",
     "testedNum": 32,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 32
   },
   {
     "YMD": "2020/5/10",
@@ -866,8 +866,8 @@
     "nameMunicipal": "",
     "testedNum": 11,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 11
   },
   {
     "YMD": "2020/5/11",
@@ -876,8 +876,8 @@
     "nameMunicipal": "",
     "testedNum": 72,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 71
   },
   {
     "YMD": "2020/5/12",
@@ -886,8 +886,8 @@
     "nameMunicipal": "",
     "testedNum": 46,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 46
   },
   {
     "YMD": "2020/5/13",
@@ -896,8 +896,8 @@
     "nameMunicipal": "",
     "testedNum": 59,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 59
   },
   {
     "YMD": "2020/5/14",
@@ -906,8 +906,8 @@
     "nameMunicipal": "",
     "testedNum": 36,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 36
   },
   {
     "YMD": "2020/5/15",
@@ -916,8 +916,8 @@
     "nameMunicipal": "",
     "testedNum": 66,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 66
   },
   {
     "YMD": "2020/5/16",
@@ -926,8 +926,8 @@
     "nameMunicipal": "",
     "testedNum": 18,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 18
   },
   {
     "YMD": "2020/5/17",
@@ -936,8 +936,8 @@
     "nameMunicipal": "",
     "testedNum": 15,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 15
   },
   {
     "YMD": "2020/5/18",
@@ -946,8 +946,8 @@
     "nameMunicipal": "",
     "testedNum": 60,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 60
   },
   {
     "YMD": "2020/5/19",
@@ -956,8 +956,8 @@
     "nameMunicipal": "",
     "testedNum": 35,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 35
   },
   {
     "YMD": "2020/5/20",
@@ -966,8 +966,8 @@
     "nameMunicipal": "",
     "testedNum": 37,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 37
   },
   {
     "YMD": "2020/5/21",
@@ -976,8 +976,8 @@
     "nameMunicipal": "",
     "testedNum": 34,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 34
   },
   {
     "YMD": "2020/5/22",
@@ -986,8 +986,8 @@
     "nameMunicipal": "",
     "testedNum": 28,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 28
   },
   {
     "YMD": "2020/5/23",
@@ -996,8 +996,8 @@
     "nameMunicipal": "",
     "testedNum": 13,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 13
   },
   {
     "YMD": "2020/5/24",
@@ -1006,8 +1006,8 @@
     "nameMunicipal": "",
     "testedNum": 7,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 7
   },
   {
     "YMD": "2020/5/25",
@@ -1016,8 +1016,8 @@
     "nameMunicipal": "",
     "testedNum": 50,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 50
   },
   {
     "YMD": "2020/5/26",
@@ -1026,8 +1026,8 @@
     "nameMunicipal": "",
     "testedNum": 31,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 31
   },
   {
     "YMD": "2020/5/27",
@@ -1036,8 +1036,8 @@
     "nameMunicipal": "",
     "testedNum": 36,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 36
   },
   {
     "YMD": "2020/5/28",
@@ -1046,8 +1046,8 @@
     "nameMunicipal": "",
     "testedNum": 49,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 49
   },
   {
     "YMD": "2020/5/29",
@@ -1056,8 +1056,8 @@
     "nameMunicipal": "",
     "testedNum": 27,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 27
   },
   {
     "YMD": "2020/5/30",
@@ -1066,8 +1066,8 @@
     "nameMunicipal": "",
     "testedNum": 17,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 17
   },
   {
     "YMD": "2020/5/31",
@@ -1076,8 +1076,8 @@
     "nameMunicipal": "",
     "testedNum": 3,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 3
   },
   {
     "YMD": "2020/6/1",
@@ -1086,8 +1086,8 @@
     "nameMunicipal": "",
     "testedNum": 64,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 64
   },
   {
     "YMD": "2020/6/2",
@@ -1096,8 +1096,8 @@
     "nameMunicipal": "",
     "testedNum": 53,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 53
   },
   {
     "YMD": "2020/6/3",
@@ -1106,8 +1106,8 @@
     "nameMunicipal": "",
     "testedNum": 31,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 31
   },
   {
     "YMD": "2020/6/4",
@@ -1116,8 +1116,8 @@
     "nameMunicipal": "",
     "testedNum": 32,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 32
   },
   {
     "YMD": "2020/6/5",
@@ -1126,8 +1126,8 @@
     "nameMunicipal": "",
     "testedNum": 46,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 46
   },
   {
     "YMD": "2020/6/6",
@@ -1136,8 +1136,8 @@
     "nameMunicipal": "",
     "testedNum": 24,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 24
   },
   {
     "YMD": "2020/6/7",
@@ -1146,8 +1146,8 @@
     "nameMunicipal": "",
     "testedNum": 6,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 6
   },
   {
     "YMD": "2020/6/8",
@@ -1156,8 +1156,8 @@
     "nameMunicipal": "",
     "testedNum": 51,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 51
   },
   {
     "YMD": "2020/6/9",
@@ -1166,8 +1166,8 @@
     "nameMunicipal": "",
     "testedNum": 44,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 44
   },
   {
     "YMD": "2020/6/10",
@@ -1176,8 +1176,8 @@
     "nameMunicipal": "",
     "testedNum": 34,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 34
   },
   {
     "YMD": "2020/6/11",
@@ -1186,8 +1186,8 @@
     "nameMunicipal": "",
     "testedNum": 31,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 31
   },
   {
     "YMD": "2020/6/12",
@@ -1196,8 +1196,8 @@
     "nameMunicipal": "",
     "testedNum": 31,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 31
   },
   {
     "YMD": "2020/6/13",
@@ -1206,8 +1206,8 @@
     "nameMunicipal": "",
     "testedNum": 12,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 12
   },
   {
     "YMD": "2020/6/14",
@@ -1216,8 +1216,8 @@
     "nameMunicipal": "",
     "testedNum": 3,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 3
   },
   {
     "YMD": "2020/6/15",
@@ -1226,8 +1226,8 @@
     "nameMunicipal": "",
     "testedNum": 40,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 40
   },
   {
     "YMD": "2020/6/16",
@@ -1236,8 +1236,8 @@
     "nameMunicipal": "",
     "testedNum": 36,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 36
   },
   {
     "YMD": "2020/6/17",
@@ -1246,8 +1246,8 @@
     "nameMunicipal": "",
     "testedNum": 43,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 1,
+    "negativeNum": 42
   },
   {
     "YMD": "2020/6/18",
@@ -1256,8 +1256,8 @@
     "nameMunicipal": "",
     "testedNum": 24,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 24
   },
   {
     "YMD": "2020/6/19",
@@ -1266,8 +1266,8 @@
     "nameMunicipal": "",
     "testedNum": 43,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 43
   },
   {
     "YMD": "2020/6/20",
@@ -1276,8 +1276,8 @@
     "nameMunicipal": "",
     "testedNum": 9,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 9
   },
   {
     "YMD": "2020/6/21",
@@ -1286,8 +1286,8 @@
     "nameMunicipal": "",
     "testedNum": 4,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 4
   },
   {
     "YMD": "2020/6/22",
@@ -1296,8 +1296,8 @@
     "nameMunicipal": "",
     "testedNum": 46,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 46
   },
   {
     "YMD": "2020/6/23",
@@ -1306,8 +1306,8 @@
     "nameMunicipal": "",
     "testedNum": 44,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 44
   },
   {
     "YMD": "2020/6/24",
@@ -1316,8 +1316,8 @@
     "nameMunicipal": "",
     "testedNum": 50,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 50
   },
   {
     "YMD": "2020/6/25",
@@ -1326,8 +1326,8 @@
     "nameMunicipal": "",
     "testedNum": 48,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 48
   },
   {
     "YMD": "2020/6/26",
@@ -1336,8 +1336,8 @@
     "nameMunicipal": "",
     "testedNum": 62,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 62
   },
   {
     "YMD": "2020/6/27",
@@ -1346,8 +1346,8 @@
     "nameMunicipal": "",
     "testedNum": 21,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 21
   },
   {
     "YMD": "2020/6/28",
@@ -1356,8 +1356,8 @@
     "nameMunicipal": "",
     "testedNum": 13,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 13
   },
   {
     "YMD": "2020/6/29",
@@ -1366,8 +1366,8 @@
     "nameMunicipal": "",
     "testedNum": 74,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 74
   },
   {
     "YMD": "2020/6/30",
@@ -1376,8 +1376,8 @@
     "nameMunicipal": "",
     "testedNum": 44,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 44
   },
   {
     "YMD": "2020/7/1",
@@ -1386,8 +1386,8 @@
     "nameMunicipal": "",
     "testedNum": 73,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 73
   },
   {
     "YMD": "2020/7/2",
@@ -1396,8 +1396,8 @@
     "nameMunicipal": "",
     "testedNum": 43,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 43
   },
   {
     "YMD": "2020/7/3",
@@ -1406,8 +1406,8 @@
     "nameMunicipal": "",
     "testedNum": 57,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 57
   },
   {
     "YMD": "2020/7/4",
@@ -1416,8 +1416,8 @@
     "nameMunicipal": "",
     "testedNum": 17,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 17
   },
   {
     "YMD": "2020/7/5",
@@ -1426,8 +1426,8 @@
     "nameMunicipal": "",
     "testedNum": 13,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 13
   },
   {
     "YMD": "2020/7/6",
@@ -1436,8 +1436,8 @@
     "nameMunicipal": "",
     "testedNum": 64,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 64
   },
   {
     "YMD": "2020/7/7",
@@ -1446,8 +1446,8 @@
     "nameMunicipal": "",
     "testedNum": 54,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 54
   },
   {
     "YMD": "2020/7/8",
@@ -1456,8 +1456,8 @@
     "nameMunicipal": "",
     "testedNum": 54,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 54
   },
   {
     "YMD": "2020/7/9",
@@ -1466,8 +1466,8 @@
     "nameMunicipal": "",
     "testedNum": 52,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 52
   },
   {
     "YMD": "2020/7/10",
@@ -1476,8 +1476,8 @@
     "nameMunicipal": "",
     "testedNum": 54,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 54
   },
   {
     "YMD": "2020/7/11",
@@ -1486,8 +1486,8 @@
     "nameMunicipal": "",
     "testedNum": 51,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 2,
+    "negativeNum": 49
   },
   {
     "YMD": "2020/7/12",
@@ -1496,7 +1496,7 @@
     "nameMunicipal": "",
     "testedNum": 13,
     "misc": "",
-    "positiveNum": "",
-    "negativeNum": ""
+    "positiveNum": 0,
+    "negativeNum": 13
   }
 ]
