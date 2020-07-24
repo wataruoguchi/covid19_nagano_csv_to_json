@@ -1460,5 +1460,22 @@
     "hasTravelHistory": 0,
     "discharged": 0,
     "misc": ""
+  },
+  {
+    "no": 87,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/7/24",
+    "onsetYMD": "",
+    "residentialArea": "諏訪市",
+    "ageRange": "40代",
+    "gender": "女性",
+    "occupation": "医療従事者",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
   }
 ]
