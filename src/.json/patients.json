@@ -1477,5 +1477,22 @@
     "hasTravelHistory": 0,
     "discharged": 0,
     "misc": ""
+  },
+  {
+    "no": 88,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/7/25",
+    "onsetYMD": "",
+    "residentialArea": "東京都",
+    "ageRange": "40代",
+    "gender": "男性",
+    "occupation": "会社員",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
   }
 ]
