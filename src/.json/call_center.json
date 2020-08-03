@@ -1,1856 +1,1702 @@
 [
   {
-    "YMD": "2020/1/7",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/8",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/9",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/10",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/11",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/12",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/13",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/14",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 2,
-    "misc": 0,
-    "hasSymptomNum": 2
-  },
-  {
-    "YMD": "2020/1/15",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/16",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 1,
-    "misc": 0,
-    "hasSymptomNum": 1
-  },
-  {
-    "YMD": "2020/1/17",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 3,
-    "misc": 2,
-    "hasSymptomNum": 1
-  },
-  {
-    "YMD": "2020/1/18",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/19",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 0,
-    "misc": 0,
-    "hasSymptomNum": 0
-  },
-  {
-    "YMD": "2020/1/20",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 4,
-    "misc": 3,
-    "hasSymptomNum": 1
-  },
-  {
-    "YMD": "2020/1/21",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 6,
-    "misc": 2,
-    "hasSymptomNum": 4
-  },
-  {
-    "YMD": "2020/1/22",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 14,
-    "misc": 2,
-    "hasSymptomNum": 12
-  },
-  {
-    "YMD": "2020/1/23",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 9,
-    "misc": 0,
-    "hasSymptomNum": 9
-  },
-  {
-    "YMD": "2020/1/24",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 22,
-    "misc": 3,
-    "hasSymptomNum": 19
-  },
-  {
-    "YMD": "2020/1/25",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 4,
-    "misc": 2,
-    "hasSymptomNum": 2
-  },
-  {
-    "YMD": "2020/1/26",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 4,
-    "misc": 3,
-    "hasSymptomNum": 1
-  },
-  {
-    "YMD": "2020/1/27",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 25,
-    "misc": 6,
-    "hasSymptomNum": 19
-  },
-  {
-    "YMD": "2020/1/28",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 39,
-    "misc": 8,
-    "hasSymptomNum": 31
-  },
-  {
-    "YMD": "2020/1/29",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 82,
-    "misc": 17,
-    "hasSymptomNum": 65
-  },
-  {
-    "YMD": "2020/1/30",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 110,
-    "misc": 17,
-    "hasSymptomNum": 93
-  },
-  {
-    "YMD": "2020/1/31",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 130,
-    "misc": 19,
-    "hasSymptomNum": 111
-  },
-  {
-    "YMD": "2020/2/1",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 39,
-    "misc": 19,
-    "hasSymptomNum": 20
-  },
-  {
-    "YMD": "2020/2/2",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 23,
-    "misc": 9,
-    "hasSymptomNum": 14
-  },
-  {
-    "YMD": "2020/2/3",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 83,
-    "misc": 16,
-    "hasSymptomNum": 67
-  },
-  {
-    "YMD": "2020/2/4",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 76,
-    "misc": 19,
-    "hasSymptomNum": 57
-  },
-  {
-    "YMD": "2020/2/5",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 59,
-    "misc": 26,
-    "hasSymptomNum": 33
-  },
-  {
-    "YMD": "2020/2/6",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 85,
-    "misc": 31,
-    "hasSymptomNum": 54
-  },
-  {
-    "YMD": "2020/2/7",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 65,
-    "misc": 20,
-    "hasSymptomNum": 45
-  },
-  {
-    "YMD": "2020/2/8",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 25,
-    "misc": 14,
-    "hasSymptomNum": 11
-  },
-  {
-    "YMD": "2020/2/9",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 12,
-    "misc": 1,
-    "hasSymptomNum": 11
-  },
-  {
-    "YMD": "2020/2/10",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 52,
-    "misc": 20,
-    "hasSymptomNum": 32
-  },
-  {
-    "YMD": "2020/2/11",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 22,
-    "misc": 7,
-    "hasSymptomNum": 15
-  },
-  {
-    "YMD": "2020/2/12",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 59,
-    "misc": 25,
-    "hasSymptomNum": 34
-  },
-  {
-    "YMD": "2020/2/13",
-    "regionCode": 200000,
-    "namePref": "長野県",
-    "nameMunicipal": "",
-    "num": 70,
-    "misc": 12,
-    "hasSymptomNum": 58
-  },
-  {
     "YMD": "2020/2/14",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 103,
-    "misc": 33,
-    "hasSymptomNum": 70
+    "num": 4,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 4
   },
   {
     "YMD": "2020/2/15",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 69,
-    "misc": 39,
-    "hasSymptomNum": 30
+    "num": 1,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 1
   },
   {
     "YMD": "2020/2/16",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 73,
-    "misc": 52,
-    "hasSymptomNum": 21
+    "num": 1,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 1
   },
   {
     "YMD": "2020/2/17",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 195,
-    "misc": 88,
-    "hasSymptomNum": 107
+    "num": 3,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 3
   },
   {
     "YMD": "2020/2/18",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 228,
-    "misc": 106,
-    "hasSymptomNum": 122
+    "num": 2,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 2
   },
   {
     "YMD": "2020/2/19",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 187,
-    "misc": 104,
-    "hasSymptomNum": 83
+    "num": 6,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 6
   },
   {
     "YMD": "2020/2/20",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 162,
-    "misc": 92,
-    "hasSymptomNum": 70
+    "num": 5,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 5
   },
   {
     "YMD": "2020/2/21",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 151,
-    "misc": 93,
-    "hasSymptomNum": 58
+    "num": 5,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 5
   },
   {
     "YMD": "2020/2/22",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 118,
-    "misc": 92,
-    "hasSymptomNum": 26
+    "num": 6,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 6
   },
   {
     "YMD": "2020/2/23",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 152,
-    "misc": 124,
-    "hasSymptomNum": 28
+    "num": 4,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 4
   },
   {
     "YMD": "2020/2/24",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 142,
-    "misc": 103,
-    "hasSymptomNum": 39
+    "num": 3,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 2
   },
   {
     "YMD": "2020/2/25",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 623,
-    "misc": 286,
-    "hasSymptomNum": 337
+    "num": 13,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 12
   },
   {
     "YMD": "2020/2/26",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 470,
-    "misc": 221,
-    "hasSymptomNum": 249
+    "num": 16,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 16
   },
   {
     "YMD": "2020/2/27",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 583,
-    "misc": 303,
-    "hasSymptomNum": 280
+    "num": 17,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 17
   },
   {
     "YMD": "2020/2/28",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 446,
-    "misc": 246,
-    "hasSymptomNum": 200
+    "num": 9,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 9
   },
   {
     "YMD": "2020/2/29",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 275,
-    "misc": 184,
-    "hasSymptomNum": 91
+    "num": 4,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 4
   },
   {
     "YMD": "2020/3/1",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 296,
-    "misc": 179,
-    "hasSymptomNum": 117
+    "num": 7,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 7
   },
   {
     "YMD": "2020/3/2",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 528,
-    "misc": 334,
-    "hasSymptomNum": 194
+    "num": 22,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 22
   },
   {
     "YMD": "2020/3/3",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 416,
-    "misc": 250,
-    "hasSymptomNum": 166
+    "num": 10,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 10
   },
   {
     "YMD": "2020/3/4",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 381,
-    "misc": 223,
-    "hasSymptomNum": 158
+    "num": 14,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 14
   },
   {
     "YMD": "2020/3/5",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 321,
-    "misc": 199,
-    "hasSymptomNum": 122
+    "num": 26,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 25
   },
   {
     "YMD": "2020/3/6",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 485,
-    "misc": 172,
-    "hasSymptomNum": 313
+    "num": 21,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 21
   },
   {
     "YMD": "2020/3/7",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 256,
-    "misc": 147,
-    "hasSymptomNum": 109
+    "num": 5,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 5
   },
   {
     "YMD": "2020/3/8",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 264,
-    "misc": 202,
-    "hasSymptomNum": 62
+    "num": 6,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 6
   },
   {
     "YMD": "2020/3/9",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 401,
-    "misc": 275,
-    "hasSymptomNum": 126
+    "num": 23,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 23
   },
   {
     "YMD": "2020/3/10",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 367,
-    "misc": 216,
-    "hasSymptomNum": 151
+    "num": 12,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 12
   },
   {
     "YMD": "2020/3/11",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 269,
-    "misc": 163,
-    "hasSymptomNum": 106
+    "num": 7,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 7
   },
   {
     "YMD": "2020/3/12",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 336,
-    "misc": 152,
-    "hasSymptomNum": 184
+    "num": 8,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 7
   },
   {
     "YMD": "2020/3/13",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 295,
-    "misc": 160,
-    "hasSymptomNum": 135
+    "num": 15,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 15
   },
   {
     "YMD": "2020/3/14",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 241,
-    "misc": 103,
-    "hasSymptomNum": 138
+    "num": 6,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 6
   },
   {
     "YMD": "2020/3/15",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 239,
-    "misc": 143,
-    "hasSymptomNum": 96
+    "num": 4,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 4
   },
   {
     "YMD": "2020/3/16",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 424,
-    "misc": 192,
-    "hasSymptomNum": 232
+    "num": 12,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 12
   },
   {
     "YMD": "2020/3/17",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 326,
-    "misc": 140,
-    "hasSymptomNum": 186
+    "num": 8,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 8
   },
   {
     "YMD": "2020/3/18",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 346,
-    "misc": 148,
-    "hasSymptomNum": 198
+    "num": 11,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 11
   },
   {
     "YMD": "2020/3/19",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 275,
-    "misc": 130,
-    "hasSymptomNum": 145
+    "num": 16,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 16
   },
   {
     "YMD": "2020/3/20",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 150,
-    "misc": 71,
-    "hasSymptomNum": 79
+    "num": 1,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 1
   },
   {
     "YMD": "2020/3/21",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 175,
-    "misc": 114,
-    "hasSymptomNum": 61
+    "num": 4,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 4
   },
   {
     "YMD": "2020/3/22",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 151,
-    "misc": 86,
-    "hasSymptomNum": 65
+    "num": 2,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 2
   },
   {
     "YMD": "2020/3/23",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 341,
-    "misc": 144,
-    "hasSymptomNum": 197
+    "num": 18,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 17
   },
   {
     "YMD": "2020/3/24",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 314,
-    "misc": 137,
-    "hasSymptomNum": 177
+    "num": 14,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 14
   },
   {
     "YMD": "2020/3/25",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 375,
-    "misc": 144,
-    "hasSymptomNum": 231
+    "num": 23,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 23
   },
   {
     "YMD": "2020/3/26",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 472,
-    "misc": 221,
-    "hasSymptomNum": 251
+    "num": 22,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 21
   },
   {
     "YMD": "2020/3/27",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 459,
-    "misc": 244,
-    "hasSymptomNum": 215
+    "num": 43,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 42
   },
   {
     "YMD": "2020/3/28",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 442,
-    "misc": 231,
-    "hasSymptomNum": 211
+    "num": 21,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 20
   },
   {
     "YMD": "2020/3/29",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 348,
-    "misc": 179,
-    "hasSymptomNum": 169
+    "num": 24,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 24
   },
   {
     "YMD": "2020/3/30",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 862,
-    "misc": 490,
-    "hasSymptomNum": 372
+    "num": 54,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 54
   },
   {
     "YMD": "2020/3/31",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 791,
-    "misc": 467,
-    "hasSymptomNum": 324
+    "num": 43,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 42
   },
   {
     "YMD": "2020/4/1",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 895,
-    "misc": 530,
-    "hasSymptomNum": 365
+    "num": 30,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 30
   },
   {
     "YMD": "2020/4/2",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 891,
-    "misc": 593,
-    "hasSymptomNum": 298
+    "num": 43,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 41
   },
   {
     "YMD": "2020/4/3",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 898,
-    "misc": 481,
-    "hasSymptomNum": 417
+    "num": 47,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 47
   },
   {
     "YMD": "2020/4/4",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 615,
-    "misc": 370,
-    "hasSymptomNum": 245
+    "num": 22,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 21
   },
   {
     "YMD": "2020/4/5",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 719,
-    "misc": 483,
-    "hasSymptomNum": 236
+    "num": 26,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 24
   },
   {
     "YMD": "2020/4/6",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1154,
-    "misc": 799,
-    "hasSymptomNum": 355
+    "num": 64,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 62
   },
   {
     "YMD": "2020/4/7",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1150,
-    "misc": 678,
-    "hasSymptomNum": 472
+    "num": 59,
+    "misc": "",
+    "hasSymptomNum": 4,
+    "safetyNum": 55
   },
   {
     "YMD": "2020/4/8",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1384,
-    "misc": 706,
-    "hasSymptomNum": 678
+    "num": 58,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 57
   },
   {
     "YMD": "2020/4/9",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1364,
-    "misc": 809,
-    "hasSymptomNum": 555
+    "num": 68,
+    "misc": "",
+    "hasSymptomNum": 7,
+    "safetyNum": 61
   },
   {
     "YMD": "2020/4/10",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1265,
-    "misc": 782,
-    "hasSymptomNum": 483
+    "num": 47,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 46
   },
   {
     "YMD": "2020/4/11",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 863,
-    "misc": 472,
-    "hasSymptomNum": 391
+    "num": 48,
+    "misc": "",
+    "hasSymptomNum": 5,
+    "safetyNum": 43
   },
   {
     "YMD": "2020/4/12",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 898,
-    "misc": 593,
-    "hasSymptomNum": 305
+    "num": 31,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 29
   },
   {
     "YMD": "2020/4/13",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1622,
-    "misc": 1058,
-    "hasSymptomNum": 564
+    "num": 67,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 65
   },
   {
     "YMD": "2020/4/14",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1252,
-    "misc": 731,
-    "hasSymptomNum": 521
+    "num": 58,
+    "misc": "",
+    "hasSymptomNum": 5,
+    "safetyNum": 53
   },
   {
     "YMD": "2020/4/15",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1307,
-    "misc": 740,
-    "hasSymptomNum": 567
+    "num": 55,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 53
   },
   {
     "YMD": "2020/4/16",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1263,
-    "misc": 809,
-    "hasSymptomNum": 454
+    "num": 53,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 52
   },
   {
     "YMD": "2020/4/17",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1258,
-    "misc": 806,
-    "hasSymptomNum": 452
+    "num": 47,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 45
   },
   {
     "YMD": "2020/4/18",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 722,
-    "misc": 512,
-    "hasSymptomNum": 210
+    "num": 41,
+    "misc": "",
+    "hasSymptomNum": 4,
+    "safetyNum": 37
   },
   {
     "YMD": "2020/4/19",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 620,
-    "misc": 432,
-    "hasSymptomNum": 188
+    "num": 14,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 13
   },
   {
     "YMD": "2020/4/20",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1255,
-    "misc": 816,
-    "hasSymptomNum": 439
+    "num": 68,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 67
   },
   {
     "YMD": "2020/4/21",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 989,
-    "misc": 589,
-    "hasSymptomNum": 400
+    "num": 44,
+    "misc": "",
+    "hasSymptomNum": 7,
+    "safetyNum": 37
   },
   {
     "YMD": "2020/4/22",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 973,
-    "misc": 582,
-    "hasSymptomNum": 391
+    "num": 38,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 37
   },
   {
     "YMD": "2020/4/23",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1018,
-    "misc": 563,
-    "hasSymptomNum": 455
+    "num": 64,
+    "misc": "",
+    "hasSymptomNum": 3,
+    "safetyNum": 61
   },
   {
     "YMD": "2020/4/24",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1082,
-    "misc": 628,
-    "hasSymptomNum": 454
+    "num": 61,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 60
   },
   {
     "YMD": "2020/4/25",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 677,
-    "misc": 409,
-    "hasSymptomNum": 268
+    "num": 29,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 29
   },
   {
     "YMD": "2020/4/26",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 538,
-    "misc": 395,
-    "hasSymptomNum": 143
+    "num": 10,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 10
   },
   {
     "YMD": "2020/4/27",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 1020,
-    "misc": 658,
-    "hasSymptomNum": 362
+    "num": 78,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 78
   },
   {
     "YMD": "2020/4/28",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 650,
-    "misc": 390,
-    "hasSymptomNum": 260
+    "num": 58,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 58
   },
   {
     "YMD": "2020/4/29",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 431,
-    "misc": 281,
-    "hasSymptomNum": 150
+    "num": 8,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 8
   },
   {
     "YMD": "2020/4/30",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 715,
-    "misc": 504,
-    "hasSymptomNum": 211
+    "num": 41,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 41
   },
   {
     "YMD": "2020/5/1",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 516,
-    "misc": 372,
-    "hasSymptomNum": 144
+    "num": 42,
+    "misc": "",
+    "hasSymptomNum": 4,
+    "safetyNum": 38
   },
   {
     "YMD": "2020/5/2",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 406,
-    "misc": 276,
-    "hasSymptomNum": 130
+    "num": 25,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 25
   },
   {
     "YMD": "2020/5/3",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 413,
-    "misc": 265,
-    "hasSymptomNum": 148
+    "num": 67,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 65
   },
   {
     "YMD": "2020/5/4",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 476,
-    "misc": 325,
-    "hasSymptomNum": 151
+    "num": 28,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 28
   },
   {
     "YMD": "2020/5/5",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 437,
-    "misc": 298,
-    "hasSymptomNum": 139
+    "num": 32,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 31
   },
   {
     "YMD": "2020/5/6",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 519,
-    "misc": 372,
-    "hasSymptomNum": 147
+    "num": 31,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 30
   },
   {
     "YMD": "2020/5/7",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 653,
-    "misc": 446,
-    "hasSymptomNum": 207
+    "num": 66,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 66
   },
   {
     "YMD": "2020/5/8",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 503,
-    "misc": 349,
-    "hasSymptomNum": 154
+    "num": 66,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 65
   },
   {
     "YMD": "2020/5/9",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 466,
-    "misc": 317,
-    "hasSymptomNum": 149
+    "num": 32,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 32
   },
   {
     "YMD": "2020/5/10",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 354,
-    "misc": 279,
-    "hasSymptomNum": 75
+    "num": 11,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 11
   },
   {
     "YMD": "2020/5/11",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 664,
-    "misc": 470,
-    "hasSymptomNum": 194
+    "num": 72,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 71
   },
   {
     "YMD": "2020/5/12",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 426,
-    "misc": 266,
-    "hasSymptomNum": 160
+    "num": 46,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 46
   },
   {
     "YMD": "2020/5/13",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 434,
-    "misc": 283,
-    "hasSymptomNum": 151
+    "num": 59,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 59
   },
   {
     "YMD": "2020/5/14",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 375,
-    "misc": 285,
-    "hasSymptomNum": 90
+    "num": 36,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 36
   },
   {
     "YMD": "2020/5/15",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 366,
-    "misc": 249,
-    "hasSymptomNum": 117
+    "num": 66,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 66
   },
   {
     "YMD": "2020/5/16",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 222,
-    "misc": 150,
-    "hasSymptomNum": 72
+    "num": 18,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 18
   },
   {
     "YMD": "2020/5/17",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 225,
-    "misc": 162,
-    "hasSymptomNum": 63
+    "num": 15,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 15
   },
   {
     "YMD": "2020/5/18",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 412,
-    "misc": 290,
-    "hasSymptomNum": 122
+    "num": 60,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 60
   },
   {
     "YMD": "2020/5/19",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 319,
-    "misc": 219,
-    "hasSymptomNum": 100
+    "num": 35,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 35
   },
   {
     "YMD": "2020/5/20",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 282,
-    "misc": 211,
-    "hasSymptomNum": 71
+    "num": 37,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 37
   },
   {
     "YMD": "2020/5/21",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 220,
-    "misc": 173,
-    "hasSymptomNum": 47
+    "num": 34,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 34
   },
   {
     "YMD": "2020/5/22",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 243,
-    "misc": 167,
-    "hasSymptomNum": 76
+    "num": 28,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 28
   },
   {
     "YMD": "2020/5/23",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 192,
-    "misc": 135,
-    "hasSymptomNum": 57
+    "num": 13,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 13
   },
   {
     "YMD": "2020/5/24",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 165,
-    "misc": 128,
-    "hasSymptomNum": 37
+    "num": 7,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 7
   },
   {
     "YMD": "2020/5/25",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 301,
-    "misc": 226,
-    "hasSymptomNum": 75
+    "num": 50,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 50
   },
   {
     "YMD": "2020/5/26",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 229,
-    "misc": 159,
-    "hasSymptomNum": 70
+    "num": 31,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 31
   },
   {
     "YMD": "2020/5/27",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 184,
-    "misc": 113,
-    "hasSymptomNum": 71
+    "num": 36,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 36
   },
   {
     "YMD": "2020/5/28",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 207,
-    "misc": 147,
-    "hasSymptomNum": 60
+    "num": 49,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 49
   },
   {
     "YMD": "2020/5/29",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 232,
-    "misc": 167,
-    "hasSymptomNum": 65
+    "num": 27,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 27
   },
   {
     "YMD": "2020/5/30",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 173,
-    "misc": 133,
-    "hasSymptomNum": 40
+    "num": 17,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 17
   },
   {
     "YMD": "2020/5/31",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 175,
-    "misc": 128,
-    "hasSymptomNum": 47
+    "num": 3,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 3
   },
   {
     "YMD": "2020/6/1",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 326,
-    "misc": 234,
-    "hasSymptomNum": 92
+    "num": 64,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 64
   },
   {
     "YMD": "2020/6/2",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 245,
-    "misc": 180,
-    "hasSymptomNum": 65
+    "num": 53,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 53
   },
   {
     "YMD": "2020/6/3",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 238,
-    "misc": 178,
-    "hasSymptomNum": 60
+    "num": 31,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 31
   },
   {
     "YMD": "2020/6/4",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 266,
-    "misc": 209,
-    "hasSymptomNum": 57
+    "num": 32,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 32
   },
   {
     "YMD": "2020/6/5",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 291,
-    "misc": 216,
-    "hasSymptomNum": 75
+    "num": 46,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 46
   },
   {
     "YMD": "2020/6/6",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 176,
-    "misc": 142,
-    "hasSymptomNum": 34
+    "num": 24,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 24
   },
   {
     "YMD": "2020/6/7",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 192,
-    "misc": 152,
-    "hasSymptomNum": 40
+    "num": 6,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 6
   },
   {
     "YMD": "2020/6/8",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 261,
-    "misc": 194,
-    "hasSymptomNum": 67
+    "num": 51,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 51
   },
   {
     "YMD": "2020/6/9",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 260,
-    "misc": 183,
-    "hasSymptomNum": 77
+    "num": 44,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 44
   },
   {
     "YMD": "2020/6/10",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 209,
-    "misc": 158,
-    "hasSymptomNum": 51
+    "num": 34,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 34
   },
   {
     "YMD": "2020/6/11",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 165,
-    "misc": 114,
-    "hasSymptomNum": 51
+    "num": 31,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 31
   },
   {
     "YMD": "2020/6/12",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 181,
-    "misc": 134,
-    "hasSymptomNum": 47
+    "num": 31,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 31
   },
   {
     "YMD": "2020/6/13",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 118,
-    "misc": 94,
-    "hasSymptomNum": 24
+    "num": 12,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 12
   },
   {
     "YMD": "2020/6/14",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 169,
-    "misc": 146,
-    "hasSymptomNum": 23
+    "num": 3,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 3
   },
   {
     "YMD": "2020/6/15",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 225,
-    "misc": 181,
-    "hasSymptomNum": 44
+    "num": 40,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 40
   },
   {
     "YMD": "2020/6/16",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 171,
-    "misc": 120,
-    "hasSymptomNum": 51
+    "num": 36,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 36
   },
   {
     "YMD": "2020/6/17",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 174,
-    "misc": 126,
-    "hasSymptomNum": 48
+    "num": 43,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 42
   },
   {
     "YMD": "2020/6/18",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 162,
-    "misc": 116,
-    "hasSymptomNum": 46
+    "num": 24,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 24
   },
   {
     "YMD": "2020/6/19",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 195,
-    "misc": 144,
-    "hasSymptomNum": 51
+    "num": 43,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 43
   },
   {
     "YMD": "2020/6/20",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 140,
-    "misc": 110,
-    "hasSymptomNum": 30
+    "num": 9,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 9
   },
   {
     "YMD": "2020/6/21",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 158,
-    "misc": 127,
-    "hasSymptomNum": 31
+    "num": 4,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 4
   },
   {
     "YMD": "2020/6/22",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 245,
-    "misc": 212,
-    "hasSymptomNum": 33
+    "num": 46,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 46
   },
   {
     "YMD": "2020/6/23",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 210,
-    "misc": 169,
-    "hasSymptomNum": 41
+    "num": 44,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 44
   },
   {
     "YMD": "2020/6/24",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 247,
-    "misc": 195,
-    "hasSymptomNum": 52
+    "num": 50,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 50
   },
   {
     "YMD": "2020/6/25",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 221,
-    "misc": 180,
-    "hasSymptomNum": 41
+    "num": 48,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 48
   },
   {
     "YMD": "2020/6/26",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 222,
-    "misc": 160,
-    "hasSymptomNum": 62
+    "num": 62,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 62
   },
   {
     "YMD": "2020/6/27",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 131,
-    "misc": 105,
-    "hasSymptomNum": 26
+    "num": 21,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 21
   },
   {
     "YMD": "2020/6/28",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 138,
-    "misc": 112,
-    "hasSymptomNum": 26
+    "num": 13,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 13
   },
   {
     "YMD": "2020/6/29",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 232,
-    "misc": 194,
-    "hasSymptomNum": 38
+    "num": 74,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 74
   },
   {
     "YMD": "2020/6/30",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 192,
-    "misc": 137,
-    "hasSymptomNum": 55
+    "num": 44,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 44
   },
   {
     "YMD": "2020/7/1",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 221,
-    "misc": 155,
-    "hasSymptomNum": 66
+    "num": 73,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 73
   },
   {
     "YMD": "2020/7/2",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 193,
-    "misc": 129,
-    "hasSymptomNum": 64
+    "num": 43,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 43
   },
   {
     "YMD": "2020/7/3",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 198,
-    "misc": 136,
-    "hasSymptomNum": 62
+    "num": 57,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 57
   },
   {
     "YMD": "2020/7/4",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 131,
-    "misc": 89,
-    "hasSymptomNum": 42
+    "num": 17,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 17
   },
   {
     "YMD": "2020/7/5",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 129,
-    "misc": 89,
-    "hasSymptomNum": 40
+    "num": 13,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 13
   },
   {
     "YMD": "2020/7/6",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 258,
-    "misc": 196,
-    "hasSymptomNum": 62
+    "num": 65,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 65
   },
   {
     "YMD": "2020/7/7",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 208,
-    "misc": 148,
-    "hasSymptomNum": 60
+    "num": 53,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 53
   },
   {
     "YMD": "2020/7/8",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 203,
-    "misc": 142,
-    "hasSymptomNum": 61
+    "num": 54,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 54
   },
   {
     "YMD": "2020/7/9",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 210,
-    "misc": 156,
-    "hasSymptomNum": 54
+    "num": 48,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 48
   },
   {
     "YMD": "2020/7/10",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 211,
-    "misc": 127,
-    "hasSymptomNum": 84
+    "num": 56,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 56
   },
   {
     "YMD": "2020/7/11",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 146,
-    "misc": 103,
-    "hasSymptomNum": 43
+    "num": 51,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 49
   },
   {
     "YMD": "2020/7/12",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 164,
-    "misc": 102,
-    "hasSymptomNum": 62
+    "num": 15,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 15
   },
   {
     "YMD": "2020/7/13",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 340,
-    "misc": 226,
-    "hasSymptomNum": 114
+    "num": 106,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 105
   },
   {
     "YMD": "2020/7/14",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 332,
-    "misc": 211,
-    "hasSymptomNum": 121
+    "num": 81,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 80
   },
   {
     "YMD": "2020/7/15",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 317,
-    "misc": 198,
-    "hasSymptomNum": 119
+    "num": 79,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 79
   },
   {
     "YMD": "2020/7/16",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 352,
-    "misc": 202,
-    "hasSymptomNum": 150
+    "num": 78,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 76
   },
   {
     "YMD": "2020/7/17",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 389,
-    "misc": 240,
-    "hasSymptomNum": 149
+    "num": 88,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 87
   },
   {
     "YMD": "2020/7/18",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 257,
-    "misc": 170,
-    "hasSymptomNum": 87
+    "num": 37,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 37
   },
   {
     "YMD": "2020/7/19",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 270,
-    "misc": 195,
-    "hasSymptomNum": 75
+    "num": 19,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 19
   },
   {
     "YMD": "2020/7/20",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 454,
-    "misc": 344,
-    "hasSymptomNum": 110
+    "num": 163,
+    "misc": "",
+    "hasSymptomNum": 2,
+    "safetyNum": 161
   },
   {
     "YMD": "2020/7/21",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 422,
-    "misc": 259,
-    "hasSymptomNum": 163
+    "num": 117,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 117
   },
   {
     "YMD": "2020/7/22",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 434,
-    "misc": 282,
-    "hasSymptomNum": 152
+    "num": 132,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 131
   },
   {
     "YMD": "2020/7/23",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 275,
-    "misc": 193,
-    "hasSymptomNum": 82
+    "num": 44,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 44
   },
   {
     "YMD": "2020/7/24",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 303,
-    "misc": 227,
-    "hasSymptomNum": 76
+    "num": 54,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 53
   },
   {
     "YMD": "2020/7/25",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 343,
-    "misc": 237,
-    "hasSymptomNum": 106
+    "num": 250,
+    "misc": "",
+    "hasSymptomNum": 3,
+    "safetyNum": 247
   },
   {
     "YMD": "2020/7/26",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 430,
-    "misc": 338,
-    "hasSymptomNum": 92
+    "num": 97,
+    "misc": "",
+    "hasSymptomNum": 1,
+    "safetyNum": 96
   },
   {
     "YMD": "2020/7/27",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 660,
-    "misc": 467,
-    "hasSymptomNum": 193
+    "num": 307,
+    "misc": "",
+    "hasSymptomNum": 5,
+    "safetyNum": 302
   },
   {
     "YMD": "2020/7/28",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 598,
-    "misc": 419,
-    "hasSymptomNum": 179
+    "num": 333,
+    "misc": "",
+    "hasSymptomNum": 6,
+    "safetyNum": 327
   },
   {
     "YMD": "2020/7/29",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 678,
-    "misc": 445,
-    "hasSymptomNum": 233
+    "num": 239,
+    "misc": "",
+    "hasSymptomNum": 0,
+    "safetyNum": 239
   },
   {
     "YMD": "2020/7/30",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 954,
-    "misc": 518,
-    "hasSymptomNum": 436
+    "num": 217,
+    "misc": "",
+    "hasSymptomNum": 6,
+    "safetyNum": 211
+  },
+  {
+    "YMD": "2020/7/31",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 337,
+    "misc": "",
+    "hasSymptomNum": 5,
+    "safetyNum": 332
+  },
+  {
+    "YMD": "2020/8/1",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 128,
+    "misc": "",
+    "hasSymptomNum": 3,
+    "safetyNum": 125
   }
 ]
