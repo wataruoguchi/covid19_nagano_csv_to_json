@@ -2123,5 +2123,22 @@
     "hasTravelHistory": 0,
     "discharged": 0,
     "misc": ""
+  },
+  {
+    "no": 126,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/5",
+    "onsetYMD": "",
+    "residentialArea": "御代田町",
+    "ageRange": "50代",
+    "gender": "女性",
+    "occupation": "会社員",
+    "status": "無症状",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
   }
 ]
