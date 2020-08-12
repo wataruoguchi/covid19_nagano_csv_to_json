@@ -1815,7 +1815,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -1832,7 +1832,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -1849,7 +1849,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -1866,7 +1866,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -1883,7 +1883,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -1951,7 +1951,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2138,7 +2138,7 @@
     "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2272,6 +2272,91 @@
     "gender": "男性",
     "occupation": "自営業",
     "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 135,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/11",
+    "onsetYMD": "",
+    "residentialArea": "大町市",
+    "ageRange": "40代",
+    "gender": "男性",
+    "occupation": "会社員",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 136,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/11",
+    "onsetYMD": "",
+    "residentialArea": "大町市",
+    "ageRange": "20代",
+    "gender": "女性",
+    "occupation": "会社員",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 137,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/11",
+    "onsetYMD": "",
+    "residentialArea": "生坂村",
+    "ageRange": "50代",
+    "gender": "男性",
+    "occupation": "会社員",
+    "status": "無症状",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 138,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/11",
+    "onsetYMD": "",
+    "residentialArea": "安曇野市",
+    "ageRange": "40代",
+    "gender": "女性",
+    "occupation": "会社員",
+    "status": "無症状",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 139,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/11",
+    "onsetYMD": "",
+    "residentialArea": "大町市",
+    "ageRange": "40代",
+    "gender": "女性",
+    "occupation": "会社員",
+    "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
     "discharged": 0,
