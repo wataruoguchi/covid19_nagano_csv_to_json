@@ -1960,5 +1960,14 @@
     "num": 591,
     "misc": 428,
     "hasSymptomNum": 163
+  },
+  {
+    "YMD": "2020/8/12",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 411,
+    "misc": 291,
+    "hasSymptomNum": 120
   }
 ]
