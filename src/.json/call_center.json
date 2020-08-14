@@ -1969,5 +1969,14 @@
     "num": 411,
     "misc": 291,
     "hasSymptomNum": 120
+  },
+  {
+    "YMD": "2020/8/13",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 384,
+    "misc": 297,
+    "hasSymptomNum": 87
   }
 ]
