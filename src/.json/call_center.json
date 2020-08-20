@@ -2020,8 +2020,17 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 460,
-    "misc": 346,
-    "hasSymptomNum": 114
+    "num": 469,
+    "misc": 347,
+    "hasSymptomNum": 122
+  },
+  {
+    "YMD": "2020/8/19",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 443,
+    "misc": 331,
+    "hasSymptomNum": 112
   }
 ]
