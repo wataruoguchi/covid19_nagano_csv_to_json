@@ -2079,12 +2079,21 @@
     "hasSymptomNum": 135
   },
   {
-    "YMD": "2020/8/24",
+    "YMD": "2020/8/25",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 391,
+    "num": 392,
     "misc": 281,
-    "hasSymptomNum": 110
+    "hasSymptomNum": 111
+  },
+  {
+    "YMD": "2020/8/26",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 430,
+    "misc": 303,
+    "hasSymptomNum": 127
   }
 ]
