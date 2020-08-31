@@ -2597,7 +2597,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2631,7 +2631,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2665,7 +2665,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2716,7 +2716,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2733,7 +2733,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2750,7 +2750,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2767,7 +2767,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2784,7 +2784,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2869,7 +2869,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -2903,7 +2903,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -3107,7 +3107,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -3124,7 +3124,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -3226,7 +3226,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -3243,7 +3243,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -3396,7 +3396,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -4042,7 +4042,7 @@
     "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "",
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -4059,7 +4059,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "",
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -4076,7 +4076,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "",
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -4093,7 +4093,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "",
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -4110,7 +4110,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "",
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -4144,7 +4144,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "",
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -4161,7 +4161,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "",
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -4178,7 +4178,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "",
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -4230,6 +4230,125 @@
     "symptom": "",
     "hasTravelHistory": 0,
     "discharged": "",
+    "misc": ""
+  },
+  {
+    "no": 250,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/30",
+    "onsetYMD": "",
+    "residentialArea": "坂城町",
+    "ageRange": "40代",
+    "gender": "男性",
+    "occupation": "会社員",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 251,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/30",
+    "onsetYMD": "",
+    "residentialArea": "上田市",
+    "ageRange": "30代",
+    "gender": "男性",
+    "occupation": "会社員",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 252,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/30",
+    "onsetYMD": "",
+    "residentialArea": "上田市",
+    "ageRange": "50代",
+    "gender": "女性",
+    "occupation": "自営業",
+    "status": "無症状",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": "",
+    "misc": ""
+  },
+  {
+    "no": 253,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/30",
+    "onsetYMD": "",
+    "residentialArea": "上田市",
+    "ageRange": "20代",
+    "gender": "男性",
+    "occupation": "大学生",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 254,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/30",
+    "onsetYMD": "",
+    "residentialArea": "上田市",
+    "ageRange": "70代",
+    "gender": "男性",
+    "occupation": "自営業",
+    "status": "無症状",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": "",
+    "misc": ""
+  },
+  {
+    "no": 255,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/30",
+    "onsetYMD": "",
+    "residentialArea": "上田市",
+    "ageRange": "10代",
+    "gender": "女性",
+    "occupation": "小学生",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 256,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/8/30",
+    "onsetYMD": "",
+    "residentialArea": "茅野市",
+    "ageRange": "60代",
+    "gender": "男性",
+    "occupation": "無職",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   }
 ]
