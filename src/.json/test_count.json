@@ -2044,10 +2044,10 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 191,
+    "testedNum": 190,
     "misc": "",
     "positiveNum": 3,
-    "negativeNum": 188
+    "negativeNum": 187
   },
   {
     "YMD": "2020/9/6",
@@ -2064,9 +2064,19 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 218,
+    "testedNum": 236,
     "misc": "",
-    "positiveNum": 2,
-    "negativeNum": 216
+    "positiveNum": 3,
+    "negativeNum": 233
+  },
+  {
+    "YMD": "2020/9/8",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 169,
+    "misc": "",
+    "positiveNum": 0,
+    "negativeNum": 169
   }
 ]
