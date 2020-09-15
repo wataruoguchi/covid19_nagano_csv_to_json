@@ -4450,7 +4450,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -5011,7 +5011,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -5025,6 +5025,23 @@
     "ageRange": "90代",
     "gender": "女性",
     "occupation": "無職",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 297,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/9/14",
+    "onsetYMD": "",
+    "residentialArea": "信濃町",
+    "ageRange": "20代",
+    "gender": "女性",
+    "occupation": "公務員",
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
