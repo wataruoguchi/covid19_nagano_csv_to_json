@@ -5081,5 +5081,39 @@
     "hasTravelHistory": 0,
     "discharged": 0,
     "misc": ""
+  },
+  {
+    "no": 300,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/9/18",
+    "onsetYMD": "",
+    "residentialArea": "長野市",
+    "ageRange": "50代",
+    "gender": "男性",
+    "occupation": "-",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 301,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/9/18",
+    "onsetYMD": "",
+    "residentialArea": "長野市",
+    "ageRange": "40代",
+    "gender": "男性",
+    "occupation": "-",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
   }
 ]
