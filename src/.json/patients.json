@@ -5268,5 +5268,22 @@
     "hasTravelHistory": 0,
     "discharged": 0,
     "misc": ""
+  },
+  {
+    "no": 311,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2020/10/1",
+    "onsetYMD": "",
+    "residentialArea": "松本市",
+    "ageRange": "20代",
+    "gender": "女性",
+    "occupation": "公務員",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
   }
 ]
