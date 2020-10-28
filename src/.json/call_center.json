@@ -2644,5 +2644,14 @@
     "num": 280,
     "misc": 227,
     "hasSymptomNum": 53
+  },
+  {
+    "YMD": "2020/10/27",
+    "regionCode": 20000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 213,
+    "misc": 155,
+    "hasSymptomNum": 58
   }
 ]
