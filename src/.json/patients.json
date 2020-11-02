@@ -5674,7 +5674,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -5829,5 +5829,22 @@
     "hasTravelHistory": 0,
     "discharged": 0,
     "misc": "帰省先：下諏訪町"
+  },
+  {
+    "no": 344,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "長野市",
+    "pubYMD": "2020/11/1",
+    "onsetYMD": "",
+    "residentialArea": "北海道",
+    "ageRange": "40代",
+    "gender": "男性",
+    "occupation": "-",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
   }
 ]
