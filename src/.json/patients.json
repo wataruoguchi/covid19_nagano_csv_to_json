@@ -21195,7 +21195,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -23184,7 +23184,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -25432,7 +25432,7 @@
     "misc": ""
   },
   {
-    "no": 1497,
+    "no": 1397,
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
@@ -25445,7 +25445,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
