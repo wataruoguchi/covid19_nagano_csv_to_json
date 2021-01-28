@@ -30647,7 +30647,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "0+N1839",
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -32534,7 +32534,7 @@
     "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": "0+N1951",
+    "discharged": 0,
     "misc": ""
   },
   {
