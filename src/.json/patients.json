@@ -34659,7 +34659,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -39079,7 +39079,7 @@
     "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -39181,7 +39181,7 @@
     "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -39317,7 +39317,7 @@
     "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -39708,7 +39708,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -39781,7 +39781,7 @@
   },
   {
     "no": 2341,
-    "regionCode": 200001,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "pubYMD": "2021/2/9",
@@ -39798,7 +39798,7 @@
   },
   {
     "no": 2342,
-    "regionCode": 200002,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "pubYMD": "2021/2/9",
@@ -39815,7 +39815,7 @@
   },
   {
     "no": 2343,
-    "regionCode": 200003,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "pubYMD": "2021/2/9",
@@ -39832,7 +39832,7 @@
   },
   {
     "no": 2344,
-    "regionCode": 200004,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "pubYMD": "2021/2/9",
@@ -39849,7 +39849,7 @@
   },
   {
     "no": 2345,
-    "regionCode": 200005,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "pubYMD": "2021/2/9",
