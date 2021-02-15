@@ -3604,39 +3604,69 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 929,
+    "testedNum": "1,103",
     "misc": "",
     "positiveNum": 5,
-    "negativeNum": 924
+    "negativeNum": 1098
   },
   {
     "YMD": "2021/2/9",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 623,
+    "testedNum": 726,
     "misc": "",
     "positiveNum": 1,
-    "negativeNum": 622
+    "negativeNum": 725
   },
   {
     "YMD": "2021/2/10",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 514,
+    "testedNum": 710,
     "misc": "",
     "positiveNum": 0,
-    "negativeNum": 514
+    "negativeNum": 710
   },
   {
     "YMD": "2021/2/11",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 162,
+    "testedNum": 222,
     "misc": "",
     "positiveNum": 0,
-    "negativeNum": 162
+    "negativeNum": 222
+  },
+  {
+    "YMD": "2021/2/12",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 753,
+    "misc": "",
+    "positiveNum": 0,
+    "negativeNum": 753
+  },
+  {
+    "YMD": "2021/2/13",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 192,
+    "misc": "",
+    "positiveNum": 1,
+    "negativeNum": 191
+  },
+  {
+    "YMD": "2021/2/14",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 122,
+    "misc": "",
+    "positiveNum": 1,
+    "negativeNum": 121
   }
 ]
