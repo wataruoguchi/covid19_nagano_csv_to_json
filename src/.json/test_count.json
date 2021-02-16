@@ -3666,7 +3666,17 @@
     "nameMunicipal": "",
     "testedNum": 122,
     "misc": "",
+    "positiveNum": 2,
+    "negativeNum": 120
+  },
+  {
+    "YMD": "2021/2/15",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 698,
+    "misc": "",
     "positiveNum": 1,
-    "negativeNum": 121
+    "negativeNum": 697
   }
 ]
