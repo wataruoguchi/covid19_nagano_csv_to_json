@@ -3850,5 +3850,14 @@
     "num": 150,
     "misc": 68,
     "hasSymptomNum": 82
+  },
+  {
+    "YMD": "2021/3/10",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 158,
+    "misc": 64,
+    "hasSymptomNum": 94
   }
 ]
