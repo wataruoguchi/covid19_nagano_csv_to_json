@@ -179,9 +179,9 @@ const convertProps = {
     keys(obj).forEach((key) => {
       newObj[key] =
         typeof obj[key] === "string" &&
-        /^\d+$/.test(`${obj[key]}`) &&
-        !Number.isNaN(Number(obj[key]))
-          ? Number(obj[key])
+        /^\d+|,$/.test(`${obj[key]}`) &&
+        !Number.isNaN(Number(`${obj[key]}`.replace(",", "")))
+          ? Number(`${obj[key]}`.replace(",", ""))
           : obj[key];
     });
     return newObj;
