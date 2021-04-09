@@ -4116,47 +4116,87 @@
     "nameMunicipal": "",
     "testedNum": 1068,
     "misc": "",
-    "positiveNum": 24,
-    "negativeNum": 1044
+    "positiveNum": 25,
+    "negativeNum": 1043
   },
   {
     "YMD": "2021/4/1",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1024,
+    "testedNum": 1041,
     "misc": "",
     "positiveNum": 43,
-    "negativeNum": 981
+    "negativeNum": 998
   },
   {
     "YMD": "2021/4/2",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1220,
+    "testedNum": 1252,
     "misc": "",
-    "positiveNum": 37,
-    "negativeNum": 1183
+    "positiveNum": 38,
+    "negativeNum": 1214
   },
   {
     "YMD": "2021/4/3",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 382,
+    "testedNum": 480,
     "misc": "",
-    "positiveNum": 18,
-    "negativeNum": 364
+    "positiveNum": 20,
+    "negativeNum": 460
   },
   {
     "YMD": "2021/4/4",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 262,
+    "testedNum": 419,
     "misc": "",
-    "positiveNum": 8,
-    "negativeNum": 254
+    "positiveNum": 12,
+    "negativeNum": 407
+  },
+  {
+    "YMD": "2021/4/5",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 1447,
+    "misc": "",
+    "positiveNum": 68,
+    "negativeNum": 1379
+  },
+  {
+    "YMD": "2021/4/6",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 933,
+    "misc": "",
+    "positiveNum": 27,
+    "negativeNum": 906
+  },
+  {
+    "YMD": "2021/4/7",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 799,
+    "misc": "",
+    "positiveNum": 57,
+    "negativeNum": 742
+  },
+  {
+    "YMD": "2021/4/8",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 751,
+    "misc": "",
+    "positiveNum": 0,
+    "negativeNum": 751
   }
 ]
