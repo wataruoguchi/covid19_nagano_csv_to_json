@@ -451,7 +451,7 @@
     "residentialArea": "長野市",
     "ageRange": "30代",
     "gender": "男性",
-    "occupation": "-",
+    "occupation": "林檎館勤務",
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
@@ -587,7 +587,7 @@
     "residentialArea": "長野市",
     "ageRange": "30代",
     "gender": "男性",
-    "occupation": "-",
+    "occupation": "林檎館勤務",
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
@@ -604,7 +604,7 @@
     "residentialArea": "長野市",
     "ageRange": "20代",
     "gender": "女性",
-    "occupation": "-",
+    "occupation": "林檎館勤務",
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
@@ -56979,8 +56979,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -56996,8 +56996,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57013,8 +57013,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57030,8 +57030,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57047,8 +57047,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57064,8 +57064,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57081,8 +57081,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57098,8 +57098,8 @@
     "occupation": "",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57115,8 +57115,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57132,8 +57132,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57149,8 +57149,8 @@
     "occupation": "",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57166,8 +57166,8 @@
     "occupation": "会社員",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57183,8 +57183,8 @@
     "occupation": "無職",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57200,8 +57200,8 @@
     "occupation": "無職",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57217,8 +57217,8 @@
     "occupation": "無職",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57234,8 +57234,8 @@
     "occupation": "教職員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57251,8 +57251,8 @@
     "occupation": "未就学児",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57268,8 +57268,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57285,8 +57285,8 @@
     "occupation": "無職",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57302,8 +57302,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57319,8 +57319,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57336,8 +57336,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57353,8 +57353,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57370,8 +57370,8 @@
     "occupation": "自営業",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57387,8 +57387,8 @@
     "occupation": "自営業",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57404,8 +57404,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57421,8 +57421,8 @@
     "occupation": "会社員",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57438,8 +57438,8 @@
     "occupation": "無職",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57455,8 +57455,8 @@
     "occupation": "高校生",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57472,8 +57472,8 @@
     "occupation": "会社員",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57489,8 +57489,8 @@
     "occupation": "自営業",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57506,8 +57506,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57523,8 +57523,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57540,8 +57540,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57557,8 +57557,8 @@
     "occupation": "自営業",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57574,8 +57574,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57591,8 +57591,8 @@
     "occupation": "自営業",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57608,8 +57608,8 @@
     "occupation": "地方議会議員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57625,8 +57625,8 @@
     "occupation": "中学生",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57642,8 +57642,8 @@
     "occupation": "自営業従業員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57659,8 +57659,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57676,8 +57676,8 @@
     "occupation": "無職",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57687,14 +57687,14 @@
     "nameMunicipal": "",
     "pubYMD": "2021/4/15",
     "onsetYMD": "",
-    "residentialArea": "",
+    "residentialArea": "北海道",
     "ageRange": "20代",
     "gender": "男性",
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57710,8 +57710,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57727,8 +57727,8 @@
     "occupation": "自営業",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57744,8 +57744,8 @@
     "occupation": "無職",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57761,8 +57761,8 @@
     "occupation": "無職",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57778,8 +57778,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57795,8 +57795,8 @@
     "occupation": "無職",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57812,8 +57812,8 @@
     "occupation": "医療従事者",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57829,8 +57829,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57846,8 +57846,8 @@
     "occupation": "医療従事者",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57863,8 +57863,8 @@
     "occupation": "無職",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57880,8 +57880,8 @@
     "occupation": "無職",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57897,8 +57897,8 @@
     "occupation": "無職",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57914,8 +57914,8 @@
     "occupation": "自営業",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57931,8 +57931,8 @@
     "occupation": "無職",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57948,8 +57948,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57965,8 +57965,8 @@
     "occupation": "会社員",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57982,8 +57982,8 @@
     "occupation": "無職",
     "status": "無症状",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
@@ -57999,12 +57999,12 @@
     "occupation": "中学生",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   },
   {
-    "no": 3412,
+    "no": 3143,
     "regionCode": 200061,
     "namePref": "長野県",
     "nameMunicipal": "",
@@ -58016,8 +58016,8 @@
     "occupation": "会社員",
     "status": "患者",
     "symptom": "",
-    "hasTravelHistory": "",
-    "discharged": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
     "misc": ""
   }
 ]
