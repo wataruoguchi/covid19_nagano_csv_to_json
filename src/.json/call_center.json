@@ -4594,8 +4594,17 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 381,
-    "misc": 114,
-    "hasSymptomNum": 267
+    "num": 385,
+    "misc": 115,
+    "hasSymptomNum": 270
+  },
+  {
+    "YMD": "2021/6/1",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 416,
+    "misc": 140,
+    "hasSymptomNum": 276
   }
 ]
