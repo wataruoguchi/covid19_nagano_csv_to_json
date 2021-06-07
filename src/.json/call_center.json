@@ -4624,5 +4624,32 @@
     "num": 339,
     "misc": 113,
     "hasSymptomNum": 226
+  },
+  {
+    "YMD": "2021/6/4",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 363,
+    "misc": 105,
+    "hasSymptomNum": 258
+  },
+  {
+    "YMD": "2021/6/5",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 306,
+    "misc": 96,
+    "hasSymptomNum": 210
+  },
+  {
+    "YMD": "2021/6/6",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 267,
+    "misc": 113,
+    "hasSymptomNum": 154
   }
 ]
