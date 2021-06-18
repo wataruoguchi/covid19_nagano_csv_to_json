@@ -4741,5 +4741,14 @@
     "num": 212,
     "misc": 65,
     "hasSymptomNum": 147
+  },
+  {
+    "YMD": "2021/6/17",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 229,
+    "misc": 64,
+    "hasSymptomNum": 165
   }
 ]
