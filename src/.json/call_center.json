@@ -4945,26 +4945,35 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 111,
-    "misc": 36,
-    "hasSymptomNum": 75
+    "num": 158,
+    "misc": 46,
+    "hasSymptomNum": 112
   },
   {
     "YMD": "2021/7/10",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 107,
-    "misc": 50,
-    "hasSymptomNum": 57
+    "num": 135,
+    "misc": 66,
+    "hasSymptomNum": 69
   },
   {
     "YMD": "2021/7/11",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 96,
-    "misc": 50,
-    "hasSymptomNum": 46
+    "num": 121,
+    "misc": 66,
+    "hasSymptomNum": 55
+  },
+  {
+    "YMD": "2021/7/12",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 198,
+    "misc": 66,
+    "hasSymptomNum": 132
   }
 ]
