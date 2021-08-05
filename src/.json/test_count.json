@@ -5346,8 +5346,8 @@
     "nameMunicipal": "",
     "testedNum": 431,
     "misc": "",
-    "positiveNum": 25,
-    "negativeNum": 406
+    "positiveNum": 28,
+    "negativeNum": 403
   },
   {
     "YMD": "2021/8/2",
@@ -5356,17 +5356,27 @@
     "nameMunicipal": "",
     "testedNum": 1340,
     "misc": "",
-    "positiveNum": 67,
-    "negativeNum": 1273
+    "positiveNum": 73,
+    "negativeNum": 1267
   },
   {
     "YMD": "2021/8/3",
-    "regionCode": 200001,
+    "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
     "testedNum": 1278,
     "misc": "",
-    "positiveNum": 26,
-    "negativeNum": 1252
+    "positiveNum": 43,
+    "negativeNum": 1235
+  },
+  {
+    "YMD": "2021/8/4",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 1064,
+    "misc": "",
+    "positiveNum": 37,
+    "negativeNum": 1027
   }
 ]
