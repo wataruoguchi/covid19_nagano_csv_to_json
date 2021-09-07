@@ -5634,69 +5634,79 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 2108,
+    "testedNum": 2516,
     "misc": "",
     "positiveNum": 90,
-    "negativeNum": 2018
+    "negativeNum": 2426
   },
   {
     "YMD": "2021/8/31",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1705,
+    "testedNum": 1979,
     "misc": "",
-    "positiveNum": 71,
-    "negativeNum": 1634
+    "positiveNum": 74,
+    "negativeNum": 1905
   },
   {
     "YMD": "2021/9/1",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1366,
+    "testedNum": 1681,
     "misc": "",
-    "positiveNum": 51,
-    "negativeNum": 1315
+    "positiveNum": 50,
+    "negativeNum": 1631
   },
   {
     "YMD": "2021/9/2",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1584,
+    "testedNum": 1779,
     "misc": "",
-    "positiveNum": 54,
-    "negativeNum": 1530
+    "positiveNum": 52,
+    "negativeNum": 1727
   },
   {
     "YMD": "2021/9/3",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1497,
+    "testedNum": 1781,
     "misc": "",
     "positiveNum": 38,
-    "negativeNum": 1459
+    "negativeNum": 1743
   },
   {
     "YMD": "2021/9/4",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 710,
+    "testedNum": 854,
     "misc": "",
-    "positiveNum": 35,
-    "negativeNum": 675
+    "positiveNum": 36,
+    "negativeNum": 818
   },
   {
     "YMD": "2021/9/5",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 357,
+    "testedNum": 411,
     "misc": "",
-    "positiveNum": 7,
-    "negativeNum": 350
+    "positiveNum": 13,
+    "negativeNum": 398
+  },
+  {
+    "YMD": "2021/9/6",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 2013,
+    "misc": "",
+    "positiveNum": 23,
+    "negativeNum": 1990
   }
 ]
