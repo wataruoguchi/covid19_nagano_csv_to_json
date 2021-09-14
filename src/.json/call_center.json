@@ -5521,17 +5521,26 @@
     "regionCode": 200002,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 266,
-    "misc": 99,
-    "hasSymptomNum": 167
+    "num": 364,
+    "misc": 119,
+    "hasSymptomNum": 245
   },
   {
     "YMD": "2021/9/12",
     "regionCode": 200003,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 276,
-    "misc": 101,
-    "hasSymptomNum": 175
+    "num": 375,
+    "misc": 137,
+    "hasSymptomNum": 238
+  },
+  {
+    "YMD": "2021/9/13",
+    "regionCode": 200004,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 416,
+    "misc": 131,
+    "hasSymptomNum": 285
   }
 ]
