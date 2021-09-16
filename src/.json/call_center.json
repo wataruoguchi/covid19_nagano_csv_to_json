@@ -5551,5 +5551,14 @@
     "num": 337,
     "misc": 120,
     "hasSymptomNum": 217
+  },
+  {
+    "YMD": "2021/9/15",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 358,
+    "misc": 113,
+    "hasSymptomNum": 245
   }
 ]
