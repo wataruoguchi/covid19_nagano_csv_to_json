@@ -5755,8 +5755,35 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 184,
+    "num": 186,
     "misc": 60,
-    "hasSymptomNum": 124
+    "hasSymptomNum": 126
+  },
+  {
+    "YMD": "2021/10/8",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 104,
+    "misc": 31,
+    "hasSymptomNum": 73
+  },
+  {
+    "YMD": "2021/10/9",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 65,
+    "misc": 30,
+    "hasSymptomNum": 35
+  },
+  {
+    "YMD": "2021/10/10",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 86,
+    "misc": 45,
+    "hasSymptomNum": 41
   }
 ]
