@@ -148695,7 +148695,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -148729,7 +148729,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -149749,7 +149749,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -149817,7 +149817,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -149834,7 +149834,7 @@
     "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -149851,7 +149851,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -149868,7 +149868,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -149902,7 +149902,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -149970,7 +149970,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -150038,7 +150038,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -150305,6 +150305,40 @@
     "onsetYMD": "",
     "residentialArea": "飯山市",
     "ageRange": "70代",
+    "gender": "女性",
+    "occupation": "無職",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 8843,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2021/10/20",
+    "onsetYMD": "",
+    "residentialArea": "信濃町",
+    "ageRange": "30代",
+    "gender": "男性",
+    "occupation": "自営業",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 8844,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2021/10/20",
+    "onsetYMD": "",
+    "residentialArea": "飯山市",
+    "ageRange": "90歳以上",
     "gender": "女性",
     "occupation": "無職",
     "status": "患者",
