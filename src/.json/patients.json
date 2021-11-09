@@ -150939,7 +150939,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -150954,6 +150954,23 @@
     "gender": "男性",
     "occupation": "ー",
     "status": "無症状",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 8881,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2021/11/8",
+    "onsetYMD": "",
+    "residentialArea": "阿智村",
+    "ageRange": "50代",
+    "gender": "男性",
+    "occupation": "会社員",
+    "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
     "discharged": 0,
