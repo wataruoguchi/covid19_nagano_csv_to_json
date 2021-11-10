@@ -150975,5 +150975,22 @@
     "hasTravelHistory": 0,
     "discharged": 0,
     "misc": ""
+  },
+  {
+    "no": 8882,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "長野市",
+    "pubYMD": "2021/11/9",
+    "onsetYMD": "",
+    "residentialArea": "長野市",
+    "ageRange": "10代",
+    "gender": "男性",
+    "occupation": "ー",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
   }
 ]
