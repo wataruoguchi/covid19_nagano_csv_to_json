@@ -151024,6 +151024,23 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
+    "discharged": 1,
+    "misc": ""
+  },
+  {
+    "no": 8885,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2021/11/28",
+    "onsetYMD": "",
+    "residentialArea": "軽井沢町",
+    "ageRange": "60代",
+    "gender": "男性",
+    "occupation": "自営業",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
     "discharged": 0,
     "misc": ""
   }
