@@ -151041,7 +151041,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -151101,6 +151101,23 @@
     "namePref": "長野県",
     "nameMunicipal": "",
     "pubYMD": "2021/12/4",
+    "onsetYMD": "",
+    "residentialArea": "軽井沢町",
+    "ageRange": "40代",
+    "gender": "男性",
+    "occupation": "会社員",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 8890,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2021/12/6",
     "onsetYMD": "",
     "residentialArea": "軽井沢町",
     "ageRange": "40代",
