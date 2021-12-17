@@ -151143,7 +151143,7 @@
     "status": "無症状",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -151225,6 +151225,23 @@
     "ageRange": "20代",
     "gender": "男性",
     "occupation": "ー",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 8897,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2021/12/16",
+    "onsetYMD": "",
+    "residentialArea": "佐久市",
+    "ageRange": "20代",
+    "gender": "女性",
+    "occupation": "会社員",
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
