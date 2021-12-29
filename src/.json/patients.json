@@ -151500,7 +151500,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -151738,7 +151738,7 @@
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
-    "discharged": 0,
+    "discharged": 1,
     "misc": ""
   },
   {
@@ -151922,6 +151922,40 @@
     "ageRange": "20代",
     "gender": "女性",
     "occupation": "会社員",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 8938,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "長野市",
+    "pubYMD": "2021/12/28",
+    "onsetYMD": "",
+    "residentialArea": "長野市",
+    "ageRange": "60代",
+    "gender": "男性",
+    "occupation": "ー",
+    "status": "患者",
+    "symptom": "",
+    "hasTravelHistory": 0,
+    "discharged": 0,
+    "misc": ""
+  },
+  {
+    "no": 8939,
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "pubYMD": "2021/12/28",
+    "onsetYMD": "",
+    "residentialArea": "軽井沢町",
+    "ageRange": "60代",
+    "gender": "女性",
+    "occupation": "施設職員",
     "status": "患者",
     "symptom": "",
     "hasTravelHistory": 0,
