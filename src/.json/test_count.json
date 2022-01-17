@@ -6936,8 +6936,8 @@
     "nameMunicipal": "",
     "testedNum": 1818,
     "misc": "",
-    "positiveNum": 128,
-    "negativeNum": 1690
+    "positiveNum": 129,
+    "negativeNum": 1689
   },
   {
     "YMD": "2022/1/8",
@@ -6946,8 +6946,8 @@
     "nameMunicipal": "",
     "testedNum": 1355,
     "misc": "",
-    "positiveNum": 93,
-    "negativeNum": 1262
+    "positiveNum": 98,
+    "negativeNum": 1257
   },
   {
     "YMD": "2022/1/9",
@@ -6956,8 +6956,8 @@
     "nameMunicipal": "",
     "testedNum": 778,
     "misc": "",
-    "positiveNum": 104,
-    "negativeNum": 674
+    "positiveNum": 98,
+    "negativeNum": 680
   },
   {
     "YMD": "2022/1/10",
@@ -6966,8 +6966,8 @@
     "nameMunicipal": "",
     "testedNum": 886,
     "misc": "",
-    "positiveNum": 88,
-    "negativeNum": 798
+    "positiveNum": 89,
+    "negativeNum": 797
   },
   {
     "YMD": "2022/1/11",
@@ -6976,8 +6976,8 @@
     "nameMunicipal": "",
     "testedNum": 2543,
     "misc": "",
-    "positiveNum": 167,
-    "negativeNum": 2376
+    "positiveNum": 153,
+    "negativeNum": 2390
   },
   {
     "YMD": "2022/1/12",
@@ -6986,8 +6986,8 @@
     "nameMunicipal": "",
     "testedNum": 2267,
     "misc": "",
-    "positiveNum": 220,
-    "negativeNum": 2047
+    "positiveNum": 224,
+    "negativeNum": 2043
   },
   {
     "YMD": "2022/1/13",
@@ -6996,7 +6996,37 @@
     "nameMunicipal": "",
     "testedNum": 1881,
     "misc": "",
-    "positiveNum": 236,
-    "negativeNum": 1645
+    "positiveNum": 232,
+    "negativeNum": 1649
+  },
+  {
+    "YMD": "2022/1/14",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 2572,
+    "misc": "",
+    "positiveNum": 211,
+    "negativeNum": 2361
+  },
+  {
+    "YMD": "2022/1/15",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 1306,
+    "misc": "",
+    "positiveNum": 259,
+    "negativeNum": 1047
+  },
+  {
+    "YMD": "2022/1/16",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 802,
+    "misc": "",
+    "positiveNum": 194,
+    "negativeNum": 608
   }
 ]
