@@ -5666,8 +5666,8 @@
     "nameMunicipal": "",
     "testedNum": 1779,
     "misc": "",
-    "positiveNum": 44,
-    "negativeNum": 1735
+    "positiveNum": 39,
+    "negativeNum": 1740
   },
   {
     "YMD": "2021/9/3",
@@ -6936,8 +6936,8 @@
     "nameMunicipal": "",
     "testedNum": 1818,
     "misc": "",
-    "positiveNum": 128,
-    "negativeNum": 1690
+    "positiveNum": 129,
+    "negativeNum": 1689
   },
   {
     "YMD": "2022/1/8",
@@ -6946,8 +6946,8 @@
     "nameMunicipal": "",
     "testedNum": 1355,
     "misc": "",
-    "positiveNum": 100,
-    "negativeNum": 1255
+    "positiveNum": 102,
+    "negativeNum": 1253
   },
   {
     "YMD": "2022/1/9",
@@ -6956,8 +6956,8 @@
     "nameMunicipal": "",
     "testedNum": 778,
     "misc": "",
-    "positiveNum": 108,
-    "negativeNum": 670
+    "positiveNum": 109,
+    "negativeNum": 669
   },
   {
     "YMD": "2022/1/10",
@@ -6966,8 +6966,8 @@
     "nameMunicipal": "",
     "testedNum": 1031,
     "misc": "",
-    "positiveNum": 114,
-    "negativeNum": 917
+    "positiveNum": 115,
+    "negativeNum": 916
   },
   {
     "YMD": "2022/1/11",
@@ -6976,8 +6976,8 @@
     "nameMunicipal": "",
     "testedNum": 3000,
     "misc": "",
-    "positiveNum": 222,
-    "negativeNum": 2778
+    "positiveNum": 226,
+    "negativeNum": 2774
   },
   {
     "YMD": "2022/1/12",
@@ -6986,8 +6986,8 @@
     "nameMunicipal": "",
     "testedNum": 2588,
     "misc": "",
-    "positiveNum": 225,
-    "negativeNum": 2363
+    "positiveNum": 237,
+    "negativeNum": 2351
   },
   {
     "YMD": "2022/1/13",
@@ -6996,8 +6996,8 @@
     "nameMunicipal": "",
     "testedNum": 2463,
     "misc": "",
-    "positiveNum": 248,
-    "negativeNum": 2215
+    "positiveNum": 237,
+    "negativeNum": 2226
   },
   {
     "YMD": "2022/1/14",
@@ -7006,8 +7006,8 @@
     "nameMunicipal": "",
     "testedNum": 2958,
     "misc": "",
-    "positiveNum": 151,
-    "negativeNum": 2807
+    "positiveNum": 175,
+    "negativeNum": 2783
   },
   {
     "YMD": "2022/1/15",
@@ -7016,8 +7016,8 @@
     "nameMunicipal": "",
     "testedNum": 1978,
     "misc": "",
-    "positiveNum": 206,
-    "negativeNum": 1772
+    "positiveNum": 212,
+    "negativeNum": 1766
   },
   {
     "YMD": "2022/1/16",
@@ -7026,8 +7026,8 @@
     "nameMunicipal": "",
     "testedNum": 1333,
     "misc": "",
-    "positiveNum": 180,
-    "negativeNum": 1153
+    "positiveNum": 192,
+    "negativeNum": 1141
   },
   {
     "YMD": "2022/1/17",
@@ -7036,8 +7036,8 @@
     "nameMunicipal": "",
     "testedNum": 4364,
     "misc": "",
-    "positiveNum": 304,
-    "negativeNum": 4060
+    "positiveNum": 308,
+    "negativeNum": 4056
   },
   {
     "YMD": "2022/1/18",
@@ -7046,8 +7046,8 @@
     "nameMunicipal": "",
     "testedNum": 3604,
     "misc": "",
-    "positiveNum": 382,
-    "negativeNum": 3222
+    "positiveNum": 402,
+    "negativeNum": 3202
   },
   {
     "YMD": "2022/1/19",
@@ -7056,8 +7056,8 @@
     "nameMunicipal": "",
     "testedNum": 4190,
     "misc": "",
-    "positiveNum": 441,
-    "negativeNum": 3749
+    "positiveNum": 370,
+    "negativeNum": 3820
   },
   {
     "YMD": "2022/1/20",
@@ -7108,5 +7108,15 @@
     "misc": "",
     "positiveNum": 448,
     "negativeNum": 3205
+  },
+  {
+    "YMD": "2022/1/25",
+    "regionCode": 200001,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 3164,
+    "misc": "",
+    "positiveNum": 537,
+    "negativeNum": 2627
   }
 ]
