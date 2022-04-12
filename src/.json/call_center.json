@@ -7339,35 +7339,98 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 416,
-    "misc": 201,
-    "hasSymptomNum": 215
+    "num": 440,
+    "misc": 208,
+    "hasSymptomNum": 232
   },
   {
     "YMD": "2022/4/2",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 467,
-    "misc": 214,
-    "hasSymptomNum": 253
+    "num": 499,
+    "misc": 220,
+    "hasSymptomNum": 279
   },
   {
     "YMD": "2022/4/3",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 454,
-    "misc": 259,
-    "hasSymptomNum": 195
+    "num": 481,
+    "misc": 262,
+    "hasSymptomNum": 219
   },
   {
     "YMD": "2022/4/4",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 624,
-    "misc": 285,
-    "hasSymptomNum": 339
+    "num": 663,
+    "misc": 295,
+    "hasSymptomNum": 368
+  },
+  {
+    "YMD": "2022/4/5",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 500,
+    "misc": 241,
+    "hasSymptomNum": 259
+  },
+  {
+    "YMD": "2022/4/6",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 589,
+    "misc": 291,
+    "hasSymptomNum": 298
+  },
+  {
+    "YMD": "2022/4/7",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 653,
+    "misc": 318,
+    "hasSymptomNum": 335
+  },
+  {
+    "YMD": "2022/4/8",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 561,
+    "misc": 227,
+    "hasSymptomNum": 334
+  },
+  {
+    "YMD": "2022/4/9",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 783,
+    "misc": 457,
+    "hasSymptomNum": 326
+  },
+  {
+    "YMD": "2022/4/10",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 720,
+    "misc": 394,
+    "hasSymptomNum": 326
+  },
+  {
+    "YMD": "2022/4/11",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 928,
+    "misc": 442,
+    "hasSymptomNum": 486
   }
 ]
