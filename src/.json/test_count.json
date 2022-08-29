@@ -9236,7 +9236,17 @@
     "nameMunicipal": "",
     "testedNum": 2704,
     "misc": "",
-    "positiveNum": 1853,
-    "negativeNum": 851
+    "positiveNum": 1829,
+    "negativeNum": 875
+  },
+  {
+    "YMD": "2022/8/26",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 3521,
+    "misc": "",
+    "positiveNum": 1892,
+    "negativeNum": 1629
   }
 ]
