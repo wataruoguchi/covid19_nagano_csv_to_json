@@ -9414,70 +9414,70 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 3112,
+    "testedNum": 4268,
     "misc": "",
     "positiveNum": 1273,
-    "negativeNum": 1839
+    "negativeNum": 2995
   },
   {
     "YMD": "2022/9/13",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1784,
+    "testedNum": 3084,
     "misc": "",
     "positiveNum": 1285,
-    "negativeNum": 499
+    "negativeNum": 1799
   },
   {
     "YMD": "2022/9/14",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1930,
+    "testedNum": 2567,
     "misc": "",
     "positiveNum": 999,
-    "negativeNum": 931
+    "negativeNum": 1568
   },
   {
     "YMD": "2022/9/15",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1893,
+    "testedNum": 2305,
     "misc": "",
     "positiveNum": 900,
-    "negativeNum": 993
+    "negativeNum": 1405
   },
   {
     "YMD": "2022/9/16",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 2195,
+    "testedNum": 1947,
     "misc": "",
     "positiveNum": 897,
-    "negativeNum": 1298
+    "negativeNum": 1050
   },
   {
     "YMD": "2022/9/17",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1293,
+    "testedNum": 975,
     "misc": "",
     "positiveNum": 825,
-    "negativeNum": 468
+    "negativeNum": 150
   },
   {
     "YMD": "2022/9/18",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 585,
+    "testedNum": 491,
     "misc": "",
     "positiveNum": 353,
-    "negativeNum": 232
+    "negativeNum": 138
   },
   {
     "YMD": "2022/9/19",
@@ -9498,5 +9498,15 @@
     "misc": "",
     "positiveNum": 1003,
     "negativeNum": 1829
+  },
+  {
+    "YMD": "2022/9/21",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 1806,
+    "misc": "",
+    "positiveNum": 968,
+    "negativeNum": 838
   }
 ]
