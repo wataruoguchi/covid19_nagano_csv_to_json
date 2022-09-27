@@ -9426,8 +9426,8 @@
     "nameMunicipal": "",
     "testedNum": 3084,
     "misc": "",
-    "positiveNum": 1285,
-    "negativeNum": 1799
+    "positiveNum": 1287,
+    "negativeNum": 1797
   },
   {
     "YMD": "2022/9/14",
@@ -9484,59 +9484,79 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 882,
+    "testedNum": 1134,
     "misc": "",
     "positiveNum": 471,
-    "negativeNum": 411
+    "negativeNum": 663
   },
   {
     "YMD": "2022/9/20",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 2832,
+    "testedNum": 3521,
     "misc": "",
     "positiveNum": 1003,
-    "negativeNum": 1829
+    "negativeNum": 2518
   },
   {
     "YMD": "2022/9/21",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1806,
+    "testedNum": 2125,
     "misc": "",
     "positiveNum": 968,
-    "negativeNum": 838
+    "negativeNum": 1157
   },
   {
     "YMD": "2022/9/22",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1778,
+    "testedNum": 2076,
     "misc": "",
     "positiveNum": 712,
-    "negativeNum": 1066
+    "negativeNum": 1364
   },
   {
     "YMD": "2022/9/23",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 627,
+    "testedNum": 749,
     "misc": "",
     "positiveNum": 396,
-    "negativeNum": 231
+    "negativeNum": 353
   },
   {
     "YMD": "2022/9/24",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "testedNum": 1107,
+    "testedNum": 1301,
     "misc": "",
     "positiveNum": 769,
-    "negativeNum": 338
+    "negativeNum": 532
+  },
+  {
+    "YMD": "2022/9/25",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 755,
+    "misc": "",
+    "positiveNum": 479,
+    "negativeNum": 276
+  },
+  {
+    "YMD": "2022/9/26",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 2218,
+    "misc": "",
+    "positiveNum": "-",
+    "negativeNum": "-"
   }
 ]
