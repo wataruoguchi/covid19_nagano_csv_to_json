@@ -10120,9 +10120,9 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 228,
+    "num": 229,
     "misc": 126,
-    "hasSymptomNum": 102
+    "hasSymptomNum": 103
   },
   {
     "YMD": "2023/2/5",
@@ -10138,45 +10138,45 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 242,
+    "num": 245,
     "misc": 72,
-    "hasSymptomNum": 170
+    "hasSymptomNum": 173
   },
   {
     "YMD": "2023/2/7",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 183,
+    "num": 190,
     "misc": 65,
-    "hasSymptomNum": 118
+    "hasSymptomNum": 125
   },
   {
     "YMD": "2023/2/8",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 214,
+    "num": 217,
     "misc": 80,
-    "hasSymptomNum": 134
+    "hasSymptomNum": 137
   },
   {
     "YMD": "2023/2/9",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 210,
+    "num": 211,
     "misc": 87,
-    "hasSymptomNum": 123
+    "hasSymptomNum": 124
   },
   {
     "YMD": "2023/2/10",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 157,
-    "misc": 59,
-    "hasSymptomNum": 98
+    "num": 159,
+    "misc": 60,
+    "hasSymptomNum": 99
   },
   {
     "YMD": "2023/2/11",
@@ -10201,27 +10201,27 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 204,
-    "misc": 74,
-    "hasSymptomNum": 130
+    "num": 209,
+    "misc": 75,
+    "hasSymptomNum": 134
   },
   {
     "YMD": "2023/2/14",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 138,
+    "num": 140,
     "misc": 60,
-    "hasSymptomNum": 78
+    "hasSymptomNum": 80
   },
   {
     "YMD": "2023/2/15",
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 160,
-    "misc": 48,
-    "hasSymptomNum": 112
+    "num": 165,
+    "misc": 49,
+    "hasSymptomNum": 116
   },
   {
     "YMD": "2023/2/16",
@@ -10246,8 +10246,8 @@
     "regionCode": 200000,
     "namePref": "長野県",
     "nameMunicipal": "",
-    "num": 147,
-    "misc": 78,
+    "num": 148,
+    "misc": 79,
     "hasSymptomNum": 69
   },
   {
@@ -10267,5 +10267,68 @@
     "num": 166,
     "misc": 64,
     "hasSymptomNum": 102
+  },
+  {
+    "YMD": "2023/2/21",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 147,
+    "misc": 46,
+    "hasSymptomNum": 101
+  },
+  {
+    "YMD": "2023/2/22",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 153,
+    "misc": 70,
+    "hasSymptomNum": 83
+  },
+  {
+    "YMD": "2023/2/23",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 133,
+    "misc": 57,
+    "hasSymptomNum": 76
+  },
+  {
+    "YMD": "2023/2/24",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 96,
+    "misc": 32,
+    "hasSymptomNum": 64
+  },
+  {
+    "YMD": "2023/2/25",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 96,
+    "misc": 43,
+    "hasSymptomNum": 53
+  },
+  {
+    "YMD": "2023/2/26",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 62,
+    "misc": 35,
+    "hasSymptomNum": 27
+  },
+  {
+    "YMD": "2023/2/27",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "num": 62,
+    "misc": 17,
+    "hasSymptomNum": 45
   }
 ]
