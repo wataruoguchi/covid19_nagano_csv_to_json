@@ -11521,7 +11521,7 @@
   },
   {
     "YMD": "2023/4/11",
-    "regionCode": 200000,
+    "regionCode": 200001,
     "namePref": "髟ｷ驥守恁",
     "nameMunicipal": "",
     "testedNum": 1155,
@@ -11531,7 +11531,7 @@
   },
   {
     "YMD": "2023/4/12",
-    "regionCode": 200000,
+    "regionCode": 200002,
     "namePref": "髟ｷ驥守恁",
     "nameMunicipal": "",
     "testedNum": 1038,
@@ -11541,10 +11541,40 @@
   },
   {
     "YMD": "2023/4/13",
-    "regionCode": 200000,
+    "regionCode": 200003,
     "namePref": "髟ｷ驥守恁",
     "nameMunicipal": "",
     "testedNum": 1093,
+    "misc": "",
+    "positiveNum": "-",
+    "negativeNum": "-"
+  },
+  {
+    "YMD": "2023/4/14",
+    "regionCode": 200004,
+    "namePref": "髟ｷ驥守恁",
+    "nameMunicipal": "",
+    "testedNum": 1451,
+    "misc": "",
+    "positiveNum": "-",
+    "negativeNum": "-"
+  },
+  {
+    "YMD": "2023/4/15",
+    "regionCode": 200005,
+    "namePref": "髟ｷ驥守恁",
+    "nameMunicipal": "",
+    "testedNum": 630,
+    "misc": "",
+    "positiveNum": "-",
+    "negativeNum": "-"
+  },
+  {
+    "YMD": "2023/4/16",
+    "regionCode": 200006,
+    "namePref": "髟ｷ驥守恁",
+    "nameMunicipal": "",
+    "testedNum": 547,
     "misc": "",
     "positiveNum": "-",
     "negativeNum": "-"
