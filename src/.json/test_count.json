@@ -11678,5 +11678,15 @@
     "misc": "",
     "positiveNum": "-",
     "negativeNum": "-"
+  },
+  {
+    "YMD": "2023/4/27",
+    "regionCode": 200000,
+    "namePref": "長野県",
+    "nameMunicipal": "",
+    "testedNum": 1018,
+    "misc": "",
+    "positiveNum": "-",
+    "negativeNum": "-"
   }
 ]
